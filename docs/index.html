@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>研究業績</title>
+  <meta name="description" content="researchmap から自動生成される業績一覧" />
+  <link rel="stylesheet" href="./assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 id="site-title">研究業績</h1>
+      <p id="site-description" class="muted"></p>
+      <p id="meta" class="muted small"></p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="researchers-section" hidden>
+      <h2>研究者</h2>
+      <div id="researchers" class="researcher-grid"></div>
+    </section>
+
+    <section id="filters-section">
+      <h2 class="visually-hidden">フィルタ</h2>
+      <nav class="filters" aria-label="業績フィルタ">
+        <label class="filter">
+          <span>検索</span>
+          <input id="q" type="search" placeholder="タイトル・著者・誌名" autocomplete="off" />
+        </label>
+        <label class="filter">
+          <span>種別</span>
+          <select id="type">
+            <option value="">すべて</option>
+            <option value="published_papers">論文</option>
+            <option value="misc">MISC</option>
+            <option value="books_etc">書籍等</option>
+            <option value="presentations">講演</option>
+            <option value="awards">受賞</option>
+            <option value="research_projects">研究費</option>
+          </select>
+        </label>
+        <label class="filter">
+          <span>年(から)</span>
+          <input id="year-from" type="number" inputmode="numeric" min="1900" max="2100" placeholder="例: 2020" />
+        </label>
+        <label class="filter">
+          <span>年(まで)</span>
+          <input id="year-to" type="number" inputmode="numeric" min="1900" max="2100" placeholder="例: 2025" />
+        </label>
+        <label class="filter">
+          <span>言語</span>
+          <select id="lang">
+            <option value="ja">日本語</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+        <button id="reset" type="button" class="reset-btn">リセット</button>
+      </nav>
+      <p id="result-count" class="muted small" aria-live="polite"></p>
+    </section>
+
+    <section id="list-section">
+      <h2 class="visually-hidden">業績一覧</h2>
+      <ol id="list" class="publication-list"></ol>
+      <p id="empty" class="muted" hidden>該当する業績がありません。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p class="small muted">
+        Powered by <a href="https://researchmap.jp/" rel="noopener noreferrer" target="_blank">researchmap</a>
+      </p>
+    </div>
+  </footer>
+
+  <script type="module" src="./assets/app.js"></script>
+</body>
+</html>

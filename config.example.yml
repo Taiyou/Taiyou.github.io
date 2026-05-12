@@ -1,0 +1,18 @@
+# 設定ファイルのサンプル。実運用では config.yml を編集して使う。
+# permalink は researchmap URL の末尾(例: https://researchmap.jp/abc123 → abc123)
+researchers:
+  - permalink: your_permalink_here
+    display_name: 山田 太郎
+
+achievement_types:
+  - published_papers
+  - misc
+  - books_etc
+  - presentations
+  - awards
+  - research_projects
+
+site:
+  title: 研究業績
+  description: researchmap から自動生成される業績一覧
+  default_lang: ja

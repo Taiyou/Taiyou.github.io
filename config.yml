@@ -1,0 +1,20 @@
+# 取得対象の研究者リスト
+# permalink は researchmap URL の末尾(例: https://researchmap.jp/abc123 → abc123)
+researchers:
+  - permalink: hirotaiyohamada
+  # - permalink: another_permalink
+
+# 取得する業績種別
+achievement_types:
+  - published_papers   # 論文
+  - misc               # MISC
+  - books_etc          # 書籍等
+  - presentations      # 講演・口頭発表等
+  - awards             # 受賞
+  - research_projects  # 共同研究・競争的資金等
+
+# サイト設定
+site:
+  title: 研究業績
+  description: researchmap から自動生成される業績一覧
+  default_lang: ja   # ja | en

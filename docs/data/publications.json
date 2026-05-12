@@ -1,0 +1,5598 @@
+[
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/52167190",
+    "type": "published_papers",
+    "title": {
+      "ja": "PSYCHOLOGICAL CONCEPT NEURONS: NEURAL CONTROL BIASES PROBING AND SHIFTS GENERATION IN LLMS",
+      "en": "PSYCHOLOGICAL CONCEPT NEURONS: NEURAL CONTROL BIASES PROBING AND SHIFTS GENERATION IN LLMS"
+    },
+    "authors": {
+      "ja": [
+        "Yuto Harada",
+        "Hiro Taiyo Hamada"
+      ],
+      "en": [
+        "Yuto Harada",
+        "Hiro Taiyo Hamada"
+      ]
+    },
+    "venue": {},
+    "year": 2026,
+    "date": "2026-04",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/52167190",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "52167190",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2026-02-07T12:50:37Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-04-14T07:53:40Z",
+      "published_paper_owner_roles": [
+        "last",
+        "corresponding"
+      ],
+      "description": {
+        "en": "Using psychological constructs such as the Big Five, large language models (LLMs) can imitate specific personality profiles and predict a user's personality. While LLMs can exhibit behaviors consistent with these constructs, it remains unclear where and how they are represented inside the model and how they relate to behavioral outputs. To address this gap, we focus on questionnaire-operationalized Big Five concepts, analyze the formation and localization of their internal representations, and use interventions to examine how these representations relate to behavioral outputs. In our experiment, we first use probing to examine where Big Five information emerges across model depth. We then identify neurons that respond selectively to each Big Five concept and test whether enhancing or suppressing their activations can bias latent representations and label generation in intended directions. We find that Big Five information becomes rapidly decodable in early layers and remains detectable through the final layers, while concept-selective neurons are most prevalent in mid layers and exhibit limited overlap across domains. Interventions on these neurons consistently shift probe readouts toward targeted concepts, with targeted success rates exceeding 0.8 for some concepts, indicating that the model's internal separation of Big Five personality traits can be causally steered. At the label-generation level, the same interventions often bias generated label distributions in the intended directions, but the effects are weaker, more concept-dependent, and often accompanied by cross-trait spillover, indicating that comparable control over generated labels is difficult even with interventions on a large fraction of concept-selective neurons. Overall, our findings reveal a gap between representational control and behavioral control in LLMs."
+      },
+      "referee": false,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://arxiv.org/abs/2604.11802",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50250096",
+    "type": "published_papers",
+    "title": {
+      "ja": "J-EC Scale in English A Japan-origin Motivational Framework for Diversive and Specific Curiosity: Development of the English Version of the Japanese Epistemic Curiosity Scale.",
+      "en": "J-EC Scale in English A Japan-origin Motivational Framework for Diversive and Specific Curiosity: Development of the English Version of the Japanese Epistemic Curiosity Scale."
+    },
+    "authors": {
+      "ja": [
+        "Nishikawa, K.",
+        "Kanai, R.",
+        "Hamada, H.T.",
+        "Ward J."
+      ]
+    },
+    "venue": {
+      "ja": "Frontiers in Psychology"
+    },
+    "year": 2026,
+    "date": "2026-04",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50250096",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "50250096",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-05-26T12:30:28Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-03-09T14:52:49Z",
+      "languages": [
+        "eng"
+      ],
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": true,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://osf.io/preprints/psyarxiv/qmxs6_v1",
+          "label": "url",
+          "is_downloadable": true
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/51828811",
+    "type": "published_papers",
+    "title": {
+      "ja": "Neuro-aligned AIによる機械神経科学",
+      "en": "Machine Neuroscience for Neuro-aligned AI"
+    },
+    "authors": {
+      "ja": [
+        "濱田太陽"
+      ],
+      "en": [
+        "Hiro Taiyo Hamada"
+      ]
+    },
+    "venue": {
+      "ja": "人工知能学会特集"
+    },
+    "year": 2026,
+    "date": "2026-03",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/51828811",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "51828811",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-12-10T06:53:38Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-03-01T08:43:40Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "referee": false,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.11517/jjsai.41.2_109"
+        ],
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.11517/jjsai.41.2_109",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50352423",
+    "type": "published_papers",
+    "title": {
+      "ja": "The dawn of Decentralized Science (DeSci) in Japan: Values and principles"
+    },
+    "authors": {
+      "ja": [
+        "Kazuki Nemoto",
+        "Shuma Kudo",
+        "Kohei Ueda",
+        "Sakuya Shirosaki",
+        "Lukas Weidener",
+        "Hiro Taiyo Hamada"
+      ]
+    },
+    "venue": {},
+    "year": 2026,
+    "date": "2026-02",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50352423",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "50352423",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-06-08T12:15:34Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-02-15T08:27:19Z",
+      "published_paper_owner_roles": [
+        "last",
+        "corresponding"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "referee": false,
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "@id": "https://osf.io/preprints/metaarxiv/yxj53_v1",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50232421",
+    "type": "published_papers",
+    "title": {
+      "en": "Alignment with Psychological Concept Network"
+    },
+    "authors": {
+      "en": [
+        "Hiro Taiyo Hamada",
+        "Yuto Harada"
+      ]
+    },
+    "venue": {
+      "en": "Lecture Notes in Computer Science"
+    },
+    "year": 2025,
+    "date": "2025-11-06",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50232421",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "50232421",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-05-23T13:59:19Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-11-06T01:35:46Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "publisher": {
+        "en": "Springer Nature Singapore"
+      },
+      "volume": "16312",
+      "starting_page": "523",
+      "ending_page": "536",
+      "languages": [
+        "eng"
+      ],
+      "published_paper_type": "in_book",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1007/978-981-95-4384-7_36"
+        ],
+        "issn": [
+          "0302-9743"
+        ],
+        "e_issn": [
+          "1611-3349"
+        ],
+        "isbn": [
+          "9789819543830",
+          "9789819543847"
+        ],
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1007/978-981-95-4384-7_36",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://link.springer.com/content/pdf/10.1007/978-981-95-4384-7_36",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/51870124",
+    "type": "research_projects",
+    "title": {
+      "ja": "社会シミュレーションProject"
+    },
+    "authors": {},
+    "venue": {},
+    "year": 2025,
+    "date": "2025-10",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/51870124",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "51870124",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-12-16T07:56:40Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-12-16T07:56:40Z",
+      "offer_organization": {
+        "ja": "防衛イノベーション科学技術研究所"
+      },
+      "to_date": "2025-12",
+      "research_project_owner_role": "principal_investigator"
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/48768170",
+    "type": "published_papers",
+    "title": {
+      "ja": "Positive Mental States and Their Relation to Psychosocial Resources: Protocol of a Systematic Review Focusing on Cultural Moderators",
+      "en": "Positive Mental States and Their Relation to Psychosocial Resources: Protocol of a Systematic Review Focusing on Cultural Moderators"
+    },
+    "authors": {
+      "en": [
+        "Max Supke",
+        "Sarah Schäfer",
+        "Makiko Yamada",
+        "Hiro Taiyo Hamada",
+        "Michele Wessa",
+        "Klaus Lieb"
+      ]
+    },
+    "venue": {
+      "ja": "BMJ Open",
+      "en": "BMJ Open"
+    },
+    "year": 2025,
+    "date": "2025-08",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/48768170",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "48768170",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-12-22T07:30:47Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-08-14T09:35:14Z",
+      "volume": "15",
+      "starting_page": "e103821",
+      "languages": [
+        "eng"
+      ],
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "is_international_journal": true,
+      "is_international_collaboration": true,
+      "rm:is_open_access": true,
+      "identifiers": {
+        "doi": [
+          "10.1136/bmjopen-2025-103821"
+        ],
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1136/bmjopen-2025-103821",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://osf.io/2xkhs/",
+          "label": "url",
+          "is_downloadable": true
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50233349",
+    "type": "published_papers",
+    "title": {
+      "ja": "なぜ神経科学者は脳ではなく言語モデルで研究を行うのか？"
+    },
+    "authors": {
+      "ja": [
+        "濱田太陽"
+      ]
+    },
+    "venue": {},
+    "year": 2025,
+    "date": "2025-06",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50233349",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "50233349",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-05-23T23:41:32Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-06-17T23:21:18Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "volume": "43",
+      "number": "2",
+      "languages": [
+        "jpn"
+      ],
+      "referee": false,
+      "published_paper_type": "scientific_journal",
+      "is_international_journal": false,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.14947/psychono.43.23"
+        ],
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.14947/psychono.43.23",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/48305009",
+    "type": "published_papers",
+    "title": {
+      "ja": "Collective Predictive Coding as Model of Science: Formalizing Scientific Activities Towards Generative Science"
+    },
+    "authors": {
+      "ja": [
+        "Tadahiro Taniguchi",
+        "Shiro Takagi",
+        "Jun Otsuka",
+        "Yusuke Hayashi",
+        "Hiro Taiyo Hamada"
+      ]
+    },
+    "venue": {
+      "ja": "Royal Society Open Science"
+    },
+    "year": 2025,
+    "date": "2025-06",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/48305009",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "48305009",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-10-28T11:52:14Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-06-07T15:05:43Z",
+      "volume": "12",
+      "number": "6",
+      "languages": [
+        "eng"
+      ],
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.48550/arXiv.2409.00102",
+          "10.1098/rsos.241678"
+        ],
+        "rm:research_project_id": [
+          "35758734"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.48550/arXiv.2409.00102",
+          "is_downloadable": false
+        },
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1098/rsos.241678",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/35758734",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/books_etc/49969515",
+    "type": "books_etc",
+    "title": {
+      "ja": "PLURALITY 対立を創造に変える、協働テクノロジーと民主主義の未来（サイボウズ式ブックス）"
+    },
+    "authors": {
+      "ja": [
+        "山形浩生"
+      ]
+    },
+    "venue": {
+      "ja": "ライツ社"
+    },
+    "year": 2025,
+    "date": "2025-05-02",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/books_etc/49969515",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "books_etc",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/books_etc",
+      "rm:id": "49969515",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-04-24T10:30:28Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-04-24T10:30:28Z",
+      "book_owner_role": "contributor",
+      "originators": {
+        "ja": [
+          {
+            "name": "オードリー・タン"
+          },
+          {
+            "name": "E・グレン・ワイル"
+          }
+        ]
+      },
+      "book_owner_range": {
+        "ja": "3章 \"品質管理となめらか社会\"セクション"
+      },
+      "total_page": "624",
+      "identifiers": {
+        "ean": [
+          "9784909044570"
+        ],
+        "isbn": [
+          "4909044574"
+        ],
+        "asin": [
+          "4909044574"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://www.amazon.co.jp/dp/4909044574?linkCode=osi&th=1&psc=1",
+          "label": "amazon"
+        },
+        {
+          "@id": "https://m.media-amazon.com/images/I/516E3XEQkVL._SL75_.jpg",
+          "label": "amazon_small_image"
+        },
+        {
+          "@id": "https://m.media-amazon.com/images/I/516E3XEQkVL._SL160_.jpg",
+          "label": "amazon_medium_image"
+        },
+        {
+          "@id": "https://m.media-amazon.com/images/I/516E3XEQkVL._SL500_.jpg",
+          "label": "amazon_large_image"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/books_etc/49548212",
+    "type": "books_etc",
+    "title": {
+      "ja": "攻殻機動隊 MESSED MESH AMBITIONS"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "講談社"
+    },
+    "year": 2025,
+    "date": "2025-04-11",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/books_etc/49548212",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "books_etc",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/books_etc",
+      "rm:id": "49548212",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-03-25T14:37:10Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-04-24T10:31:19Z",
+      "book_owner_role": "contributor",
+      "book_owner_range": {
+        "ja": "分散を社会実装できるか：神経科学から辺境まで"
+      },
+      "total_page": "608",
+      "identifiers": {
+        "ean": [
+          "9784065399026"
+        ],
+        "isbn": [
+          "4065399025"
+        ],
+        "asin": [
+          "4065399025"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://www.amazon.co.jp/dp/4065399025?linkCode=osi&th=1&psc=1",
+          "label": "amazon"
+        },
+        {
+          "@id": "https://m.media-amazon.com/images/I/5122dzPRGbL._SL75_.jpg",
+          "label": "amazon_small_image"
+        },
+        {
+          "@id": "https://m.media-amazon.com/images/I/5122dzPRGbL._SL160_.jpg",
+          "label": "amazon_medium_image"
+        },
+        {
+          "@id": "https://m.media-amazon.com/images/I/5122dzPRGbL._SL500_.jpg",
+          "label": "amazon_large_image"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/47040823",
+    "type": "published_papers",
+    "title": {
+      "en": "Neural correlates of phenomenological attitude toward perceptual experience"
+    },
+    "authors": {
+      "en": [
+        "Satoshi Nishida",
+        "Hiro Taiyo Hamada",
+        "Takuya Niikawa",
+        "Katsunori Miyahara"
+      ]
+    },
+    "venue": {},
+    "year": 2024,
+    "date": "2024-07-10",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/47040823",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "47040823",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-07-13T11:19:36Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-07-13T11:19:36Z",
+      "description": {
+        "en": "Abstract\n\nPhenomenology is one of the most promising approaches to study conscious experience. It holds that a rigorous study of conscious experience requires a transition in the subject from the “natural attitude” (NA) to the “phenomenological attitude” (PA). NA describes our ordinary stance, in which our attention is directed at external objects and events. PA is a distinctive, reflective stance in which our attention is directed at our conscious experience itself. Despite its theoretical importance in philosophy and science of consciousness, the neural mechanisms underlying PA remain unknown. To clarify this point, we developed a novel behavioral task in which participants alternate between NA and PA in relation to their stimulus-evoked subjective experiences. Participants are presented with two sentences and requested to identify the one that best captures their experience. These sentences are designed to induce either NA or PA. We found that participants had lower error rates but slower reaction times in the PA condition compared to the NA condition, suggesting a difference beyond task difficulty. Using fMRI, we also found that multivoxel activation patterns in the premotor cortex, posterior parietal cortex, supplementary motor area, and cerebellum successfully classified the task conditions. Furthermore, the activation strength in these regions was lower in the PA condition, indicating that PA depends on neural processes that suppress action-related information. These findings provide the first evidence for the neural signature of PA, contributing to a better understanding of phenomenological method and its underlying neural mechanisms.\n\nSignificance statement\n\nPhenomenology is one of the most promising approaches to study conscious experience. A key step is a transition from the natural attitude (NA)—where our attention is directed at external objects and events—to the phenomenological attitude (PA)—where our attention is directed toward our conscious experience itself. However, the neural processes underlying PA remain unclear. This study aimed to clarify this point by analyzing fMRI signals measured during a cognitive task that forced participants to repeatedly alternate between NA and PA. We observed that multiple action-related brain regions exhibited different activation patterns between NA and PA. Our findings provide the first neuroscientific evidence that illuminates the core process of the phenomenological method."
+      },
+      "publisher": {
+        "en": "Cold Spring Harbor Laboratory"
+      },
+      "languages": [
+        "eng"
+      ],
+      "referee": false,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1101/2024.07.07.602347"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1101/2024.07.07.602347",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://syndication.highwire.org/content/doi/10.1101/2024.07.07.602347",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/39575584",
+    "type": "published_papers",
+    "title": {
+      "ja": "Optogenetic activation of dorsal raphe serotonin neurons induces brain-wide activation",
+      "en": "Optogenetic activation of dorsal raphe serotonin neurons induces brain-wide activation"
+    },
+    "authors": {
+      "ja": [
+        "Hiro Taiyo Hamada",
+        "Yoshifumi Abe",
+        "Norio Takata",
+        "Masakazu Taira",
+        "Kenji F Tanaka",
+        "Kenji Doya"
+      ],
+      "en": [
+        "Hiro Taiyo Hamada",
+        "Yoshifumi Abe",
+        "Norio Takata",
+        "Masakazu Taira",
+        "Kenji F Tanaka",
+        "Kenji Doya"
+      ]
+    },
+    "venue": {
+      "ja": "Nature commuications",
+      "en": "Nature commuications"
+    },
+    "year": 2024,
+    "date": "2024-05-16",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/39575584",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "39575584",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": true,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-08-09T07:50:39Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-06-22T05:08:18Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "description": {
+        "en": "Serotonin is a neuromodulator that affects multiple behavioral and cognitive functions. Nonetheless, how serotonin causes such a variety of effects through brain-wide projections and various receptors remains unclear. Here we measured brain-wide responses to optogenetic stimulation of serotonin neurons in the dorsal raphe nucleus (DRN) with functional MRI, using an 11.7T scanner with a cryoprobe. Transient activation of DRN serotonin neurons caused brain-wide activation, including the medial prefrontal cortex, the striatum, and the ventral tegmental area. The same stimulation under anesthesia with isoflurane decreased brain-wide activation, including the hippocampal complex. These brain-wide response patterns can be explained by DRN serotonergic projection topography and serotonin receptor expression profiles, with enhanced weights on 5-HT1 receptors. Together, these results provide understanding of the primarily facilitatory effect on brain areas by the DR serotonergic system, which is consistent with recent discoveries of its roles in adaptive behaviors."
+      },
+      "publisher": {
+        "en": "Cold Spring Harbor Laboratory"
+      },
+      "volume": "15",
+      "number": "4152",
+      "languages": [
+        "eng"
+      ],
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1038/s41467-024-48489-6"
+        ],
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1038/s41467-024-48489-6",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://syndication.highwire.org/content/doi/10.1101/2022.08.07.503074",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/43459742",
+    "type": "published_papers",
+    "title": {
+      "ja": "分散型科学が拓く新たなエコシステム: DeSci.Tokyoが目指す未来"
+    },
+    "authors": {
+      "ja": [
+        "濱田太陽"
+      ]
+    },
+    "venue": {
+      "ja": "情報の科学と技術"
+    },
+    "year": 2024,
+    "date": "2024-03",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/43459742",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "43459742",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-09-15T01:57:13Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-05-11T02:12:50Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "volume": "74",
+      "number": "3",
+      "languages": [
+        "jpn"
+      ],
+      "referee": false,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.18919/jkg.74.3_86"
+        ],
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.18919/jkg.74.3_86",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/misc/52375801",
+    "type": "misc",
+    "title": {
+      "ja": "興奮性-抑制性結合バランスに着目したコネクトームと遺伝子発現マップに基づくマーモセット全脳ネットワークモデリング"
+    },
+    "authors": {
+      "ja": [
+        "塚田啓道",
+        "塚田啓道",
+        "中江健",
+        "畑純一",
+        "濱田太陽",
+        "濱田太陽",
+        "徳田慶太",
+        "グティエレツ カルロス",
+        "グティエレツ カルロス",
+        "スキッベ ヘンリック",
+        "プーン カリサ",
+        "ウッドワード アレキサンダー",
+        "石井信",
+        "下郡智美",
+        "岡野栄之",
+        "銅谷賢治"
+      ]
+    },
+    "venue": {
+      "ja": "日本生物学的精神医学会(Web)"
+    },
+    "year": 2024,
+    "date": "2024",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/misc/52375801",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "misc",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/misc",
+      "rm:id": "52375801",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "ai:assign_based_internal_feeds",
+      "rm:creator_type": "ai",
+      "rm:created": "2026-03-04T00:55:00Z",
+      "rm:modifier_id": "ai:assign_based_internal_feeds",
+      "rm:modifier_type": "ai",
+      "rm:modified": "2026-03-04T00:55:00Z",
+      "volume": "46th",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "j_global_id": [
+          "202402277492344845"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "j_global",
+          "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202402277492344845",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/40256616",
+    "type": "published_papers",
+    "title": {
+      "en": "Autonomous, bidding, credible, decentralized, ethical, and funded (ABCDEF) publishing"
+    },
+    "authors": {
+      "en": [
+        "Taiki Oka",
+        "Kaito Takashima",
+        "Kohei Ueda",
+        "Yuki Mori",
+        "Kyoshiro Sasaki",
+        "Hiro Taiyo Hamada",
+        "Masahito Yamagata",
+        "Yuki Yamada"
+      ]
+    },
+    "venue": {
+      "en": "F1000Research"
+    },
+    "year": 2023,
+    "date": "2023-10-05",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/40256616",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "40256616",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-10-14T22:13:21Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-02-03T04:16:21Z",
+      "description": {
+        "en": "<p>Scientists write research articles, process ethics reviews, evaluate proposals and research, and seek funding. Several strategies have been proposed to optimize these operations and to decentralize access to research resources and opportunities. For instance, we previously proposed the trinity review method, combining registered reports with financing and research ethics assessments. However, previously proposed systems have a number of shortcomings, including how to implement them, e.g., who manages them, how incentives for reviewers are paid, etc. Various solutions have been proposed to address these issues, employing methods based on blockchain technologies, called “decentralized science (DeSci)”. Decentralized approaches that exploit these developments offer potentially profound improvements to the troubled scientific ecosystem. Here, we propose a system that integrates ethics reviews, peer reviews, and funding in a decentralized manner, based on Web3 technology. This new method, named ABCDEF publishing, would enhance the speed, fairness, and transparency of scientific research and publishing.</p>"
+      },
+      "publisher": {
+        "en": "F1000 Research Ltd"
+      },
+      "volume": "12",
+      "starting_page": "877",
+      "ending_page": "877",
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.12688/f1000research.130188.2"
+        ],
+        "e_issn": [
+          "2046-1402"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.12688/f1000research.130188.2",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://f1000research.com/articles/12-877/v2/xml",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://f1000research.com/articles/12-877/v2/pdf",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://f1000research.com/articles/12-877/v2/iparadigms",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/43483084",
+    "type": "published_papers",
+    "title": {
+      "ja": "研究開発における新たな科学運営モデル: 技術移転の観点からの整理"
+    },
+    "authors": {
+      "ja": [
+        "濱田太陽"
+      ]
+    },
+    "venue": {
+      "ja": "Jxiv"
+    },
+    "year": 2023,
+    "date": "2023-10",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/43483084",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "43483084",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-09-17T15:20:54Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-09-25T09:42:33Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "referee": false,
+      "published_paper_type": "symposium",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.51094/jxiv.510"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.51094/jxiv.510",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/awards/43410573",
+    "type": "awards",
+    "title": {},
+    "authors": {},
+    "venue": {},
+    "year": 2023,
+    "date": "2023-08",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/awards/43410573",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "awards",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/awards",
+      "rm:id": "43410573",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-09-11T13:04:37Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-09-11T13:04:37Z",
+      "award_name": {
+        "ja": "DeSci.Berlin 2023 Travel Grant"
+      },
+      "association": {
+        "ja": "Molecule"
+      }
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/42152390",
+    "type": "published_papers",
+    "title": {
+      "ja": "Multi-modal brain magnetic resonance imaging database covering marmosets with a wide age range.",
+      "en": "Multi-modal brain magnetic resonance imaging database covering marmosets with a wide age range."
+    },
+    "authors": {
+      "ja": [
+        "Junichi Hata",
+        "Ken Nakae",
+        "Hiromichi Tsukada",
+        "Alexander Woodward",
+        "Yawara Haga",
+        "Mayu Iida",
+        "Akiko Uematsu",
+        "Fumiko Seki",
+        "Noritaka Ichinohe",
+        "Rui Gong",
+        "Takaaki Kaneko",
+        "Daisuke Yoshimaru",
+        "Akiya Watakabe",
+        "Hiroshi Abe",
+        "Toshiki Tani",
+        "Hiro Taiyo Hamda",
+        "Carlos Enrique Gutierrez",
+        "Henrik Skibbe",
+        "Masahide Maeda",
+        "Frederic Papazian",
+        "Kei Hagiya",
+        "Noriyuki Kishi",
+        "Shin Ishii",
+        "Kenji Doya",
+        "Tomomi Shimogori",
+        "Tetsuo Yamamori",
+        "Keiji Tanaka",
+        "Hirotaka James",
+        "Okano",
+        "Hideyuki Okano"
+      ],
+      "en": [
+        "Junichi Hata",
+        "Ken Nakae",
+        "Hiromichi Tsukada",
+        "Alexander Woodward",
+        "Yawara Haga",
+        "Mayu Iida",
+        "Akiko Uematsu",
+        "Fumiko Seki",
+        "Noritaka Ichinohe",
+        "Rui Gong",
+        "Takaaki Kaneko",
+        "Daisuke Yoshimaru",
+        "Akiya Watakabe",
+        "Hiroshi Abe",
+        "Toshiki Tani",
+        "Hiro Taiyo Hamda",
+        "Carlos Enrique Gutierrez",
+        "Henrik Skibbe",
+        "Masahide Maeda",
+        "Frederic Papazian",
+        "Kei Hagiya",
+        "Noriyuki Kishi",
+        "Shin Ishii",
+        "Kenji Doya",
+        "Tomomi Shimogori",
+        "Tetsuo Yamamori",
+        "Keiji Tanaka",
+        "Hirotaka James",
+        "Okano",
+        "Hideyuki Okano"
+      ]
+    },
+    "venue": {
+      "ja": "Scientific Data",
+      "en": "Scientific Data"
+    },
+    "year": 2023,
+    "date": "2023-04",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/42152390",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "42152390",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-04-27T10:16:25Z",
+      "rm:modifier_id": "ai:identify_based_internal_feeds",
+      "rm:modifier_type": "ai",
+      "rm:modified": "2023-04-28T10:55:28Z",
+      "description": {
+        "en": "Abstract\n\nMagnetic resonance imaging (MRI) is a non-invasive neuroimaging technique that is useful for identifying normal developmental and aging processes and for data sharing. Marmosets have a relatively shorter life expectancy than other primates, including humans, because they grow and age faster. Therefore, the common marmoset model is effective in aging research. The current study investigated the aging process of the marmoset brain and provided an open MRI database of marmosets across a wide age range. The Brain/MINDS Marmoset Brain MRI Dataset contains brain MRI information from 216 marmosets ranging in age from 1 and 10 years. At the time of its release, it is the largest public dataset in the world. It also includes multi-contrast MRI images. In addition, 91 of 216 animals have corresponding high-resolution ex vivo MRI datasets. Our MRI database, available at the Brain/MINDS Data Portal, might help to understand the effects of various factors, such as age, sex, body size, and fixation, on the brain. It can also contribute to and accelerate brain science studies worldwide."
+      },
+      "publisher": {
+        "en": "Springer Science and Business Media LLC"
+      },
+      "volume": "10",
+      "number": "221",
+      "languages": [
+        "eng"
+      ],
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1038/s41597-023-02121-2"
+        ],
+        "e_issn": [
+          "2052-4463"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1038/s41597-023-02121-2",
+          "is_downloadable": false
+        },
+        {
+          "label": "url",
+          "@id": "https://www.nature.com/articles/s41597-023-02121-2.pdf",
+          "is_downloadable": false
+        },
+        {
+          "label": "url",
+          "@id": "https://www.nature.com/articles/s41597-023-02121-2",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/36987213",
+    "type": "published_papers",
+    "title": {
+      "ja": "TOB is an effector of the hippocampus-mediated acute stress response",
+      "en": "TOB is an effector of the hippocampus-mediated acute stress response"
+    },
+    "authors": {
+      "ja": [
+        "Mohieldin Youssef",
+        "Hiro Taiyo Hamada",
+        "Esther Suk King Lai",
+        "Yuji Kiyama",
+        "Mohamed EL Tabbal",
+        "Hiroshi Kiyonari",
+        "Kohei Nakano",
+        "Bernd Kuhn",
+        "Tadashi Yamamoto"
+      ],
+      "en": [
+        "Mohieldin M. M. Youssef",
+        "Hiro Taiyo Hamada",
+        "Esther Suk King Lai",
+        "Yuji Kiyama",
+        "Mohamed El-Tabbal",
+        "Hiroshi Kiyonari",
+        "Kohei Nakano",
+        "Bernd Kuhn",
+        "Tadashi Yamamoto"
+      ]
+    },
+    "venue": {
+      "ja": "Translational Psychiatry",
+      "en": "Translational Psychiatry"
+    },
+    "year": 2022,
+    "date": "2022-12",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/36987213",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "36987213",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-05-19T13:50:35Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-08-01T07:04:28Z",
+      "description": {
+        "en": "Abstract\n\nStress affects behavior and involves critical dynamic changes at multiple levels ranging from molecular pathways to neural circuits and behavior. Abnormalities at any of these levels lead to decreased stress resilience and pathological behavior. However, temporal modulation of molecular pathways underlying stress response remains poorly understood. Transducer of ErbB2.1, known as TOB, is involved in different physiological functions, including cellular stress and immediate response to stimulation. In this study, we investigated the role of TOB in psychological stress machinery at molecular, neural circuit, and behavioral levels. Interestingly, TOB protein levels increased after mice were exposed to acute stress. At the neural circuit level, functional magnetic resonance imaging (fMRI) suggested that intra-hippocampal and hippocampal-prefrontal connectivity were dysregulated in Tob knockout (Tob-KO) mice. Electrophysiological recordings in hippocampal slices showed increased postsynaptic AMPAR-mediated neurotransmission, accompanied by decreased GABA neurotransmission and subsequently altered Excitatory/Inhibitory balance after Tob deletion. At the behavioral level, Tob-KO mice show abnormal, hippocampus-dependent, contextual fear conditioning and extinction, and depression-like behaviors. On the other hand, increased anxiety observed in Tob-KO mice is hippocampus-independent. At the molecular level, we observed changes in factors involved in stress response like decreased stress-induced LCN2 expression and ERK phosphorylation, as well as increased MKP-1 expression. This study introduces TOB as an important modulator in the hippocampal stress signaling machinery. In summary, we reveal a molecular pathway and neural circuit mechanism by which Tob deletion contributes to expression of pathological stress-related behavior."
+      },
+      "publisher": {
+        "en": "Springer Science and Business Media LLC"
+      },
+      "volume": "12",
+      "number": "1",
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1038/s41398-022-02078-7"
+        ],
+        "e_issn": [
+          "2158-3188"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1038/s41398-022-02078-7",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://www.nature.com/articles/s41398-022-02078-7.pdf",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://www.nature.com/articles/s41398-022-02078-7",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/40012327",
+    "type": "published_papers",
+    "title": {
+      "ja": "Web3 テクノロジーによるサイエンスの再設計の動き"
+    },
+    "authors": {
+      "ja": [
+        "濱田太陽"
+      ]
+    },
+    "venue": {
+      "ja": "Jxiv"
+    },
+    "year": 2022,
+    "date": "2022-09",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/40012327",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "40012327",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-09-18T14:20:48Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-09-18T14:20:48Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "referee": false,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.51094/jxiv.163"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.51094/jxiv.163",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/44259293",
+    "type": "research_projects",
+    "title": {
+      "ja": "サイバー情報のリアリティ欠如がもたらす認知的作用の解明に向けた学際的研究",
+      "en": "Interdisciplinary Study to Elucidate Cognitive Effects Induced by the Absence of Reality in Cyber Information"
+    },
+    "authors": {
+      "ja": [
+        "西田 知史",
+        "宮原 克典",
+        "新川 拓哉",
+        "濱田 太陽"
+      ]
+    },
+    "venue": {},
+    "year": 2022,
+    "date": "2022-06-30",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/44259293",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "44259293",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-12-14T16:43:23Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-12-14T16:43:23Z",
+      "offer_organization": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "system_name": {
+        "ja": "科学研究費助成事業",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "category": {
+        "ja": "挑戦的研究(萌芽)",
+        "en": "Grant-in-Aid for Challenging Research (Exploratory)"
+      },
+      "institution_name": {
+        "ja": "国立研究開発法人情報通信研究機構",
+        "en": "National Institute of Information and Communications Technology"
+      },
+      "to_date": "2024-03-31",
+      "overall_grant_amount": {
+        "total_cost": "6500000",
+        "direct_cost": "5000000",
+        "indirect_cost": "1500000"
+      },
+      "identifiers": {
+        "grant_number": [
+          "22K19819"
+        ],
+        "national_grant_number": [
+          "JP22K19819"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "kaken",
+          "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-22K19819"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/37232894",
+    "type": "research_projects",
+    "title": {
+      "ja": "人間と人工主体の共存のあるべき姿を学際的に問うための新たな枠組み『人工主体学』の構築に向けて"
+    },
+    "authors": {
+      "ja": [
+        "宮原克典",
+        "新川拓哉",
+        "宮園健吾",
+        "田口茂",
+        "長坂真澄",
+        "佐藤亮司",
+        "和田幹彦",
+        "金井良太",
+        "鈴木啓介",
+        "濱田太陽",
+        "Mark Miller",
+        "Olaf Witkowski"
+      ]
+    },
+    "venue": {},
+    "year": 2022,
+    "date": "2022-04",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/37232894",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "37232894",
+      "rm:user_id": "R000010142",
+      "identifiers_id_modified": "2024-04-10 08:58:43",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-06-24T07:07:33Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-06-24T07:07:33Z",
+      "category": {
+        "ja": "公益財団法人トヨタ財団 特定課題「先端技術と共創する人間社会」"
+      },
+      "to_date": "2025-03"
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/36607124",
+    "type": "published_papers",
+    "title": {
+      "en": "Functions of consciousness: conceptual clarification"
+    },
+    "authors": {
+      "en": [
+        "Takuya Niikawa",
+        "Katsunori Miyahara",
+        "Hiro Taiyo Hamada",
+        "Satoshi Nishida"
+      ]
+    },
+    "venue": {
+      "en": "Neuroscience of Consciousness"
+    },
+    "year": 2022,
+    "date": "2022-03-29",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/36607124",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "36607124",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": true,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-03-30T10:12:17Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-05-21T10:05:22Z",
+      "description": {
+        "en": "Abstract\n\n There are many theories of the functions of consciousness. How these theories relate to each other, how we should assess them, and whether any integration of them is possible are all issues that remain unclear. To contribute to a solution, this paper offers a conceptual framework to clarify the theories of the functions of consciousness. This framework consists of three dimensions: (i) target, (ii) explanatory order, and (iii) necessity/sufficiency. The first dimension, target, clarifies each theory in terms of the kind of consciousness it targets. The second dimension, explanatory order, clarifies each theory in terms of how it conceives of the explanatory relation between consciousness and function. The third dimension, necessity/sufficiency, clarifies each theory in terms of the necessity/sufficiency relation posited between consciousness and function. We demonstrate the usefulness of this framework by applying it to some existing scientific and philosophical theories of the functions of consciousness."
+      },
+      "publisher": {
+        "en": "Oxford University Press (OUP)"
+      },
+      "volume": "2022",
+      "number": "1",
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1093/nc/niac006"
+        ],
+        "e_issn": [
+          "2057-2107"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1093/nc/niac006",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://academic.oup.com/nc/article-pdf/2022/1/niac006/43114244/niac006.pdf",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/36516732",
+    "type": "published_papers",
+    "title": {
+      "en": "AI agents for facilitating social interactions and wellbeing"
+    },
+    "authors": {
+      "en": [
+        "Hiro Taiyo Hamada",
+        "Ryota Kanai"
+      ]
+    },
+    "venue": {
+      "en": "hfif-aaai-2022"
+    },
+    "year": 2022,
+    "date": "2022-03",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/36516732",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "36516732",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-03-16T22:47:58Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-11-18T09:19:07Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "volume": "3276",
+      "referee": true,
+      "published_paper_type": "international_conference_proceedings",
+      "rm:is_open_access": true,
+      "identifiers": {
+        "doi": [
+          "10.48550/arXiv.2203.06244"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.48550/arXiv.2203.06244",
+          "is_downloadable": true
+        },
+        {
+          "@id": "https://ceur-ws.org/Vol-3276/",
+          "label": "url",
+          "is_downloadable": true
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/awards/36565188",
+    "type": "awards",
+    "title": {},
+    "authors": {
+      "en": [
+        "Hiro Taiyo Hamada",
+        "Ryota Kanai"
+      ]
+    },
+    "venue": {},
+    "year": 2022,
+    "date": "2022-03",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/awards/36565188",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "awards",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/awards",
+      "rm:id": "36565188",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-03-24T14:05:40Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-03-26T03:22:14Z",
+      "award_name": {
+        "ja": "Best Presentation Award 1st Place",
+        "en": "Best Presentation Award 1st Place"
+      },
+      "association": {
+        "ja": "AAAI 2022 Spring Symposia \"How fair is fair?\""
+      }
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+    "type": "research_projects",
+    "title": {
+      "ja": "逆境の中でも前向きに生きられる社会の実現"
+    },
+    "authors": {
+      "ja": [
+        "山田 真希子"
+      ]
+    },
+    "venue": {},
+    "year": 2022,
+    "date": "2022",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "42593121",
+      "rm:user_id": "R000010142",
+      "identifiers_id_modified": "2026-05-04 09:49:46",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-06-22T16:23:08Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-06-22T16:24:55Z",
+      "offer_organization": {
+        "ja": "科学技術振興機構"
+      },
+      "system_name": {
+        "ja": "戦略的な研究開発の推進 ムーンショット型研究開発事業"
+      },
+      "institution_name": {
+        "ja": "量子科学技術研究開発機構"
+      },
+      "to_date": "2026",
+      "research_project_owner_role": "coinvestigator",
+      "description": {
+        "ja": "逆境の中でも人々が「前向き」に生きられる社会の実現を目指すため、多様で多義的な「前向き」の構成要素を明確にし、身体姿勢および脳・生理反応の計測により前向き指標を算出し、前向き支援技術により個人の状況に合わせた前向き要素をアシスト・訓練・教育するための技術を確立します。"
+      },
+      "identifiers": {
+        "j_global_id": [
+          "202304003074295523"
+        ],
+        "grant_number": [
+          "JPMJMS2295"
+        ],
+        "national_grant_number": [
+          "JPMJMS2295"
+        ],
+        "rm:published_paper_id": [
+          "52167190",
+          "50250096",
+          "51828811",
+          "50232421",
+          "48768170",
+          "50233349",
+          "39575584",
+          "43459742"
+        ],
+        "rm:presentation_id": [
+          "52006881",
+          "51666315",
+          "50410182",
+          "51666252",
+          "50241166",
+          "45803150",
+          "46606008",
+          "44443502",
+          "43906272"
+        ],
+        "rm:academic_contribution_id": [
+          "52250982",
+          "51666200"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "j_global",
+          "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202304003074295523"
+        },
+        {
+          "@id": "https://jglobal.jst.go.jp/redir?url=https%3A%2F%2Fprojectdb.jst.go.jp%2Fgrant%2FJST-PROJECT-22673594%2F&sign=eb2673410560f282c55cddf81dea8f52",
+          "label": "url"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/52167190"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50250096"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/51828811"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50232421"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/48768170"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/50233349"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/39575584"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/43459742"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/52006881"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/51666315"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/50410182"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/51666252"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/50241166"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/45803150"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/46606008"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/44443502"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/43906272"
+        },
+        {
+          "label": "rm:academic_contribution",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/academic_contribution/52250982"
+        },
+        {
+          "label": "rm:academic_contribution",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/academic_contribution/51666200"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/35758734",
+    "type": "research_projects",
+    "title": {
+      "ja": "内観の認識論的地位の解明―現代哲学と神経科学による学融合的アプローチ"
+    },
+    "authors": {
+      "ja": [
+        "新川 拓哉",
+        "宮原 克典",
+        "濱田 太陽",
+        "西田 知史"
+      ]
+    },
+    "venue": {},
+    "year": 2021,
+    "date": "2021-04-01",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/35758734",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "35758734",
+      "rm:user_id": "R000010142",
+      "identifiers_id_modified": "2025-11-18 07:55:22",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2021-11-09T06:03:29Z",
+      "rm:modifier_id": "ai:identify_based_internal_feeds",
+      "rm:modifier_type": "ai",
+      "rm:modified": "2024-02-01T09:27:23Z",
+      "offer_organization": {
+        "ja": "日本学術振興会"
+      },
+      "system_name": {
+        "ja": "科学研究費助成事業 基盤研究(C)"
+      },
+      "category": {
+        "ja": "基盤研究(C)"
+      },
+      "institution_name": {
+        "ja": "神戸大学"
+      },
+      "to_date": "2024-03-31",
+      "overall_grant_amount": {
+        "total_cost": "4290000",
+        "direct_cost": "3300000",
+        "indirect_cost": "990000"
+      },
+      "description": {
+        "ja": "今年度は以下の三つの研究を主に実施した。\n（１）意識経験の内観の理論のサーベイを行った。具体的には、意識経験の内観の理論には、外界の事物の知覚と類比的なメカニズムが内観の際にも働いているとする知覚説、意識経験を実現するメカニズムのうちに内観の機構が包含されており、意識経験そのものが内観的判断の構成要素になっているとする直知説、意識経験についての内観は、意識経験のうちに現れている世界のあり方からその意識経験それ自体のあり方を推論することに基づくとする推論説という三つの立場があることを明らかにした。\n（２）現象学的な反省として特徴づけられるタイプの内観を支える神経メカニズムを特定するための神経科学的な実験研究を設計し、準備的な実験を行った。\n（３）Declan Smithiesが提案する意識と内観の関係についての理論を検討・評価し、その問題点を特定した。なお、この研究成果の一部は、千葉大学の小草泰氏との共著でAsian Journal of Philosophyという学術誌に\"A challenge to the phenomenal sufficiency thesis\"というタイトルの書評論文として発表した。\nその他にも関連研究として、内観によって捉えられる意識の現象学的特徴と道徳的地位の関係や、意識の機能についての概念的明確化についての研究を実施した。それぞれの研究成果の一部は、研究分担者と共著で\"Human Brain Organoids and Consciousness\"とFunctions of consciousness: conceptual clarification\"という論文に組み込み、海外学術誌より発表した（詳細は研究業績を参照）。"
+      },
+      "identifiers": {
+        "grant_number": [
+          "21K00011"
+        ],
+        "national_grant_number": [
+          "JP21K00011"
+        ],
+        "rm:published_paper_id": [
+          "48305009"
+        ],
+        "rm:presentation_id": [
+          "43000025"
+        ],
+        "rm:academic_contribution_id": [
+          "42593123"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "kaken",
+          "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-21K00011"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/48305009"
+        },
+        {
+          "label": "rm:presentations",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/presentations/43000025"
+        },
+        {
+          "label": "rm:academic_contribution",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/academic_contribution/42593123"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/35758752",
+    "type": "published_papers",
+    "title": {
+      "en": "Gray Matter Analysis of MRI Images"
+    },
+    "authors": {
+      "en": [
+        "Hiro Taiyo Hamada",
+        "Daisuke Matsuyoshi",
+        "Ryota Kanai"
+      ]
+    },
+    "venue": {
+      "en": "Encyclopedia of Behavioral Neuroscience, 2nd edition"
+    },
+    "year": 2021,
+    "date": "2021",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/35758752",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "35758752",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2021-11-09T06:05:02Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2021-11-09T06:05:02Z",
+      "publisher": {
+        "en": "Elsevier"
+      },
+      "starting_page": "84",
+      "ending_page": "96",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1016/b978-0-12-819641-0.00163-8"
+        ],
+        "orcid_put_cd": [
+          "101089394"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1016/b978-0-12-819641-0.00163-8",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/30258983",
+    "type": "published_papers",
+    "title": {
+      "en": "Diffusion functional MRI reveals global brain network functional abnormalities driven by targeted local activity in a neuropsychiatric disease mouse model"
+    },
+    "authors": {
+      "en": [
+        "Yoshifumi Abe",
+        "Norio Takata",
+        "Yuki Sakai",
+        "Hiro Taiyo Hamada",
+        "Yuichi Hiraoka",
+        "Tomomi Aida",
+        "Kohichi Tanaka",
+        "Denis Le Bihan",
+        "Kenji Doya",
+        "Kenji F Tanaka"
+      ]
+    },
+    "venue": {
+      "en": "NeuroImage"
+    },
+    "year": 2020,
+    "date": "2020-12",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/30258983",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "30258983",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-03T19:15:53Z",
+      "rm:modifier_id": "ai:identify_based_internal_feeds",
+      "rm:modifier_type": "ai",
+      "rm:modified": "2021-10-22T05:44:20Z",
+      "description": {
+        "en": "Diffusion functional magnetic resonance imaging (DfMRI) has been proposed as an alternative functional imaging method to detect brain activity without confounding hemodynamic effects. Here, taking advantage of this DfMRI feature, we investigated abnormalities of dynamic brain function in a neuropsychiatric disease mouse model (glial glutamate transporter-knockdown mice with obsessive-compulsive disorder [OCD]-related behavior). Our DfMRI approaches consisted of three analyses: resting state brain activity, functional connectivity, and propagation of neural information. We detected hyperactivation and biased connectivity across the cortico-striatal-thalamic circuitry, which is consistent with known blood oxygen-level dependent (BOLD)-fMRI patterns in OCD patients. In addition, we performed ignition-driven mean integration (IDMI) analysis, which combined activity and connectivity analyses, to evaluate neural propagation initiated from brain activation. This analysis revealed an unbalanced distribution of neural propagation initiated from intrinsic local activation to the global network, while these were not detected by the conventional method with BOLD-fMRI. This abnormal function detected by DfMRI was associated with OCD-related behavior. Together, our comprehensive DfMRI approaches can successfully provide information on dynamic brain function in normal and diseased brains."
+      },
+      "publisher": {
+        "en": "Elsevier {BV}"
+      },
+      "volume": "223",
+      "starting_page": "117318",
+      "ending_page": "117318",
+      "languages": [
+        "eng"
+      ],
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "is_international_journal": true,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1016/j.neuroimage.2020.117318"
+        ],
+        "pm_id": [
+          "32882386"
+        ],
+        "orcid_put_cd": [
+          "79701920"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1016/j.neuroimage.2020.117318",
+          "is_downloadable": false
+        },
+        {
+          "label": "pubmed",
+          "@id": "https://www.ncbi.nlm.nih.gov/pubmed/32882386",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/30258982",
+    "type": "published_papers",
+    "title": {
+      "en": "Developing a short-term phenomenological training program: A report of methodological lessons"
+    },
+    "authors": {
+      "en": [
+        "Katsunori Miyahara",
+        "Takuya Niikawa",
+        "Hiro Taiyo Hamada",
+        "Satoshi Nishida"
+      ]
+    },
+    "venue": {
+      "en": "New Ideas in Psychology"
+    },
+    "year": 2020,
+    "date": "2020-08",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/30258982",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "30258982",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-03T19:15:53Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-07-26T13:18:42Z",
+      "publisher": {
+        "en": "Elsevier BV"
+      },
+      "volume": "58",
+      "starting_page": "100780",
+      "ending_page": "100780",
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1016/j.newideapsych.2020.100780"
+        ],
+        "issn": [
+          "0732-118X"
+        ],
+        "orcid_put_cd": [
+          "71768268"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1016/j.newideapsych.2020.100780",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/30258976",
+    "type": "research_projects",
+    "title": {
+      "ja": "習慣を中核にすえた新たな心の哲学と心の科学の展開",
+      "en": "Developing a habit-centred paradigm of philosophy and science of mind"
+    },
+    "authors": {
+      "ja": [
+        "宮原 克典",
+        "新川 拓哉",
+        "吉田 正俊",
+        "濱田 太陽",
+        "石原 悠子",
+        "早川 正祐",
+        "西田 知史"
+      ]
+    },
+    "venue": {},
+    "year": 2020,
+    "date": "2020-04-01",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/30258976",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "30258976",
+      "rm:user_id": "R000010142",
+      "identifiers_id_modified": "2024-10-31 10:41:53",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-03T19:05:53Z",
+      "rm:modifier_id": "ai:identify_based_internal_feeds",
+      "rm:modifier_type": "ai",
+      "rm:modified": "2024-02-01T07:28:16Z",
+      "offer_organization": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "system_name": {
+        "ja": "科学研究費助成事業 基盤研究(C)",
+        "en": "Grants-in-Aid for Scientific Research Grant-in-Aid for Scientific Research (C)"
+      },
+      "category": {
+        "ja": "基盤研究(C)",
+        "en": "Grant-in-Aid for Scientific Research (C)"
+      },
+      "institution_name": {
+        "ja": "北海道大学",
+        "en": "Hokkaido University"
+      },
+      "to_date": "2023-03-31",
+      "overall_grant_amount": {
+        "total_cost": "4420000",
+        "direct_cost": "3400000",
+        "indirect_cost": "1020000"
+      },
+      "description": {
+        "ja": "本研究では，現象学，プラグマティズム，日本哲学，身体性認知の観点を取り入れて，習慣とはどのようなものであるかを明らかにし，また，認知や行為を習慣に基づいた働きとして捉え直す。さらに，習慣を中核にすえた心のモデルが神経科学や人工知能研究に対してもつ帰結を考察する。本年度の主な研究実績は以下の4点である。\n①共感を習慣に基づいた働きとして捉え直す研究を継続した（分担者早川との共同研究）。昨年度末の時点で国際誌に論文を投稿し，6月に国際学会で発表をおこない，議論を前進させることができた。だが残念ながら，年度内に査読結果が返ってこなかった。\n②物語的自己意識の形成における習慣の働きを明らかにする研究を進めた。哲学や心理学で唱えられている「物語的自己」の理論によると，私たちの自己意識は過去の経験や行為を物語にまとめあげる「語り」の働きによって形成される。このような語りにおいて身体的な習慣形成の力が重要な役割を果たしている可能性を検討した。現在，論文を準備中である。\n③世阿弥の芸道論と現代哲学／心理学の観点を組み合わせて，技と習慣の関係を考察する研究を推進した。現代の哲学者ヒューバート・ドレイファスは専門技能（expertise）を洗練された感覚運動的習慣として説明する。しかし，身体は次々に新たな習慣を身につけて成長するばかりのものではない。本研究では，世阿弥の「初心」の概念に基づいて，ドレイファスの技能論が健康で力強い身体像を暗黙の前提としていることを明らかにした。また本年度の研究では，世阿弥の離見の見を生態心理学の観点をまじえて分析する研究も，ほぼまとめあげられた。\n④「意識の機能」にかんする理論を体系的に理解するための枠組みを提案する研究をおこなった（分担者西田・新川・濱田との共同研究）。本研究には意識研究を習慣の観点と結びつけるための予備的考察となる可能性が期待される。"
+      },
+      "identifiers": {
+        "grant_number": [
+          "20K00001"
+        ],
+        "national_grant_number": [
+          "JP20K00001"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "kaken",
+          "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-20K00001"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/30258984",
+    "type": "published_papers",
+    "title": {
+      "en": "A new experimental phenomenological method to explore the subjective features of psychological phenomena: its application to binocular rivalry"
+    },
+    "authors": {
+      "en": [
+        "Takuya Niikawa",
+        "Katsunori Miyahara",
+        "Hiro Taiyo Hamada",
+        "Satoshi Nishida"
+      ]
+    },
+    "venue": {
+      "en": "Neuroscience of Consciousness"
+    },
+    "year": 2020,
+    "date": "2020-01-01",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/30258984",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "30258984",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-03T19:15:53Z",
+      "rm:modifier_id": "ai:identify_based_internal_feeds",
+      "rm:modifier_type": "ai",
+      "rm:modified": "2021-10-20T10:43:01Z",
+      "description": {
+        "en": "<title>Abstract</title>\n The subjective features of psychological phenomena have been studied intensively in experimental science in recent years. Although various methods have been proposed to identify subjective features of psychological phenomena, there are elusive subjective features such as the spatiotemporal structure of experience, which are difficult to capture without some additional methodological tools. We propose a new experimental method to address this challenge, which we call the contrast-based experimental phenomenological method (CEP). CEP proceeds in four steps: (i) front-loading phenomenology, (ii) online second-personal interview, (iii) questionnaire survey, and (iv) hypotheses testing. It differs from other experimental phenomenological methods in that it takes advantage of phenomenal contrasts in collecting phenomenological data. In this paper, we verify the validity and productivity of this method by applying it to binocular rivalry (BR). The study contributes to empirical research on BR in three respects. First, it provides additional evidence for existing propositions about the subjective features of BR: e.g. the proposition that the temporal dynamics of the experience depend upon subject-dependent parameters such as attentional change. Second, it deepens our understanding of the spatiotemporal structures of the transition phase of BR. Third, it elicits new research questions about depth experience and individual differences in BR. The presence of such contributions demonstrates the validity and productivity of CEP."
+      },
+      "publisher": {
+        "en": "Oxford University Press (OUP)"
+      },
+      "volume": "2020",
+      "number": "1",
+      "referee": true,
+      "published_paper_type": "scientific_journal",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1093/nc/niaa018"
+        ],
+        "e_issn": [
+          "2057-2107"
+        ],
+        "orcid_put_cd": [
+          "81372440"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1093/nc/niaa018",
+          "is_downloadable": false
+        },
+        {
+          "label": "url",
+          "@id": "http://academic.oup.com/nc/article-pdf/2020/1/niaa018/33833473/niaa018.pdf",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/awards/35758948",
+    "type": "awards",
+    "title": {},
+    "authors": {},
+    "venue": {},
+    "year": 2019,
+    "date": "2019-09",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/awards/35758948",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "awards",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/awards",
+      "rm:id": "35758948",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2021-11-09T06:16:34Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2021-11-09T06:16:34Z",
+      "award_name": {
+        "ja": "The Lift Me Up competition 3位入賞"
+      }
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/30258977",
+    "type": "research_projects",
+    "title": {
+      "ja": "意識の構造についての神経現象学的研究",
+      "en": "Neurophenomenology on the Structures of Consciousness"
+    },
+    "authors": {
+      "ja": [
+        "新川 拓哉",
+        "宮原 克典",
+        "西田 知史",
+        "濱田 太陽"
+      ],
+      "en": [
+        "Niikawa Takuya"
+      ]
+    },
+    "venue": {},
+    "year": 2018,
+    "date": "2018-04-01",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/30258977",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "30258977",
+      "rm:user_id": "R000010142",
+      "identifiers_id_modified": "2023-07-28 15:53:56",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-03T19:05:53Z",
+      "rm:modifier_id": "ai:identify_based_internal_feeds",
+      "rm:modifier_type": "ai",
+      "rm:modified": "2024-02-01T03:44:23Z",
+      "offer_organization": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "system_name": {
+        "ja": "科学研究費助成事業 基盤研究(C)",
+        "en": "Grants-in-Aid for Scientific Research"
+      },
+      "category": {
+        "ja": "基盤研究(C)",
+        "en": "Grant-in-Aid for Scientific Research (C)"
+      },
+      "institution_name": {
+        "ja": "北海道大学"
+      },
+      "to_date": "2021-03-31",
+      "overall_grant_amount": {
+        "total_cost": "4290000",
+        "direct_cost": "3300000",
+        "indirect_cost": "990000"
+      },
+      "description": {
+        "ja": "本研究の目的は、神経科学の三人称的観点と現象学の一人称的観点を融合させた「神経現象学」の手法を中核にして、意識の構造を科学的に探究するための研究枠組みを確立することである。本年度は、「現象学的トレーニング方法の開発・改良」と「両眼視野闘争の現象学的特徴の解明」の二つのテーマについて研究を行った。以下ではそれぞれの研究について記述していく。\n科学的な意識研究においては実験参加者から意識経験の諸特徴についての報告を得る必要がある。しかし、環境内の事物の記述と区別できる仕方で意識経験を記述するのは簡単ではない。特に、次の二点が課題となっていた。(1)注意を環境内の事物から経験そのものへと向け替えること、(2)経験そのものへの豊かで分かりやすい記述を与えること。そこで私たちは、これらの課題を達成するための一時間程度のトレーニングを開発し、その効果を検討した。その結果、いくつかの問題点が発見された（トレーニングのマニュアル化が難しい、トレーニングの効果があるタイプの経験が限定されている、等）。今後の研究では、その問題点を解決した新たなトレーニングプログラムを開発する予定である。\n両眼視野闘争はこれまでの科学的な意識研究で非常によく使用されてきた。だが、両眼視野闘争の現象学的特徴についてはまだ十全な研究がされていない。本研究では、両眼視野闘争の現象学的特徴を解明するための実験を行った。その結果、両眼視野闘争は通常の知覚経験と比較して「時空間的不確定性（いつどこで経験の変化が生じているかはっきりしない）」、「空間的非統合性（経験が空間的に統合されていない）」、「注意依存性（経験の変化が注意に依存する）」の三つの特徴があることが分かった。今後の研究では、両眼視野闘争がこうした特徴をもつことが科学的な意識研究に対してどういう含意をもつかを検討していくこととなる。",
+        "en": "This research project has five achievements. (1) A training program for the abilities of phenomenological reflection has been developed and is being improved for practical use. (2) We developed an experimental phenomenological method of comparing similar experiences and describing the differences through interviews, and used this method to identify the structural features of binocular rivalry experience. (3) We designed and conducted an experiment to explore the neural basis of phenomenological reflection; we are now analyzing the data. (4) We analyzed and systematically classified the concept of \"functions of consciousness\", which is the key to the study of the structure of consciousness. (5) In order to specify the scope of subjects to which neurophenomenology is available, we developed a framework for comparing and evaluating theories of consciousness and clarified the relationship between some theories."
+      },
+      "identifiers": {
+        "grant_number": [
+          "18K00032"
+        ],
+        "national_grant_number": [
+          "JP18K00032"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "kaken",
+          "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-18K00032"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/30258980",
+    "type": "research_projects",
+    "title": {
+      "ja": "セロトニンサブシステムの短期的、長期的活性化による脳活動制御変移の解明",
+      "en": "Serotonergic control of brain dynamics"
+    },
+    "authors": {
+      "ja": [
+        "濱田太陽"
+      ],
+      "en": [
+        "Hiroaki Hamada"
+      ]
+    },
+    "venue": {},
+    "year": 2018,
+    "date": "2018-04",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/30258980",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "30258980",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-03T19:12:36Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2020-10-03T19:12:36Z",
+      "offer_organization": {
+        "ja": "内藤財団",
+        "en": "Naito Foundation"
+      },
+      "system_name": {
+        "ja": "内藤記念特定研究助成金"
+      },
+      "to_date": "2019-12",
+      "research_project_owner_role": "principal_investigator"
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/30258981",
+    "type": "published_papers",
+    "title": {
+      "en": "Analysis of Structure-Function Relationship Using a Whole-Brain Dynamic Model Based on MRI Images of the Common Marmoset"
+    },
+    "authors": {
+      "en": [
+        "Hiro Taiyo Hamada"
+      ]
+    },
+    "venue": {
+      "en": "Advances in Cognitive Neurodynamics (VI)"
+    },
+    "year": 2018,
+    "date": "2018",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/30258981",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "30258981",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-03T19:15:53Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2020-10-03T19:15:53Z",
+      "languages": [
+        "eng"
+      ],
+      "referee": true,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.1007/978-981-10-8854-4_12"
+        ],
+        "issn": [
+          "2213-3577"
+        ],
+        "orcid_put_cd": [
+          "67477244"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.1007/978-981-10-8854-4_12",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/awards/30280869",
+    "type": "awards",
+    "title": {},
+    "authors": {},
+    "venue": {},
+    "year": 2017,
+    "date": "2017-11",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/awards/30280869",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "awards",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/awards",
+      "rm:id": "30280869",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-05T17:18:15Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2020-10-05T17:18:15Z",
+      "award_name": {
+        "ja": "ポスター賞",
+        "en": "Excellent Poster Award"
+      },
+      "association": {
+        "ja": "内藤財団",
+        "en": "Naito Foundation"
+      }
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/30258978",
+    "type": "research_projects",
+    "title": {
+      "ja": "科学的意識研究の方法論的基礎の哲学的検討：プロセス論的アプローチの確立に向けて",
+      "en": "Philosophical Investigation of the methodological basis of scientific consciousness studies: toward the process-based approach"
+    },
+    "authors": {
+      "ja": [
+        "新川 拓哉",
+        "宮原 克典",
+        "西田 知史",
+        "濱田 太陽"
+      ],
+      "en": [
+        "Niikawa Takuya",
+        "HAMADA hiroaki"
+      ]
+    },
+    "venue": {},
+    "year": 2016,
+    "date": "2016-04-01",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/research_projects/30258978",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "research_projects",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
+      "rm:id": "30258978",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2020-10-03T19:05:53Z",
+      "rm:modifier_id": "ai:identify_based_internal_feeds",
+      "rm:modifier_type": "ai",
+      "rm:modified": "2024-02-01T00:51:58Z",
+      "offer_organization": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "system_name": {
+        "ja": "科学研究費助成事業 挑戦的萌芽研究",
+        "en": "Grants-in-Aid for Scientific Research Grant-in-Aid for Challenging Exploratory Research"
+      },
+      "category": {
+        "ja": "挑戦的萌芽研究",
+        "en": "Grant-in-Aid for Challenging Exploratory Research"
+      },
+      "institution_name": {
+        "ja": "千葉大学",
+        "en": "Chiba University"
+      },
+      "to_date": "2018-03-31",
+      "overall_grant_amount": {
+        "total_cost": "3250000",
+        "direct_cost": "2500000",
+        "indirect_cost": "750000"
+      },
+      "description": {
+        "ja": "本研究では「意識内容の神経相関」を越えて「意識の動的側面」や「意識の構造的側面」をどうやって神経科学の枠組みで研究できるのかという神経現象学的課題に取り組んだ。その結果、そうした研究を推進するためには、実験参加者から彼らの意識経験について豊かで信頼のできる報告を得るための技術が必要だということがわかった。そうした報告を得るための方法論について次のような研究を行った。(1) 被験者が意識経験をよりうまく記述できるような短期的なトレーニングを開発しテストした。(2) 被験者のよりよい経験記述を引き出すためのインタビュー方法を開発しテストし、それを用いて両眼視野闘争についての実験研究を実施した。",
+        "en": "We developed a novel methodological framework to explore the dynamic and the structural aspects of consciousness so as to extend the neuroscientific study of consciousness beyond the search for neural correlates of consciousness (NCCs). Such explorations should be greatly facilitated by using first-personal, introspective, or phenomenological reports about conscious experience. Based on this assumption, we explored reliable methods for collecting rich and accurate phenomenological descriptions from naive experimental participants. The first method aimed to train naive participants into competent “phenomenological reporters” in the short-term, that is, within a single visit to the lab. We tested the effectiveness of this method by conducting a psychological experiment. The second method aims to draw rich and accurate reports out of the participants by conducting an interview. We carried out a psychological experiment on binocular rivalry, using this interview method."
+      },
+      "identifiers": {
+        "grant_number": [
+          "16K13147"
+        ],
+        "national_grant_number": [
+          "JP16K13147"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-16K13147/16K13147seika.pdf",
+          "label": "url"
+        },
+        {
+          "label": "kaken",
+          "@id": "https://kaken.nii.ac.jp/grant/KAKENHI-PROJECT-16K13147"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/awards/35758944",
+    "type": "awards",
+    "title": {},
+    "authors": {},
+    "venue": {},
+    "year": 2011,
+    "date": "2011-03",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/awards/35758944",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "awards",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/awards",
+      "rm:id": "35758944",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2021-11-09T06:16:07Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2021-11-09T06:16:07Z",
+      "award_name": {
+        "ja": "OISTエッセイコンテスト入賞"
+      },
+      "association": {
+        "ja": "沖縄科学技術大学院大学"
+      }
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/51559047",
+    "type": "presentations",
+    "title": {
+      "ja": "筆圧・加速度センサー付きボールペンのパーキンソン病診断への応⽤"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "第67回日本神経学会学術大会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/51559047",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "51559047",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-10-29T13:27:25Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-04-05T11:07:57Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "佐光亘"
+          },
+          {
+            "name": "大山彦光"
+          },
+          {
+            "name": "田中義明"
+          },
+          {
+            "name": "岩間卓吾"
+          },
+          {
+            "name": "土師正太郎"
+          },
+          {
+            "name": "野辺宣翔"
+          },
+          {
+            "name": "Anna Maria Hadjiev"
+          },
+          {
+            "name": "濱田太陽"
+          },
+          {
+            "name": "波田野琢"
+          },
+          {
+            "name": "服部信孝"
+          }
+        ]
+      },
+      "publication_date": "2026",
+      "from_event_date": "2026-05-20",
+      "to_event_date": "2026-05-23",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "oral_presentation",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/52006881",
+    "type": "presentations",
+    "title": {
+      "ja": "大規模言語モデルにおける性格概念の表現位置と操作可能性"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "言語処理学会2026"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/52006881",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "52006881",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2026-01-08T11:00:35Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-02-05T03:12:21Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "原田 宥都"
+          },
+          {
+            "name": "濱田 太陽"
+          }
+        ]
+      },
+      "publication_date": "2026-03",
+      "from_event_date": "2026-03-09",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "poster_presentation",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/52174750",
+    "type": "presentations",
+    "title": {
+      "ja": "Neuro-aligned AIを用いた機械神経科学: ペルソナシミュレーションによるデジタルツインへの応用"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "応用脳科学コンソーシアム2025年度"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/52174750",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "52174750",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2026-02-09T12:55:07Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-02-09T12:55:07Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2026-02-04",
+      "presentation_type": "oral_presentation",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/52174754",
+    "type": "presentations",
+    "title": {
+      "ja": "AIとニューロテックの融合によるブレイン・マシーン・インタフェースとデジタルツイン神経科学"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "SSN研究会公開シンポジウム「マイクロナノが支えるフロンティア領域」"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/52174754",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "52174754",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2026-02-09T12:56:15Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-02-09T12:56:15Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2026-01-29",
+      "presentation_type": "invited_oral_presentation",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/51666315",
+    "type": "presentations",
+    "title": {
+      "ja": "人とAIの織りなす社会",
+      "en": "Society of Humans and AI Agents"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "ICONIP 2025",
+      "en": "ICONIP 2025"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/51666315",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "51666315",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-11-16T09:31:14Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-11-16T09:35:07Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "山田祐太朗"
+          },
+          {
+            "name": "岡瑞起"
+          },
+          {
+            "name": "濱田太陽"
+          },
+          {
+            "name": "林祐輔"
+          },
+          {
+            "name": "谷口忠大"
+          }
+        ]
+      },
+      "publication_date": "2025-11-24",
+      "from_event_date": "2025-11-20",
+      "to_event_date": "2025-11-24",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "nominated_symposium",
+      "promoter": {
+        "ja": "銅谷賢治; 山川宏"
+      },
+      "location": {
+        "ja": "沖縄科学技術大学院大学講堂"
+      },
+      "description": {
+        "ja": "今日AIは誰もがいつのまにか使っている技術となり、私たちの日々の生活からビジネス、教育、政治、文化芸術、最先端の科学技術まで、AI抜きには語れない時代が来ています。このたび世界各国のAI研究者を集めた国際会議ICONIP2025が沖縄科学技術大学院大学 (OIST) で開催される機会に、研究者と市民、学生のみなさんとが一緒になり、これからAIはどう進化するのか、私たちはAIとどう関わっていけばよいのか、AIによる危険や弊害をどう予測し抑えることができるのか、学び合い話し合う公開フォーラムを開催します。\n\nAI研究開発の先端を走る研究者を講師、パネリストとして招き、それぞれから見えるAIの新たな地平を語ってもらい、参加者の皆さんと一緒に質疑応答を行います。発表は日本語で、スクリーンにはAI翻訳の英語字幕を表示する予定です。"
+      },
+      "is_international_presentation": true,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://iconip2025.apnns.org/forum/",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/50410182",
+    "type": "presentations",
+    "title": {
+      "ja": "Alignment for Psychological Concept Network",
+      "en": "Alignment for Psychological Concept Network"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "ICONIP 2025",
+      "en": "CONIP 2025"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/50410182",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "50410182",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-06-16T13:49:43Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-11-25T10:23:26Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "Hiro Taiyo Hamada"
+          }
+        ]
+      },
+      "publication_date": "2025-11-20",
+      "languages": [
+        "eng"
+      ],
+      "presentation_type": "oral_presentation",
+      "promoter": {
+        "ja": "Hiroshi Yamakawa; Akira Taniguchi; Takeshi Nakashima"
+      },
+      "location": {
+        "ja": "Okinawa"
+      },
+      "description": {
+        "ja": "Humans are a model for AI safety, and multiple ideas are proposed to align human representation with AI by incorporating brain-inspired architectures like NeuroAI. Here, we will talk about a new proposal for AI alignment with AI trait/personality."
+      },
+      "is_international_presentation": true,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://wba-initiative.org/25532/",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/51666252",
+    "type": "presentations",
+    "title": {
+      "ja": "Neuro-aligned AI for machine neuroscience",
+      "en": "Neuro-aligned AI for machine neuroscience"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "ICONIP 2025",
+      "en": "ICONIP 2025"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/51666252",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "51666252",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-11-16T09:21:18Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-11-16T09:45:04Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ],
+        "en": [
+          {
+            "name": "Hiro Taiyo Hamada"
+          }
+        ]
+      },
+      "publication_date": "2025-11-20",
+      "from_event_date": "2025-11",
+      "languages": [
+        "eng"
+      ],
+      "presentation_type": "invited_oral_presentation",
+      "promoter": {
+        "ja": "Hiroshi Yamakawa; Akira Taniguchi; Takeshi Nakashima"
+      },
+      "location": {
+        "ja": "沖縄"
+      },
+      "description": {
+        "ja": "Modern deep learning systems have achieved remarkable successes but face critical challenges in interpretability, trustworthiness, and alignment with human values. Research at the interface of computational neuroscience and machine learning suggests that incorporating key principles from the human brain—such as sparse, modular network architectures—can enable the development of more interpretable and controllable AI models. At the same time, ensuring these systems are genuinely beneficial requires robust frameworks for AI alignment. These frameworks draw on ethics, policy, and advanced neurotechnology to detect latent internal states and guide system behavior toward socially acceptable outcomes.\nThis special session will highlight recent progress in brain-inspired mechanistic interpretability, ethical alignment strategies, and neurotechnology-driven cognitive understanding of AI. We will explore how biologically motivated network structures enable clearer insight into internal representations, how alignment mechanisms can be integrated without sacrificing performance, and how leveraging cognitive neuroscience tools can expand our understanding of human and artificial minds.\nThrough invited talks (spanning academic and industrial perspectives), contributed presentations, and an interdisciplinary panel discussion, attendees will gain a holistic overview of:\n\nBrain-Inspired AI: Sparse and modular architectures, biologically plausible learning rules, and reverse-engineering neural computations.\nAI Alignment: Balancing advanced capabilities with safety, ethical standards, and user trust.\nNeurotechnology Applications: Using neuroimaging and cognitive modeling to interpret AI systems and refine human–machine interaction.\nBy uniting experts from neuroscience, AI, and ethics, this session aims to advance the development of human-centric, transparent, and responsible AI—and ultimately to foster new collaborations that propel the field forward.",
+        "en": "Modern deep learning systems have achieved remarkable successes but face critical challenges in interpretability, trustworthiness, and alignment with human values. Research at the interface of computational neuroscience and machine learning suggests that incorporating key principles from the human brain—such as sparse, modular network architectures—can enable the development of more interpretable and controllable AI models. At the same time, ensuring these systems are genuinely beneficial requires robust frameworks for AI alignment. These frameworks draw on ethics, policy, and advanced neurotechnology to detect latent internal states and guide system behavior toward socially acceptable outcomes.\nThis special session will highlight recent progress in brain-inspired mechanistic interpretability, ethical alignment strategies, and neurotechnology-driven cognitive understanding of AI. We will explore how biologically motivated network structures enable clearer insight into internal representations, how alignment mechanisms can be integrated without sacrificing performance, and how leveraging cognitive neuroscience tools can expand our understanding of human and artificial minds.\nThrough invited talks (spanning academic and industrial perspectives), contributed presentations, and an interdisciplinary panel discussion, attendees will gain a holistic overview of:\n\nBrain-Inspired AI: Sparse and modular architectures, biologically plausible learning rules, and reverse-engineering neural computations.\nAI Alignment: Balancing advanced capabilities with safety, ethical standards, and user trust.\nNeurotechnology Applications: Using neuroimaging and cognitive modeling to interpret AI systems and refine human–machine interaction.\nBy uniting experts from neuroscience, AI, and ethics, this session aims to advance the development of human-centric, transparent, and responsible AI—and ultimately to foster new collaborations that propel the field forward."
+      },
+      "is_international_presentation": true,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://wba-initiative.org/en/25532/",
+          "label": "url",
+          "is_downloadable": false
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/51425579",
+    "type": "presentations",
+    "title": {
+      "ja": "Neuro-aligned AIによる デジタルツイン脳科学",
+      "en": "Neuro-aligned AI by AI brain science"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "Brain/MINDS 2.0ワークショップ: Industry–Academia Teamwork for Super Intelligence",
+      "en": "Workshop: Industry–Academia Teamwork for Super Intelligence, Brain/MINDS 2.0"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/51425579",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "51425579",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-10-08T02:44:00Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-11-25T11:34:36Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田 太陽"
+          },
+          {
+            "name": "池内 与志穂"
+          },
+          {
+            "name": "岸本 泰士郎"
+          }
+        ]
+      },
+      "publication_date": "2025-10-01",
+      "presentation_type": "invited_oral_presentation",
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "@id": "https://www.linkedin.com/posts/carlosenriquegutierrez_brainminds-oist-superintelligence-ugcPost-7379674113453432834-ouma?utm_source=share&utm_medium=member_desktop&rcm=ACoAABbN1_8B6OQqj7sivpj7W9jMFS_9pGU-vG0",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/51425593",
+    "type": "presentations",
+    "title": {
+      "ja": "AIと人間の共創による\"デジタルナレッジマネジメント”～機械組織が拓くナレッジフローの新地平～",
+      "en": "AIと人間の共創による\"デジタルナレッジマネジメント”～機械組織が拓くナレッジフローの新地平～"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "KMSJ 第25回 新産業革命研究部会, 日本ナレッジ・マネジメント学会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/51425593",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "51425593",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-10-08T02:45:43Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-11-25T11:35:14Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2025-09-27",
+      "presentation_type": "invited_oral_presentation",
+      "location": {
+        "ja": "東京大学"
+      },
+      "is_international_presentation": false,
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "@id": "https://peatix.com/event/4554272",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/51157411",
+    "type": "presentations",
+    "title": {
+      "ja": "Present and future of public goods funding",
+      "en": "Present and future of public goods funding"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "ETH Tokyo"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/51157411",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "51157411",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-09-14T07:24:27Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-09-14T07:24:54Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "Eliza Pancake"
+          },
+          {
+            "name": "David Casey"
+          },
+          {
+            "name": "Hiro Taiyo Hamada"
+          }
+        ],
+        "en": [
+          {
+            "name": "Eliza Pancake"
+          },
+          {
+            "name": "David Casey"
+          },
+          {
+            "name": "Hiro Taiyo Hamada"
+          }
+        ]
+      },
+      "publication_date": "2025-09-12",
+      "languages": [
+        "eng"
+      ],
+      "presentation_type": "nominated_symposium",
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://x.com/Ethereum_JP/status/1966368003970445515",
+          "label": "url"
+        },
+        {
+          "is_downloadable": false,
+          "@id": "https://www.ethtokyo.org/",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/50241166",
+    "type": "presentations",
+    "title": {
+      "ja": "AGI・脳・社会：ヒト脳型 AGI はヒトとAI社会の“信頼”の架け橋になるか？ (パネルディスカッション)"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "第10回WBAシンポジウム"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/50241166",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "50241166",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-05-25T15:40:25Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-08-08T16:19:19Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "栗原 聡(慶應義塾大学)"
+          },
+          {
+            "name": "相澤彰子"
+          },
+          {
+            "name": "報学研究所"
+          },
+          {
+            "name": "高橋恒一"
+          },
+          {
+            "name": "濱田太陽"
+          },
+          {
+            "name": "式会社アラヤ"
+          },
+          {
+            "name": "山川宏(WBAI)"
+          }
+        ]
+      },
+      "publication_date": "2025-09-04",
+      "from_event_date": "2025-09-04",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "nominated_symposium",
+      "promoter": {
+        "ja": "NPO法人 全脳アーキテクチャ・イニシアティブ"
+      },
+      "location": {
+        "ja": "東京大学鉄門記念講堂"
+      },
+      "address_country": "JPN",
+      "description": {
+        "ja": "急速に発展する AGI と大規模言語モデルが私たちの日常に溶け込みつつある今、「AI をどこまで信頼できるのか」という問いは一層切実になっています。設立 10 周年を迎えた全脳アーキテクチャ・イニシアティブ（WBAI）は、脳科学に根ざしたヒト脳型 AGI を「ヒトと AI 社会のあいだに立つ〈介在者〉」と位置づけ、説明できる・安全に使える AI を社会へ届ける道筋を探ります。シンポジウム当日は、松尾豊氏の特別講演に続き、基調講演でヒト脳型 AGI が〈介在者〉として果たす役割を俯瞰します。BRA 駆動開発セッションでは解釈性と安全性を高める具体的なツールや設計手法を紹介し、10 周年記念表彰で技術発展とコミュニティへの貢献を称えます。締めくくりのパネル討論では、技術・倫理・政策の第一人者が「信頼される AI 社会」へのロードマップを議論し、ヒト脳型 AGI がヒトと AI 社会を結ぶ架け橋となる可能性を探ります。研究者・技術者はもちろん、企業・政策担当者、学生、そして未来の AI 社会に関心を寄せるすべての方々と、ヒト脳型 AGI がもたらす信頼の可能性を共有できれば幸いです。"
+      },
+      "is_international_presentation": false,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://wba-initiative.org/26615/",
+          "label": "url"
+        },
+        {
+          "is_downloadable": false,
+          "@id": "https://wba-meetup.connpass.com/event/364329/",
+          "label": "url"
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/50762311",
+    "type": "presentations",
+    "title": {
+      "ja": "Thinking Machines, Feeling Minds: AI’s Next Frontier",
+      "en": "Thinking Machines, Feeling Minds: AI’s Next Frontier"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "Bridge Osaka"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/50762311",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "50762311",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-08-02T13:28:54Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-08-02T13:28:54Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "Hiro Taiyo Hamada"
+          }
+        ]
+      },
+      "publication_date": "2025-07-28",
+      "languages": [
+        "eng"
+      ],
+      "presentation_type": "public_discourse",
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.worldmediabridge.com/en/",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/50384427",
+    "type": "presentations",
+    "title": {
+      "ja": "Anthropic Research Salon Tokyo"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "Anthropic Research Salon | Tokyo"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/50384427",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "50384427",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-06-12T14:52:28Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-08-06T12:35:34Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "Stuart Ritchie"
+          },
+          {
+            "name": "Elie Schoppik"
+          },
+          {
+            "name": "Dr. Hiroaki Hamada"
+          },
+          {
+            "name": "Dr. Makoto Taiji"
+          }
+        ]
+      },
+      "publication_date": "2025-06-26",
+      "presentation_type": "nominated_symposium",
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.araya.org/publications/news20250701/",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/50232445",
+    "type": "presentations",
+    "title": {
+      "ja": "技術革新と脅威の調和ー説明可能AIを考える。"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "Explainable AI Workshop"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/50232445",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "50232445",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-05-23T14:07:46Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-06-21T08:43:46Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "渡辺 琢也"
+          },
+          {
+            "name": "飯田 正仁"
+          },
+          {
+            "name": "濱田 太陽"
+          },
+          {
+            "name": "林 祐輔"
+          },
+          {
+            "name": "橋本 崇"
+          },
+          {
+            "name": "趙 亮"
+          }
+        ]
+      },
+      "publication_date": "2025-06-07",
+      "presentation_type": "invited_oral_presentation",
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://aw.gsais.kyoto-u.ac.jp/ja/activities/explainable-ai",
+          "label": "url"
+        },
+        {
+          "is_downloadable": true,
+          "@id": "https://speakerdeck.com/hiroakihamada/biao-xian-ji-he-niyoru-aiaraimentotoji-jie-zu-zhi",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/50232433",
+    "type": "presentations",
+    "title": {
+      "ja": "ヒューマンセンシングの最前線: 感情をデータ化する技術と感情のリアル"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "OTSUNAGI株式会社主催ウェビナー"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/50232433",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "50232433",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2025-05-23T14:03:09Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2025-05-23T14:03:09Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "下地 貴明"
+          },
+          {
+            "name": "松本 豊"
+          },
+          {
+            "name": "太田 昂志"
+          },
+          {
+            "name": "川俣 彰広"
+          },
+          {
+            "name": "長谷川 駿"
+          },
+          {
+            "name": "濱田 太陽"
+          }
+        ]
+      },
+      "from_event_date": "2025-05-29",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/45607008",
+    "type": "presentations",
+    "title": {
+      "ja": "Marmoset whole brain network model based on the structural connectome and gene expression map reproduces the functional connectome with balanced excitation and inhibition.",
+      "en": "Marmoset whole brain network model based on the structural connectome and gene expression map reproduces the functional connectome with balanced excitation and inhibition."
+    },
+    "authors": {},
+    "venue": {
+      "ja": "Neuro2024"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/45607008",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "45607008",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-02-16T16:42:58Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-07-11T13:36:37Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "Hiromichi Tsukada"
+          },
+          {
+            "name": "Ken Nakae"
+          },
+          {
+            "name": "Junichi Hata"
+          },
+          {
+            "name": "Hiro Taiyo Hamada"
+          },
+          {
+            "name": "Keita Tokuda"
+          },
+          {
+            "name": "Carlos Enrique Gutierrez"
+          },
+          {
+            "name": "Henrik Skibbe"
+          },
+          {
+            "name": "Charissa Poon"
+          },
+          {
+            "name": "Alexander Woodward"
+          },
+          {
+            "name": "Shin Ishii"
+          },
+          {
+            "name": "Tomomi Shimogori"
+          },
+          {
+            "name": "Hideyuki Okano"
+          },
+          {
+            "name": "Kenji Doya"
+          }
+        ],
+        "en": [
+          {
+            "name": "Hiromichi Tsukada"
+          },
+          {
+            "name": "Ken Nakae"
+          },
+          {
+            "name": "Junichi Hata"
+          },
+          {
+            "name": "Hiro Taiyo Hamada"
+          },
+          {
+            "name": "Keita Tokuda"
+          },
+          {
+            "name": "Carlos Enrique Gutierrez"
+          },
+          {
+            "name": "Henrik Skibbe"
+          },
+          {
+            "name": "Charissa Poon"
+          },
+          {
+            "name": "Alexander Woodward"
+          },
+          {
+            "name": "Shin Ishii"
+          },
+          {
+            "name": "Tomomi Shimogori"
+          },
+          {
+            "name": "Hideyuki Okano"
+          },
+          {
+            "name": "Kenji Doya"
+          }
+        ]
+      },
+      "publication_date": "2024-07",
+      "from_event_date": "2024-07-24",
+      "to_event_date": "2024-07-27",
+      "presentation_type": "oral_presentation",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/46413826",
+    "type": "presentations",
+    "title": {
+      "ja": "新たなサイエンスムーブメントから見る研究エコシステムの変化",
+      "en": "Change of A Research Ecosystem from the View of Novel Science Movements"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "ジャパン・オープンサイエンス・サミット2024（JOSS2024）",
+      "en": "Japan Open Science Summit 2024 (JOSS2024)"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/46413826",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "46413826",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-05-08T05:13:45Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-07-27T11:53:45Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          },
+          {
+            "name": "柴藤 亮介"
+          },
+          {
+            "name": "藤田 淑子"
+          },
+          {
+            "name": "三浦崇寛"
+          }
+        ]
+      },
+      "publication_date": "2024-06-19",
+      "from_event_date": "2024-06-17",
+      "to_event_date": "2024-06-21",
+      "presentation_type": "nominated_symposium",
+      "promoter": {
+        "ja": "JOSS2024年実行委員会"
+      },
+      "location": {
+        "ja": "オンライン"
+      },
+      "description": {
+        "ja": "近年、科学が社会に与える影響が減少しているという指摘がある。2010年代以降、科学における認知バイアス、再現性の問題、社会的プロセスの硬直性など、いくつかの課題が浮上している。この時期には、フィランソロピーの視点から民間組織が中心となり、北米を中心に新しい研究開発の道を探る動きが見られる。これには、研究の透明性を向上させるための仕組み、研究論文の事前登録やそのためのプラットフォームの整備が含まれる。さらに、科学そのものを研究対象とする「Science of Science」が活発化している。\n\nまた、2018年頃からは、ブロックチェーンを含む分散型技術を利用して科学の課題に取り組む組織が欧州を中心に現れ、世界中で「分散型科学」というコミュニティが形成されている。他方で、民間財団などが社会的インパクトを統計的に測定し、社会介入の効果を評価する取り組みもある。これらの組織は、独自のエコシステムを構築するだけでなく、既存の組織とも連携を始めている。\n\n本セッションでは、フィランソロピー、Science of Science、分散型科学、メタサイエンスの視点から、民間組織を中心に形成されつつある新たな科学エコシステムの可能性について、様々なステイクホルダーと共に議論を行う。"
+      },
+      "is_international_presentation": false,
+      "is_international_collaboration": false,
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://joss.rcos.nii.ac.jp/",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/45803150",
+    "type": "presentations",
+    "title": {
+      "ja": "なぜ神経科学者は脳ではなく言語モデルで研究を行うのか？"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "2024年度日本基礎心理学会第1回フォーラム"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/45803150",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "45803150",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-03-13T16:14:51Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-03-22T06:35:00Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2024-06-08",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "nominated_symposium",
+      "promoter": {
+        "ja": "浅野倫子（東京大学）; 山田祐樹（九州大学）"
+      },
+      "location": {
+        "ja": "東京大学本郷キャンパス 文学部３番大教室"
+      },
+      "address_country": "JPN",
+      "description": {
+        "ja": "まるで人間のように自然な言葉の受け答えをしたり、画像や音声を作ったりすることが可能な生成AI（人工知能）サービスが、私たちの生活に急速に浸透しつつあります。\nこのような「人間っぽい」生成AIサービスや、それを支える大規模言語モデルなどの「AI技術」（ここでは大まかにそう呼びます）は、人間の内面の情報処理を知ろうとする実験心理学に、どのように、どこまで活用できるのでしょうか。\n このフォーラムでは、AI技術を用いた実験心理学研究を実践されている3名の研究者をお招きし、その取り組みについてお話しいただきます。AIと実験心理学との関係についての活発な議論の場になることを期待しています。多くの方のご来場をお待ちしております。"
+      },
+      "is_international_presentation": false,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://psychonomic.jp/forum/index.html",
+          "label": "url"
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/46606008",
+    "type": "presentations",
+    "title": {
+      "ja": "ポジティブな心理特性が歩行パターンに及ぼす影響 ―3ヶ月間のライフログ分析による研究―"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "日本生理心理学会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/46606008",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "46606008",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-05-26T13:17:40Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-05-26T13:17:40Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "寺田木香野"
+          },
+          {
+            "name": "平尾貴大"
+          },
+          {
+            "name": "井上昌彦"
+          },
+          {
+            "name": "磯村昇太"
+          },
+          {
+            "name": "濱田太陽"
+          },
+          {
+            "name": "萩原一平"
+          },
+          {
+            "name": "山田真希子"
+          }
+        ]
+      },
+      "from_event_date": "2024-05-24",
+      "to_event_date": "2024-05-26",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "poster_presentation",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/44443502",
+    "type": "presentations",
+    "title": {
+      "ja": "言語 モデルによる心理的構成概念の再構成"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "自然言語処理学会(NLP)2024"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/44443502",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "44443502",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-01-12T07:15:39Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-01-15T17:06:36Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "藤澤 逸平"
+          },
+          {
+            "name": "山田 祐樹"
+          },
+          {
+            "name": "川北 源二"
+          },
+          {
+            "name": "濱田 太陽"
+          }
+        ]
+      },
+      "publication_date": "2024-03",
+      "from_event_date": "2024-03",
+      "to_event_date": "2024-03",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "poster_presentation",
+      "is_international_presentation": false,
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://doi.org/10.17605/OSF.IO/NSQBA",
+          "label": "url"
+        },
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/45624247",
+    "type": "presentations",
+    "title": {
+      "ja": "オープンデータやソースを活用した脳科学研究の進め方"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "CAN 応用脳科学アカデミー"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/45624247",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "45624247",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-02-19T15:11:14Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-02-19T15:11:14Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2024-02-19",
+      "presentation_type": "public_discourse",
+      "description": {
+        "ja": "本セミナーでは、オープンサイエンス、オープンイノベーションの潮流を踏まえた脳科学研究の進め方を事例とともに紹介する。\n\n最初のセッションでは、世界中のデータバンクの紹介、オープンデータの活用方法、予備検証や特許化などにおける研究事例について紹介する。また、データ収集や解析プラットフォームの構築方法から、効果的なエコシステムの築き方についても掘り下げていく。\n\n続いて、アラヤの研究支援事例を基に、外部研究機関の活用例やそのタイミングに焦点を当てる。\nこのセミナーを通じて、オープンデータを活用した最先端の研究方法や、外部研究機関との連携の重要性を知り、自社研究開発や研究DX推進に活かしていただくことを目的とする。"
+      },
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.dropbox.com/scl/fi/4jltlsqr08gdm36re8n77/_.pdf?rlkey=0jhyh2il1j72tbrktvvwymjs4&dl=0",
+          "label": "url"
+        },
+        {
+          "is_downloadable": false,
+          "@id": "https://www.can-neuro.org/2023/t_araya/4922/",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/43146226",
+    "type": "presentations",
+    "title": {
+      "ja": "自己主権型アイデンティティが導く分散型イノベーションコモンズ"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "Chugai Innovation Day 2023"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/43146226",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "43146226",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-08-20T17:50:32Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-11-26T13:18:34Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2023-11-16",
+      "from_event_date": "2023-11-16",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "invited_oral_presentation",
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.chugai-pharm.co.jp/profile/digital/news/20231121120000.html",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/43906272",
+    "type": "presentations",
+    "title": {
+      "ja": "Optogenetic activation of dorsal raphe serotonin neurons induces a brain-wide activation of reward-related circuits",
+      "en": "Optogenetic activation of dorsal raphe serotonin neurons induces a brain-wide activation of reward-related circuits"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "Society for Neuroscience 2023",
+      "en": "Society for Neuroscience 2023"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/43906272",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "43906272",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-10-30T04:43:33Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-11-07T02:12:46Z",
+      "presenters": {
+        "en": [
+          {
+            "name": "Hiro Taiyo Hamada"
+          },
+          {
+            "name": "Yoshifumi Abe"
+          },
+          {
+            "name": "Norio Takata"
+          },
+          {
+            "name": "Masakazu Taira"
+          },
+          {
+            "name": "Kenji F Tanaka"
+          },
+          {
+            "name": "Kenji Doya"
+          }
+        ]
+      },
+      "publication_date": "2023-11-12",
+      "from_event_date": "2023-11-11",
+      "to_event_date": "2023-11-15",
+      "languages": [
+        "eng"
+      ],
+      "presentation_type": "poster_presentation",
+      "dataset": {
+        "dataset_name": "SfN2023_Hamada1027.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/43906272/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/43906272/attachment_file.pdf?thumbnail"
+      },
+      "rm:is_open_access": true,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/43146232",
+    "type": "presentations",
+    "title": {
+      "ja": "研究開発における新たな科学運営モデル"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "研究・イノベーション学会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/43146232",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "43146232",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-08-20T17:57:44Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-11-07T02:12:09Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2023-10-29",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "oral_presentation",
+      "description": {
+        "ja": "科学はイノベーションの基盤となり産業発展の礎を担ってきた。しかし、イノベーションの停滞、近年 研究開発のコスト増加、学術雑誌の高騰など様々な課題も指摘されてきた。近年、これらの課題を個別 のテーマで解決しようとする民間組織が増えてきている。その中には新たな科学運営モデルを提案する 重点研究組織(FRO)、民間型高等研究計画局(PARPA)、グラント型自律分散型組織(DAO)も出現している。 本報告では、新たな科学運営モデルを、技術移転の「死の谷」の観点から整理する。まずメタサイエン スムーブメントについて背景を説明し、新たな科学エコシステムについて紹介する。次に、技術移転政 策である Small Business Innovation Research(SBIR)について概観し、技術移転の死の谷について紹介 する。そして、既存・新規の科学運営モデルについて技術移転の観点から整理する。これによりメタサイエンスムーブメントを理解することに寄与したい。"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": true,
+          "@id": "https://doi.org/10.51094/jxiv.510",
+          "label": "url"
+        },
+        {
+          "is_downloadable": true,
+          "@id": "https://www.dropbox.com/scl/fi/q4j2ztfda8l9dhlj7kw5k/_-2023.pdf?rlkey=9ote3q6fotw57iqyjp8dlrfaq&dl=0",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/43170974",
+    "type": "presentations",
+    "title": {
+      "ja": "Engineering meta-space of science: An exploration of scientific management models",
+      "en": "Engineering meta-space of science: An exploration of scientific management models"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "DeSci.Berlin",
+      "en": "DeSci.Berlin"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/43170974",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "43170974",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-08-22T13:06:59Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-09-13T05:14:31Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ],
+        "en": [
+          {
+            "name": "Hiroaki Hamada"
+          }
+        ]
+      },
+      "publication_date": "2023-09-08",
+      "from_event_date": "2023-09-08",
+      "to_event_date": "2023-09-09",
+      "languages": [
+        "eng"
+      ],
+      "presentation_type": "oral_presentation",
+      "promoter": {
+        "ja": "Molecule"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": true,
+          "@id": "https://www.dropbox.com/scl/fi/lmk784k2q8r737we6i3x1/desci.berlin2023.pdf?rlkey=dmum49771dionp28q68fee907&dl=0",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/44418796",
+    "type": "presentations",
+    "title": {
+      "ja": "深層的特徴を考慮した自然言語処理による意識体験ナラティブ分析の試み"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "第257回情報処理学会 自然言語処理(NL)研究発表会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/44418796",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "44418796",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-01-09T07:15:43Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-01-09T07:16:23Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "土井智暉"
+          },
+          {
+            "name": "宮原克典"
+          },
+          {
+            "name": "新川拓哉"
+          },
+          {
+            "name": "濱田太陽"
+          },
+          {
+            "name": "西田知史"
+          },
+          {
+            "name": "谷中瞳"
+          }
+        ]
+      },
+      "publication_date": "2023-09-01",
+      "presentation_type": "oral_presentation",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/43000030",
+    "type": "presentations",
+    "title": {
+      "ja": "Exploring neural signature of the phenomenological attitude toward conscious experience.",
+      "en": "Exploring neural signature of the phenomenological attitude toward conscious experience."
+    },
+    "authors": {},
+    "venue": {
+      "ja": "CoRN 2023",
+      "en": "CoRN 2023"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/43000030",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "43000030",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-08-04T13:39:45Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-09-04T13:53:27Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "Miyahara, K"
+          },
+          {
+            "name": "Hamada, H.T"
+          },
+          {
+            "name": "Niikawa, T"
+          },
+          {
+            "name": "Nishida, S"
+          }
+        ]
+      },
+      "from_event_date": "2023-08-26",
+      "to_event_date": "2023-08-28",
+      "presentation_type": "poster_presentation",
+      "is_international_presentation": true,
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.conresnet.org/corn-2023.html",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/43000025",
+    "type": "presentations",
+    "title": {
+      "ja": "意識経験に対する現象学的態度の神経メカニズム"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "第46回日本神経科学大会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/43000025",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "43000025",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-08-04T13:36:21Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-08-04T13:36:21Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "西田知史"
+          },
+          {
+            "name": "濱田太陽"
+          },
+          {
+            "name": "新川拓哉"
+          },
+          {
+            "name": "宮原克典"
+          }
+        ]
+      },
+      "from_event_date": "2023-08-01",
+      "to_event_date": "2023-08-04",
+      "presentation_type": "poster_presentation",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "35758734"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/35758734",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/44418804",
+    "type": "presentations",
+    "title": {
+      "ja": "Neural mechanisms underlying phenomenological attitude toward conscious experience",
+      "en": "Neural mechanisms underlying phenomenological attitude toward conscious experience"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "第46回日本神経科学大会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/44418804",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "44418804",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2024-01-09T07:18:00Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2024-01-09T07:18:54Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "Nishida S"
+          },
+          {
+            "name": "Hamada HT"
+          },
+          {
+            "name": "Niikawa T"
+          },
+          {
+            "name": "Miyahara K"
+          }
+        ],
+        "en": [
+          {
+            "name": "Nishida S"
+          },
+          {
+            "name": "Hamada HT"
+          },
+          {
+            "name": "Niikawa T"
+          },
+          {
+            "name": "Miyahara K"
+          }
+        ]
+      },
+      "publication_date": "2023-08-03",
+      "presentation_type": "poster_presentation",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/42593115",
+    "type": "presentations",
+    "title": {
+      "en": "Neural signature of phenomenological attitude toward perceptual experience"
+    },
+    "authors": {},
+    "venue": {
+      "en": "Association of Scientific Studies of Consciousness 26"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/42593115",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "42593115",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-06-22T16:14:51Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-06-22T16:14:51Z",
+      "presenters": {
+        "en": [
+          {
+            "name": "Satoshi Nishida"
+          },
+          {
+            "name": "Hiro Taiyo Hamada"
+          },
+          {
+            "name": "Takuya Niikawa"
+          },
+          {
+            "name": "Katsunori Miyahara"
+          }
+        ]
+      },
+      "publication_date": "2023-06",
+      "languages": [
+        "eng"
+      ],
+      "presentation_type": "poster_presentation",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/42206135",
+    "type": "presentations",
+    "title": {
+      "ja": "web3 x 科学: 分散型科学が目指すマルチプラットフォーム : web3って本当に科学に使えるの？ ~分散型科学が築く社会~"
+    },
+    "authors": {},
+    "venue": {},
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/42206135",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "42206135",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-05-05T15:45:26Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-05-05T15:45:26Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2023-04-12",
+      "dataset": {
+        "dataset_name": "web3 x 科学.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/42206135/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/42206135/attachment_file.pdf?thumbnail"
+      },
+      "promoter": {
+        "ja": "Scienc-ome"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.slideshare.net/ssuserd53390/web3-x",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/42206144",
+    "type": "presentations",
+    "title": {
+      "ja": "DeSciの基盤が構築する世界"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "独立行政法人経済産業研究所（RIETI）"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/42206144",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "42206144",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-05-05T15:54:50Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-07-08T09:37:02Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2023-03-29",
+      "dataset": {
+        "dataset_name": "DeSciの基盤が構築する世界.pptx",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/42206144/attachment_file.pptx",
+        "rm:media_type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+        "rm:use_password": false
+      },
+      "promoter": {
+        "ja": "独立行政法人経済産業研究所（RIETI）"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.rieti.go.jp/jp/events/23032901/info.html",
+          "label": "url"
+        },
+        {
+          "is_downloadable": false,
+          "@id": "https://www.rieti.go.jp/jp/events/bbl/23032901.html",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/42206274",
+    "type": "presentations",
+    "title": {
+      "ja": "ニューロテクノロジーの課題と未来"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "アラヤにおけるニューロテック事業の取り組みと将来の展望：株式会社アラヤ"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/42206274",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "42206274",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2023-05-05T16:03:25Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2023-05-05T16:04:59Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2023-02-17",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "public_discourse",
+      "dataset": {
+        "dataset_name": "ニューロテクノロジーの課題と未来.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/42206274/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/42206274/attachment_file.pdf?thumbnail"
+      },
+      "promoter": {
+        "ja": "応用脳科学アカデミー"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.can-neuro.org/2022/2022_technical/2022-tech_2/2971/",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/40313963",
+    "type": "presentations",
+    "title": {
+      "ja": "人類のデータを使って学習する人工主体の公共的役割を考える"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "科学基礎論学会 秋の研究例会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/40313963",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "40313963",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-10-23T14:42:19Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-11-07T06:30:23Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2022-11-06",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/40313968",
+    "type": "presentations",
+    "title": {
+      "ja": "Web3 テクノロジーによるサイエンスの再設計の動き"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "研究・イノベーション学会"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/40313968",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "40313968",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-10-23T14:46:40Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-10-30T02:58:51Z",
+      "publication_date": "2022-10-30",
+      "rm:is_open_access": false
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/40308110",
+    "type": "presentations",
+    "title": {
+      "ja": "サイエンスの地殻変動とDeSciの可能性"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "人文/社会科学領域の研究をエンパワーするには？──社会との接続、資金調達の方法を考える【De-Siloローンチ記念イベント】"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/40308110",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "40308110",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-10-21T16:16:06Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-10-25T08:25:34Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2022-10-22",
+      "presentation_type": "public_discourse",
+      "dataset": {
+        "dataset_name": "『De-Sci』（分散型サイエンス）』がひらく世界 10_22.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/40308110/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/40308110/attachment_file.pdf?thumbnail"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.slideshare.net/ssuserd53390/desci-253785817",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/40012370",
+    "type": "presentations",
+    "title": {
+      "ja": "分散型サイエンスの誕生と可能性"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "京都大学学術情報メディアセンターセミナー「Web3時代の新しい研究スタイル」"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/40012370",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "40012370",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-09-18T14:27:04Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-09-22T02:48:48Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2022-09-20",
+      "languages": [
+        "jpn"
+      ],
+      "presentation_type": "public_discourse",
+      "dataset": {
+        "dataset_name": "hamada_0920.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/40012370/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/40012370/attachment_file.pdf?thumbnail"
+      },
+      "promoter": {
+        "ja": "学術情報メディアセンターセミナー「Web3時代の新しい研究スタイル」"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.media.kyoto-u.ac.jp/accms_web/event/2592.html",
+          "label": "url"
+        },
+        {
+          "is_downloadable": true,
+          "@id": "https://www.slideshare.net/ssuserd53390/ss-253059613",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/39728951",
+    "type": "presentations",
+    "title": {
+      "ja": "分散型サイエンスにおけるバイオテックエコシステム"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "慶應義塾大学 精神病態生理学 研究室研究セミナー"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/39728951",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "39728951",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-08-25T01:07:19Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-08-25T01:30:27Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2022-08-24",
+      "dataset": {
+        "dataset_name": "分散型サイエンスにおけるバイオテックエコシステム.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/39728951/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/39728951/attachment_file.pdf?thumbnail"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.slideshare.net/ssuserd53390/pptx-252679670",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/39487560",
+    "type": "presentations",
+    "title": {
+      "ja": "ブロックチェーン技術が拓くオープンサイエンスの未来 ～分散型サイエンスによるインセンティブ設計～"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "東北大学研究DX戦略セミナー 第4回"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/39487560",
+    "refereed": null,
+    "invited": true,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "39487560",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-08-03T09:21:20Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-08-25T01:21:55Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2022-08-02",
+      "presentation_type": "public_discourse",
+      "dataset": {
+        "dataset_name": "ブロックチェーン技術が拓くオープンサイエンスの未来_08022022.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/39487560/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/39487560/attachment_file.pdf?thumbnail"
+      },
+      "rm:is_open_access": true,
+      "see_also": [
+        {
+          "is_downloadable": false,
+          "@id": "https://www.youtube.com/watch?v=WDe8G98627o",
+          "label": "url"
+        },
+        {
+          "is_downloadable": false,
+          "@id": "https://www.slideshare.net/ssuserd53390/pdf-252496350",
+          "label": "url"
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/39729150",
+    "type": "presentations",
+    "title": {
+      "ja": "Optogenetic activation of dorsal raphe serotonin neurons induces brain-wide positive responses.",
+      "en": "Optogenetic activation of dorsal raphe serotonin neurons induces brain-wide positive responses."
+    },
+    "authors": {},
+    "venue": {
+      "ja": "Neuro2022",
+      "en": "Neuro2022"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/39729150",
+    "refereed": null,
+    "invited": null,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "39729150",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-08-25T01:32:13Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-08-25T01:33:26Z",
+      "presenters": {
+        "en": [
+          {
+            "name": "Hamada H.T"
+          },
+          {
+            "name": "Abe Y"
+          },
+          {
+            "name": "Takata N"
+          },
+          {
+            "name": "Taira M"
+          },
+          {
+            "name": "Tanaka F.K"
+          },
+          {
+            "name": "Doya K"
+          }
+        ]
+      },
+      "publication_date": "2022-07-02",
+      "languages": [
+        "eng"
+      ],
+      "presentation_type": "poster_presentation",
+      "dataset": {
+        "dataset_name": "Neuro2022_Hamada0702.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/39729150/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/39729150/attachment_file.pdf?thumbnail"
+      },
+      "rm:is_open_access": true
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/37187046",
+    "type": "presentations",
+    "title": {
+      "ja": "分散型サイエンスは新たなオープンサイエンスを可能にするか？"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "JAAS 日本科学振興協会 第1回総会・キックオフミーティング"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/37187046",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "37187046",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-06-17T15:45:46Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-06-17T15:47:01Z",
+      "publication_date": "2022-06-19",
+      "presentation_type": "poster_presentation",
+      "dataset": {
+        "dataset_name": "2022JuneJAASポスター.pdf",
+        "access_url": "https://researchmap.jp/hirotaiyohamada/presentations/37187046/attachment_file.pdf",
+        "rm:media_type": "application/pdf",
+        "rm:use_password": false,
+        "thumbnail_url": "https://researchmap.jp/hirotaiyohamada/presentations/37187046/attachment_file.pdf?thumbnail"
+      },
+      "rm:is_open_access": true
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/presentations/40308114",
+    "type": "presentations",
+    "title": {
+      "ja": "人間関係に介入するAIエージェントの可能性と倫理"
+    },
+    "authors": {},
+    "venue": {
+      "ja": "The 36th Annual Conference of the Japanese Society for Artificial Intelligence"
+    },
+    "year": null,
+    "date": null,
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/presentations/40308114",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "presentations",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/presentations",
+      "rm:id": "40308114",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2022-10-21T16:19:52Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2022-10-21T16:19:52Z",
+      "presenters": {
+        "ja": [
+          {
+            "name": "濱田太陽"
+          }
+        ]
+      },
+      "publication_date": "2022-06-16",
+      "rm:is_open_access": false
+    }
+  }
+]
