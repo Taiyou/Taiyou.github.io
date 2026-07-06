@@ -1,5 +1,127 @@
 [
   {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/54336038",
+    "type": "published_papers",
+    "title": {
+      "ja": "Science in the Loop: From Research Automation to System-Level Optimization",
+      "en": "Science in the Loop: From Research Automation to System-Level Optimization"
+    },
+    "authors": {
+      "en": [
+        "Hiro Taiyo Hamada",
+        "Shiro Takagi"
+      ]
+    },
+    "venue": {
+      "ja": "zenodo"
+    },
+    "year": 2026,
+    "date": "2026-07",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/54336038",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "54336038",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2026-07-06T07:20:24Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-07-06T07:20:24Z",
+      "published_paper_owner_roles": [
+        "lead",
+        "corresponding"
+      ],
+      "languages": [
+        "eng"
+      ],
+      "referee": false,
+      "published_paper_type": "research_society",
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "@id": "https://doi.org/10.5281/zenodo.21211892",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
+    }
+  },
+  {
+    "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/54337286",
+    "type": "published_papers",
+    "title": {
+      "ja": "Provider Logo Deciphering the Architecture of Eudaimonia: Sparse Modeling Reveals Distinct Psychological Profiles Across Facets of Flourishing",
+      "en": "Provider Logo Deciphering the Architecture of Eudaimonia: Sparse Modeling Reveals Distinct Psychological Profiles Across Facets of Flourishing"
+    },
+    "authors": {
+      "ja": [
+        "Daisuke Matsuyoshi",
+        "Takahiro Hirao",
+        "Mitsuhiro Miyamae",
+        "Hiro Taiyo Hamada",
+        "Makiko Yamada"
+      ],
+      "en": [
+        "Daisuke Matsuyoshi",
+        "Takahiro Hirao",
+        "Mitsuhiro Miyamae",
+        "Hiro Taiyo Hamada",
+        "Makiko Yamada"
+      ]
+    },
+    "venue": {},
+    "year": 2026,
+    "date": "2026-04",
+    "doi": null,
+    "url": "https://api.researchmap.jp/hirotaiyohamada/published_papers/54337286",
+    "refereed": null,
+    "invited": false,
+    "researcher_permalinks": [
+      "hirotaiyohamada"
+    ],
+    "extra": {
+      "@type": "published_papers",
+      "@reverse": "https://api.researchmap.jp/hirotaiyohamada/published_papers",
+      "rm:id": "54337286",
+      "rm:user_id": "R000010142",
+      "display": "disclosed",
+      "major_achievement": false,
+      "rm:creator_id": "R000010142",
+      "rm:creator_type": "myself",
+      "rm:created": "2026-07-06T09:38:17Z",
+      "rm:modifier_id": "R000010142",
+      "rm:modifier_type": "myself",
+      "rm:modified": "2026-07-06T09:38:17Z",
+      "languages": [
+        "eng"
+      ],
+      "referee": false,
+      "published_paper_type": "research_society",
+      "rm:is_open_access": false,
+      "identifiers": {
+        "rm:research_project_id": [
+          "42593121"
+        ]
+      },
+      "see_also": [
+        {
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/research_projects/42593121",
+          "label": "rm:research_project_id"
+        }
+      ]
+    }
+  },
+  {
     "id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/52167190",
     "type": "published_papers",
     "title": {
@@ -1852,7 +1974,7 @@
       "@reverse": "https://api.researchmap.jp/hirotaiyohamada/research_projects",
       "rm:id": "42593121",
       "rm:user_id": "R000010142",
-      "identifiers_id_modified": "2026-07-03 16:10:32",
+      "identifiers_id_modified": "2026-07-06 09:38:17",
       "display": "disclosed",
       "major_achievement": false,
       "rm:creator_id": "R000010142",
@@ -1886,6 +2008,7 @@
           "JPMJMS2295"
         ],
         "rm:published_paper_id": [
+          "54337286",
           "52167190",
           "50250096",
           "51828811",
@@ -1919,6 +2042,10 @@
         {
           "@id": "https://jglobal.jst.go.jp/redir?url=https%3A%2F%2Fprojectdb.jst.go.jp%2Fgrant%2FJST-PROJECT-22673594%2F&sign=eb2673410560f282c55cddf81dea8f52",
           "label": "url"
+        },
+        {
+          "label": "rm:published_papers",
+          "@id": "https://api.researchmap.jp/hirotaiyohamada/published_papers/54337286"
         },
         {
           "label": "rm:published_papers",
