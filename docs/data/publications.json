@@ -3065,7 +3065,7 @@
       "rm:created": "2025-10-29T13:27:25Z",
       "rm:modifier_id": "R000010142",
       "rm:modifier_type": "myself",
-      "rm:modified": "2026-04-05T11:07:57Z",
+      "rm:modified": "2026-07-24T13:51:56Z",
       "presenters": {
         "ja": [
           {
@@ -3107,7 +3107,14 @@
         "jpn"
       ],
       "presentation_type": "oral_presentation",
-      "rm:is_open_access": false
+      "rm:is_open_access": false,
+      "see_also": [
+        {
+          "@id": "https://prtimes.jp/main/html/rd/p/000000890.000021495.html",
+          "label": "url",
+          "is_downloadable": false
+        }
+      ]
     }
   },
   {
