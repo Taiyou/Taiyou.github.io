@@ -38,7 +38,7 @@
       "rm:created": "2026-04-05T16:05:07Z",
       "rm:modifier_id": "R000010142",
       "rm:modifier_type": "myself",
-      "rm:modified": "2026-07-20T02:00:19Z",
+      "rm:modified": "2026-08-04T06:56:38Z",
       "published_paper_owner_roles": [
         "lead"
       ],
@@ -47,7 +47,19 @@
       ],
       "referee": false,
       "published_paper_type": "symposium",
-      "rm:is_open_access": false
+      "rm:is_open_access": false,
+      "identifiers": {
+        "doi": [
+          "10.11470/oubutsu.95.8_449"
+        ]
+      },
+      "see_also": [
+        {
+          "label": "doi",
+          "@id": "https://doi.org/10.11470/oubutsu.95.8_449",
+          "is_downloadable": false
+        }
+      ]
     }
   },
   {
