@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="{{lang}}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{title}}</title>
   <meta name="description" content="{{description}}">
+  {{alternates}}
   <meta property="og:title" content="{{title}}">
   <meta property="og:description" content="{{description}}">
   <meta property="og:type" content="website">
@@ -17,8 +18,8 @@
 <body>
   <nav class="site-nav" id="site-nav">
     <div class="nav-content">
-      <a class="nav-logo" href="{{root}}">Hiro Taiyo Hamada <span class="cjk">濱田太陽</span></a>
-      <input class="nav-check" type="checkbox" id="nav-check" aria-label="メニューを開く">
+      <a class="nav-logo" href="{{home}}">Hiro Taiyo Hamada <span class="cjk">濱田太陽</span></a>
+      <input class="nav-check" type="checkbox" id="nav-check" aria-label="{{menu}}">
       <label class="hamburger" for="nav-check" aria-hidden="true"><span></span><span></span><span></span></label>
       <div class="nav-links">{{nav}}</div>
     </div>
@@ -29,7 +30,7 @@
   <footer class="site-footer">
     <p class="footer-name">Hiro Taiyo Hamada · 濱田太陽</p>
     <p class="footer-links">
-      <a href="{{root}}publications/">業績データベース（researchmap から自動更新）</a>
+      <a href="{{root}}publications/">{{footer_db}}</a>
     </p>
     <p class="footer-note">“Per aspera ad astra”</p>
   </footer>

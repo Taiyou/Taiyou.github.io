@@ -17,16 +17,28 @@ SITE_DIR = REPO_ROOT / "site"
 PAGES_DIR = SITE_DIR / "pages"
 OUT_DIR = REPO_ROOT / "docs"
 
-NAV = [
-    ("research", "研究", "research/"),
-    ("projects", "企画・運営", "projects/"),
-    ("achievements", "業績", "achievements/"),
-    ("media", "メディア", "media/"),
-    ("desci", "DeSci", "desci/"),
-    ("code", "コード", "code/"),
-    ("cv", "CV", "cv/"),
-    ("articles", "記事", "articles/"),
-]
+SLUGS = ["research", "projects", "achievements", "media", "desci", "code", "cv", "articles"]
+
+LANGS = {
+    "ja": {
+        "pages": PAGES_DIR,
+        "prefix": "",
+        "labels": ["研究", "企画・運営", "業績", "メディア", "DeSci", "コード", "CV", "記事"],
+        "switch": "EN",
+        "footer_db": "業績データベース（researchmap から自動更新）",
+        "menu": "メニューを開く",
+        "toc": "ページ内目次",
+    },
+    "en": {
+        "pages": PAGES_DIR / "en",
+        "prefix": "en/",
+        "labels": ["Research", "Projects", "Achievements", "Media", "DeSci", "Code", "CV", "Articles"],
+        "switch": "日本語",
+        "footer_db": "Publication database (updated daily from researchmap)",
+        "menu": "Open menu",
+        "toc": "On this page",
+    },
+}
 
 IMG_LINK = r"\[!\[([^\]]*)\]\(([^)\s]+)\)\]\(([^)\s]+)\)"
 IMG = r"!\[([^\]]*)\]\(([^)\s]+)\)"
@@ -156,34 +168,46 @@ def read_page(path: Path) -> tuple[dict[str, str], str]:
     return meta, raw
 
 
-def render_nav(active: str, root: str) -> str:
+def render_nav(lang: str, active: str, root: str) -> str:
+    conf = LANGS[lang]
     links = "".join(
-        f'<a href="{root}{href}"{" class=active" if key == active else ""}>{label}</a>'
-        for key, label, href in NAV
+        f'<a href="{root}{conf["prefix"]}{slug}/"{" class=active" if slug == active else ""}>{label}</a>'
+        for slug, label in zip(SLUGS, conf["labels"])
     )
-    english = '<a class="nav-lang" href="https://sites.google.com/view/hiro-taiyo-hamada/home" target="_blank" rel="noopener">EN</a>'
-    return links + english
+    page = "" if active == "home" else f"{active}/"
+    other = "ja" if lang == "en" else "en"
+    switch = f'<a class="nav-lang" href="{root}{LANGS[other]["prefix"]}{page}" lang="{other}">{conf["switch"]}</a>'
+    return links + switch
 
 
-def wrap(template: str, meta: dict[str, str], body: str, root: str, active: str) -> str:
-    desc = meta.get("description", "濱田太陽 (Hiro Taiyo Hamada) の研究・活動紹介。")
-    title = meta["title"]
+def wrap(template: str, meta: dict[str, str], body: str, root: str, lang: str, active: str) -> str:
+    conf = LANGS[lang]
+    page = "" if active == "home" else f"{active}/"
+    alternates = "\n  ".join(
+        f'<link rel="alternate" hreflang="{code}" href="https://taiyou.github.io/{LANGS[code]["prefix"]}{page}">'
+        for code in LANGS
+    )
     return (
-        template.replace("{{title}}", html.escape(title))
-        .replace("{{description}}", html.escape(desc))
-        .replace("{{nav}}", render_nav(active, root))
+        template.replace("{{lang}}", lang)
+        .replace("{{title}}", html.escape(meta["title"]))
+        .replace("{{description}}", html.escape(meta["description"]))
+        .replace("{{alternates}}", alternates)
+        .replace("{{home}}", root + conf["prefix"])
+        .replace("{{menu}}", conf["menu"])
+        .replace("{{footer_db}}", conf["footer_db"])
+        .replace("{{nav}}", render_nav(lang, active, root))
         .replace("{{content}}", body)
         .replace("{{root}}", root)
     )
 
 
-def render_subpage(meta: dict[str, str], text: str, root: str) -> str:
+def render_subpage(meta: dict[str, str], text: str, root: str, lang: str) -> str:
     content, toc = render_markdown(text, root)
     lead = f'<p class="page-lead">{inline(meta["lead"], root)}</p>' if meta.get("lead") else ""
     side = ""
     if meta.get("toc") == "true" and toc:
         items = "".join(f'<a href="#{a}">{inline(t, root)}</a>' for a, t in toc)
-        side = f'<nav class="toc" aria-label="ページ内目次">{items}</nav>'
+        side = f'<nav class="toc" aria-label="{LANGS[lang]["toc"]}">{items}</nav>'
     layout = "page-grid" if side else "page-single"
     variant = meta.get("variant", "")
     return (
@@ -202,21 +226,28 @@ def build() -> None:
         shutil.copy(SITE_DIR / "assets" / name, OUT_DIR / "assets" / name)
     (OUT_DIR / ".nojekyll").touch()
 
-    # トップページ
-    meta, body = read_page(PAGES_DIR / "index.html")
-    _, news_text = read_page(PAGES_DIR / "_news.md")
-    news, _ = render_markdown(news_text, "./")
-    body = body.replace("{{news}}", news)
-    (OUT_DIR / "index.html").write_text(wrap(template, meta, body, "./", "home"), encoding="utf-8")
+    for lang, conf in LANGS.items():
+        out_dir = OUT_DIR / conf["prefix"]
+        out_dir.mkdir(parents=True, exist_ok=True)
+        depth = conf["prefix"].count("/")
 
-    # 下層ページ
-    for key, _label, href in NAV:
-        meta, text = read_page(PAGES_DIR / f"{key}.md")
-        body = render_subpage(meta, text, "../")
-        dest = OUT_DIR / href
-        dest.mkdir(parents=True, exist_ok=True)
-        (dest / "index.html").write_text(wrap(template, meta, body, "../", key), encoding="utf-8")
-    print(f"Built {len(NAV) + 1} pages into {OUT_DIR}")
+        # トップページ
+        root = "../" * depth or "./"
+        meta, body = read_page(conf["pages"] / "index.html")
+        _, news_text = read_page(conf["pages"] / "_news.md")
+        news, _ = render_markdown(news_text, root)
+        body = body.replace("{{news}}", news)
+        (out_dir / "index.html").write_text(wrap(template, meta, body, root, lang, "home"), encoding="utf-8")
+
+        # 下層ページ
+        root = "../" * (depth + 1)
+        for slug in SLUGS:
+            meta, text = read_page(conf["pages"] / f"{slug}.md")
+            body = render_subpage(meta, text, root, lang)
+            dest = out_dir / slug
+            dest.mkdir(parents=True, exist_ok=True)
+            (dest / "index.html").write_text(wrap(template, meta, body, root, lang, slug), encoding="utf-8")
+    print(f"Built {(len(SLUGS) + 1) * len(LANGS)} pages into {OUT_DIR}")
 
 
 if __name__ == "__main__":

@@ -5,6 +5,7 @@
 ## サイトの編集
 
 - 本文は `site/pages/` にある。トップは `index.html`、お知らせは `_news.md`、下層ページは `research.md` などの Markdown。
+- 英語版の本文は `site/pages/en/` にあり、ファイル構成は日本語版と同じ。`docs/en/` に出力される。
 - 画像は `docs/assets/img/` に置き、Markdown から `![説明](ファイル名.jpg)` で参照する。
 - YouTube は `@youtube 動画ID タイトル` の1行で並べられる。
 - デザインは `site/template.html` と `site/assets/site.css`。

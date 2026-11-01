@@ -310,7 +310,7 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
 .prose .tag {
   display: inline-block; margin: 0 2px; padding: 0 8px; border: 1px solid var(--border); border-radius: 3px;
   background: var(--surface); font-family: var(--sans); font-size: .72rem; font-weight: 500; line-height: 1.6;
-  color: var(--teal); text-decoration: none; white-space: nowrap;
+  color: var(--teal); text-decoration: none; max-width: 100%;
 }
 .prose .tag:hover { border-color: var(--gold-light); color: var(--gold); }
 .prose .figs { display: grid; gap: 14px; margin: 22px 0 26px; align-items: start; }
