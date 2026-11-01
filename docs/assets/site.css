@@ -82,11 +82,13 @@ a:hover { color: var(--gold); }
   background: var(--ink); overflow: hidden;
 }
 .hero-portrait {
-  position: absolute; top: 0; right: 0; width: 56%; height: 100%;
-  object-fit: cover; object-position: 27% 18%;
+  position: absolute; top: 0; right: 0; width: 50%; height: 78%;
+  object-fit: cover; object-position: 30% 0;
   filter: saturate(.86) brightness(.86);
-  -webkit-mask-image: linear-gradient(90deg, transparent, #000 34%);
-  mask-image: linear-gradient(90deg, transparent, #000 34%);
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 34%), linear-gradient(180deg, #000 74%, transparent);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(90deg, transparent, #000 34%), linear-gradient(180deg, #000 74%, transparent);
+  mask-composite: intersect;
   animation: heroReveal 1.6s cubic-bezier(.22, 1, .36, 1) both;
 }
 .hero::after {
@@ -350,8 +352,8 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
 }
 @media (max-width: 640px) {
   .hero { align-items: flex-end; }
-  .hero-portrait { width: 100%; height: 62%; object-position: 58% 0; -webkit-mask-image: none; mask-image: none; }
-  .hero::after { background: linear-gradient(180deg, rgba(15, 25, 35, .1) 18%, rgba(15, 25, 35, .72) 46%, var(--ink) 66%); }
+  .hero-portrait { width: 100%; height: 50%; object-position: 50% 0; -webkit-mask-image: none; mask-image: none; }
+  .hero::after { background: linear-gradient(180deg, rgba(15, 25, 35, .1) 16%, rgba(15, 25, 35, .72) 38%, var(--ink) 51%); }
   .orrery { left: -30%; width: 150vw; top: 34%; opacity: .5; }
   .hero-content { padding: 96px var(--gutter) 44px; }
   .approach { grid-template-columns: 1fr; }
