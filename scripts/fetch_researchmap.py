@@ -1,4 +1,4 @@
-"""researchmap API から研究者プロフィールと業績を取得し docs/data/*.json を生成する。"""
+"""researchmap API から研究者プロフィールと業績を取得し docs/publications/data/*.json を生成する。"""
 
 from __future__ import annotations
 
@@ -24,7 +24,7 @@ MAX_RETRIES = 3
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = REPO_ROOT / "config.yml"
-DATA_DIR = REPO_ROOT / "docs" / "data"
+DATA_DIR = REPO_ROOT / "docs" / "publications" / "data"
 
 log = logging.getLogger("rmap")
 
@@ -237,7 +237,7 @@ def main() -> None:
         },
     )
 
-    log.info("Wrote docs/data/{researchers,publications,meta}.json")
+    log.info("Wrote docs/publications/data/{researchers,publications,meta}.json")
 
 
 if __name__ == "__main__":

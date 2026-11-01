@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>研究 · Hiro Taiyo Hamada</title>
+  <meta name="description" content="濱田太陽の研究内容。セロトニンによる全脳活動の制御、LLMによる構成概念の再構成、構成概念ネットワークによるAIアライメント。">
+  <meta property="og:title" content="研究 · Hiro Taiyo Hamada">
+  <meta property="og:description" content="濱田太陽の研究内容。セロトニンによる全脳活動の制御、LLMによる構成概念の再構成、構成概念ネットワークによるAIアライメント。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://taiyou.github.io/assets/img/portrait.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Shippori+Mincho:wght@400;600&family=Source+Sans+3:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="../assets/site.css">
+</head>
+<body>
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-content">
+      <a class="nav-logo" href="../">Hiro Taiyo Hamada <span class="cjk">濱田太陽</span></a>
+      <input class="nav-check" type="checkbox" id="nav-check" aria-label="メニューを開く">
+      <label class="hamburger" for="nav-check" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links"><a href="../research/" class=active>研究</a><a href="../projects/">企画・運営</a><a href="../achievements/">業績</a><a href="../media/">メディア</a><a href="../desci/">DeSci</a><a href="../code/">コード</a><a href="../cv/">CV</a><a href="../articles/">記事</a><a class="nav-lang" href="https://sites.google.com/view/hiro-taiyo-hamada/home" target="_blank" rel="noopener">EN</a></div>
+    </div>
+  </nav>
+
+  <header class="page-head"><div class="page-head-inner"><p class="section-label">Research</p><h1>研究内容</h1><p class="page-lead">三つのアプローチ（Systems Neuroscience / Cognitive Science / Digital Infrastructure）で人間の脳や知性を理解し、新たな技術への応用を目指します。</p></div></header><main class="page-single"><article class="prose "><h2 id="sec-1">セロトニンによる全脳活動の制御 [Hamada et al., Nat Commun, 2024]</h2>
+<figure class="figs figs-1"><img src="../assets/img/serotonin-1.png" alt="session 1 (awake) の全脳活動マップ" loading="lazy"></figure>
+<figure class="figs figs-1"><img src="../assets/img/serotonin-2.png" alt="セロトニン神経刺激の実験結果" loading="lazy"></figure>
+<p>オプトジェネティクスを利用して覚醒下のマウスの背側縫線核内のセロトニン神経細胞を刺激し、11.7TのMRIで全脳活動を計測。実験結果により、以下のことが明らかになった。</p>
+<ul><li>報酬系を含む全脳から正のBOLD(血中酸素濃度依存型の)信号賦活を確認 (別セッションで賦活を再現)</li><li>先行研究と同じ麻酔下での負のBOLD賦活を確認したが、覚醒下では正の賦活が変わらないことを確認。</li><li>BOLDの賦活は、セロトニン神経投射の強度と相関を示した。</li><li>セロトニン受容体のmRNAマップと神経投射を利用して、BOLDの賦活にフィットさせたところ、抑制系の5-HT1系受容体は負の重みを、興奮系の5-HT2系受容体は正の重みを示した。さらに、麻酔下と覚醒下ではこれらの重みの関係が変化する可能性が示唆された。</li></ul>
+<p>これらの結果をもとに、セロトニン系が脳の制御と認知課題に与える影響について明らかにしていく予定です。</p>
+<p>Hamada H.T.*, Abe Y., Takata N., Taira M, Tanaka F.K. and Doya K*. (2024) Optogenetic activation of dorsal raphe serotonin neurons induces brain-wide activation. Nat Commun 15, 4152. <a href="https://doi.org/10.1038/s41467-024-48489-6" target="_blank" rel="noopener">https://doi.org/10.1038/s41467-024-48489-6</a> <a class="tag" href="https://doi.org/10.1101/2022.08.07.503074" target="_blank" rel="noopener">Preprint</a> <a class="tag" href="https://twitter.com/HiroTHamadaJP/status/1556945435855446018" target="_blank" rel="noopener">Tweets</a> <a class="tag" href="https://openneuro.org/datasets/ds005077" target="_blank" rel="noopener">Dataset</a> <a class="tag" href="https://github.com/Taiyou/OptofMRI_5HT" target="_blank" rel="noopener">Codes</a></p>
+<div class="entry"><h3>関連研究</h3><div class="entry-body"><ul><li>Hata, J., ...., Hamada, H.T. et al., (2023) Multi-modal brain magnetic resonance imaging database covering marmosets with a wide age range. Scientific Data 10, 221. <a href="https://doi.org/10.1101/2022.09.21.508952" target="_blank" rel="noopener">https://doi.org/10.1101/2022.09.21.508952</a></li><li>Youssef, M., Hamada, H.T. et al., (2022) Tob1 is a key effector in hippocampal-mediated acute stress response. Translational Psychiatry 12, 302. <a href="https://doi.org/10.1038/s41398-022-02078-7" target="_blank" rel="noopener">https://doi.org/10.1038/s41398-022-02078-7</a></li><li>Abe, Y.*, Takata, N., Sakai, Y., Hamada, H.T., Hiraoka Y., Aida, T., Tanaka, K., Le Bihan, D., Doya, K., and Tanaka, K.F. (2020) Diffusion functional MRI reveals global brain network functional abnormalities driven by targeted local activity in a neuropsychiatric disease mouse model. NeuroImage. 223. <a href="https://doi.org/10.1016/j.neuroimage.2020.117318" target="_blank" rel="noopener">https://doi.org/10.1016/j.neuroimage.2020.117318</a></li></ul></div></div>
+<h2 id="sec-2">LLMによる構成概念の再構成とマッピング</h2>
+<figure class="figs figs-1"><img src="../assets/img/llm-constructs.png" alt="LLMによる構成概念の再構成の概念図" loading="lazy"></figure>
+<div class="entry"><h3>関連研究</h3><div class="entry-body"><ul><li>Supke, M., Schäfer, S., Yamada, M., Hamada, H. T., Wessa, M., &amp; Lieb, K. (2025). Positive Mental States and Their Relation to Psychosocial Resources: Protocol of a Systematic Review Focusing on Cultural Moderators. BMJ Open <a class="tag" href="https://doi.org/10.17605/OSF.IO/2XKHS" target="_blank" rel="noopener">Preprint</a></li><li>濱田太陽. 2025. 『なぜ神経科学者は脳ではなく言語モデルで研究を行うのか?』 基礎心理学研究. Vol. 43, No. 2, 1-7. <a class="tag" href="https://doi.org/10.14947/psychono.43.23" target="_blank" rel="noopener">DOI</a></li><li>Hamada, H.T. &amp; Harada, Y. Alignment with Psychological Concept Network. ICONIP 2025.</li></ul></div></div>
+<h2 id="sec-3">構成概念ネットワークによるAIアライメント [Hamada et al., ICONIP, 2025]</h2>
+<figure class="figs figs-1"><img src="../assets/img/alignment-network.png" alt="構成概念ネットワークによるAIアライメントの概念図" loading="lazy"></figure>
+<div class="entry"><h3>関連研究</h3><div class="entry-body"><ul><li>Hamada, H.T. &amp; Harada, Y. (2025). Alignment with Psychological Concept Network. The International Conference on Neural Information Processing (ICONIP) 2025. <a class="tag" href="https://doi.org/10.1007/978-981-95-4384-7_36" target="_blank" rel="noopener">DOI</a></li><li>Supke, M., Schäfer, S., Yamada, M., Hamada, H. T., Wessa, M., &amp; Lieb, K. (2024, December 21). Positive Mental States and Their Relation to Psychosocial Resources: Protocol of a Systematic Review Focusing on Cultural Moderators. <a class="tag" href="https://doi.org/10.17605/OSF.IO/2XKHS" target="_blank" rel="noopener">Preprint</a></li><li>濱田太陽. 2025. 『なぜ神経科学者は脳ではなく言語モデルで研究を行うのか?』 基礎心理学研究. Vol. 43, No. 2, 1-7. <a class="tag" href="https://doi.org/10.14947/psychono.43.23" target="_blank" rel="noopener">DOI</a></li></ul></div></div></article></main>
+
+  <footer class="site-footer">
+    <p class="footer-name">Hiro Taiyo Hamada · 濱田太陽</p>
+    <p class="footer-links">
+      <a href="../publications/">業績データベース（researchmap から自動更新）</a>
+    </p>
+    <p class="footer-note">“Per aspera ad astra”</p>
+  </footer>
+  <script src="../assets/site.js" defer></script>
+</body>
+</html>

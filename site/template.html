@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+  <meta property="og:title" content="{{title}}">
+  <meta property="og:description" content="{{description}}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://taiyou.github.io/assets/img/portrait.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Shippori+Mincho:wght@400;600&family=Source+Sans+3:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="{{root}}assets/site.css">
+</head>
+<body>
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-content">
+      <a class="nav-logo" href="{{root}}">Hiro Taiyo Hamada <span class="cjk">濱田太陽</span></a>
+      <input class="nav-check" type="checkbox" id="nav-check" aria-label="メニューを開く">
+      <label class="hamburger" for="nav-check" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links">{{nav}}</div>
+    </div>
+  </nav>
+
+  {{content}}
+
+  <footer class="site-footer">
+    <p class="footer-name">Hiro Taiyo Hamada · 濱田太陽</p>
+    <p class="footer-links">
+      <a href="{{root}}publications/">業績データベース（researchmap から自動更新）</a>
+    </p>
+    <p class="footer-note">“Per aspera ad astra”</p>
+  </footer>
+  <script src="{{root}}assets/site.js" defer></script>
+</body>
+</html>
