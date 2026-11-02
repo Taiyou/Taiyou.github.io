@@ -74,6 +74,7 @@ DeSci Tokyo が制作するインタビュー動画シリーズです。研究�
 [[YouTube: @descitokyo](https://www.youtube.com/@descitokyo)] [[X: @descitokyo](https://x.com/descitokyo)] [[Website](https://desci-tokyo.jp/)]
 
 - 濱田は、全回のインタビュアー（聞き手）を務め、公開の運営を担当しています。
+- 制作: DeSci Tokyo、bitgrit
 
 ### 本編の公開予定
 - 2026年11月10日: 濱田太陽（DeSci Tokyo） — 日本の科学の危機と、市民が科学を支える DeSci（分散型科学）
@@ -84,14 +85,6 @@ DeSci Tokyo が制作するインタビュー動画シリーズです。研究�
 - 2026年12月29日: 鈴木健 博士 後編 — デジタル民主主義、SNS型詐欺広告、AIの原則の多元性
 
 ショート動画は、各回の公開にあわせて2027年1月中旬まで順次公開します。
-
-### 制作
-- 制作: DeSci Tokyo、bitgrit
-- ディレクター: 藤井恵里子
-- 制作進行・品質管理・デザイン: 石川啓子
-- 校正・サムネイル企画: 中越真紀子
-- 翻訳監修・企画: Risako Nakamura
-- 編集: 柴田陽介（濱田回・鈴木回）、銘苅駿（神田回）、佐藤美咲（Brandon Possin 氏回、翻訳も担当）
 
 ## Funding the Commons Tokyo (FtC Tokyo, 2024)
 

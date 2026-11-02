@@ -74,6 +74,7 @@ An interview video series produced by DeSci Tokyo. Researchers, entrepreneurs, a
 [[YouTube: @descitokyo](https://www.youtube.com/@descitokyo)] [[X: @descitokyo](https://x.com/descitokyo)] [[Website](https://desci-tokyo.jp/)]
 
 - Hamada is the interviewer for every episode and manages the release.
+- Production: DeSci Tokyo, bitgrit
 
 ### Release schedule (full episodes)
 - November 10, 2026: Hiro Taiyo Hamada (DeSci Tokyo) — the crisis in Japanese science, and DeSci (decentralized science) as a way for citizens to support it
@@ -84,14 +85,6 @@ An interview video series produced by DeSci Tokyo. Researchers, entrepreneurs, a
 - December 29, 2026: Dr. Ken Suzuki, part 2 — digital democracy, scam ads on social media, and plural principles for AI
 
 Short videos are released alongside each episode through mid-January 2027.
-
-### Credits
-- Production: DeSci Tokyo, bitgrit
-- Director: Eriko Fujii
-- Production management, quality control, and design: Keiko Ishikawa
-- Proofreading and thumbnail planning: Makiko Nakagoshi
-- Translation supervision and planning: Risako Nakamura
-- Editing: Yosuke Shibata (Hamada and Suzuki episodes), Shun Mekaru (Kanda episodes), Misaki Sato (Brandon Possin episode, also translation)
 
 ## Funding the Commons Tokyo (FtC Tokyo, 2024)
 
