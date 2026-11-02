@@ -3,38 +3,55 @@ title: Projects · Hiro Taiyo Hamada
 description: Events and communities organized by Hiro Taiyo Hamada, including DeSci Tokyo, Funding the Commons Tokyo, and Consciousness Club Tokyo.
 label: Projects
 heading: Events and projects
-lead: We have planned and managed various events to explore the future of society and science, and we can plan, film, and manage events for researchers. For inquiries, please email gutenmorgen172 [at] gmail.com.
+lead: I create spaces where researchers, citizens, governments, and companies think together about the future of science and society. From international conferences and speaker invitations to research communities, video and podcast production, and crowdfunding, I take projects from concept through operations and outreach. For events or video projects for researchers, please email gutenmorgen172 [at] gmail.com.
 toc: true
 ---
-![Logos of DeSci Tokyo, Consciousness Club Tokyo, and metascientia](projects-banner.jpg)
+<div class="stats">
+<div class="stat"><p class="stat-num">304</p><p class="stat-label">participants at Funding the Commons Tokyo (United Nations University, two days)</p></div>
+<div class="stat"><p class="stat-num">2,000+</p><p class="stat-label">registered members of Consciousness Club Tokyo (grown from 33)</p></div>
+<div class="stat"><p class="stat-num">5<small>h</small> 43<small>m</small></p><p class="stat-label">to reach the DeSci Tokyo crowdfunding goal, the fastest on the platform</p></div>
+<div class="stat"><p class="stat-num">59</p><p class="stat-label">videos in the DeSci Tokyo interview series (episodes, trailers, and shorts)</p></div>
+</div>
 
-<h2 class="no-toc">Selected events and projects</h2>
+<h2 class="no-toc">What I can help with</h2>
 
-- DeSci Tokyo [[Website](https://desci-tokyo.jp/)]
+<div class="services">
+<div class="service"><h3>International events and symposia</h3><p>Directed Funding the Commons Tokyo (United Nations University, 304 participants), and organized DAO UTokyo (co-hosted with the Ethereum Foundation) and the DeSci Tokyo Conference (nearly 140 participants).</p></div>
+<div class="service"><h3>Inviting speakers from Japan and abroad</h3><p>Speakers have included Audrey Tang, Glen Weyl, Aya Miyaguchi, Max Hodak (former Neuralink CEO), Tali Sharot, and Shinsuke Shimojo, leaders in technology, policy, and consciousness research.</p></div>
+<div class="service"><h3>Running research communities</h3><p>Running DeSci Tokyo since its launch in 2023. As the second lead of Consciousness Club Tokyo, ran 29 talks and grew registrations from 33 to over 2,000.</p></div>
+<div class="service"><h3>Video, podcast, and article production</h3><p>Interviewer for the DeSci Tokyo interview series (59 videos). The podcast metascientia was acknowledged in the book <i>Science of Science</i> (Morikita Publishing) and mentioned in a survey report commissioned by Japan’s Ministry of Education.</p></div>
+<div class="service"><h3>Fundraising and outreach</h3><p>The DeSci Tokyo crowdfunding campaign raised about 2.35 million yen and reached its goal in a platform-record 5 hours 43 minutes. For CHAIN’s campaign, promoted a series of X Spaces that helped reach the 2 million yen goal within 10 days.</p></div>
+<div class="service"><h3>Books and essays</h3><p>Responsible for a section of the Japanese edition of <i>PLURALITY</i> and contributed an essay to <i>Ghost in the Shell: MESSED MESH AMBITIONS</i>, carrying the questions raised at these events into print.</p></div>
+</div>
+
+<h2 class="no-toc">All events and projects</h2>
+
+- DeSci Tokyo interview series (2026-11 ~ 2027-01) [[YouTube](https://www.youtube.com/@descitokyo)]
+  - A video series with Prof. Genki Kanda (Institute of Science Tokyo), Brandon Possin ([Merito Network](https://www.merito.network/about)), and Dr. Ken Suzuki (natural philosopher). Six full episodes and 53 trailers and short videos.
+  - Hamada is the interviewer for the series and manages its release.
+- PRANCE International Symposium “Reverse Alignment: Can a Plural Society Accept AI?” (2026) [[Keio University event page](https://www.keio.ac.jp/ja/org/kgri/event/20260918-01/)]
+  - With E. Glen Weyl as special speaker and a video message from Audrey Tang.
+- [CHAIN crowdfunding](https://readyfor.jp/projects/chain2025) support (goal: 2 million yen, 2025)
+  - With 17 days left and about 1.2 million yen raised, promoted a series of X Spaces and helped reach the 2 million yen goal within 10 days.
 - Funding the Commons Tokyo (2024)
   - Co-hosted with Funding the Commons, July 24–25, 2024, United Nations University, 304 participants
   - Hamada served as director and lead for event planning and operations.
-- [DAO UTokyo](https://www.iii.u-tokyo.ac.jp/event/230921event)
+- [DAO UTokyo](https://www.iii.u-tokyo.ac.jp/event/230921event) (2024)
   - Co-hosted with the Ethereum Foundation, February 6–7, 2024, Fukutake Hall, the University of Tokyo, nearly 60 participants
   - Hamada was a member of the event planning team.
 - [DeSci Tokyo Conference (2023)](https://desci-tokyo.jp/descitokyo2023)
   - Organized April 14–15, 2023, SmartNews Office 2F, nearly 140 participants
   - Hamada served as lead for event planning and operations.
-- DeSci Tokyo interview series: 6 full episodes plus 53 trailers and short videos (2026-11 ~ 2027-01) [[YouTube](https://www.youtube.com/@descitokyo)]
-  - We support citizen science and open-ended science. Releasing from November 10, 2026.
-  - Prof. Genki Kanda (Institute of Science Tokyo), parts 1 and 2
-  - Brandon Possin ([Merito Network](https://www.merito.network/about))
-  - Dr. Ken Suzuki (natural philosopher), parts 1 and 2
-  - Hamada is the interviewer for the series and manages its release.
-- [Consciousness Club Tokyo (2019 - 2024)](https://www.youtube.com/@ConsciousnessClubTokyo)
-  - Organizer, 29 sessions, online, subscribers grew from 33 to 2,030
-  - Hamada designed the logo and led planning and operations. Since October 8, 2025, operations have passed to other members, and Hamada contributes as an advisor.
-- [CHAIN crowdfunding](https://readyfor.jp/projects/chain2025) support (goal: 2 million yen, 2025)
-  - With 17 days left and about 1.2 million yen raised, promoted a series of X Spaces and helped reach the 2 million yen goal within 10 days.
+- DeSci Tokyo (2023-02 ~) [[Website](https://desci-tokyo.jp/)]
 - [metascientia](https://x.com/meta_scientia) 2022-10 ~ 2024-05
   - A podcast under the concept of “rethinking science”, introducing and discussing science news, deep-tech startups, and science from a meta perspective.
+- [Consciousness Club Tokyo (2019 - 2025)](https://www.youtube.com/@ConsciousnessClubTokyo)
+  - Organizer, 29 sessions, online, subscribers grew from 33 to 2,030
+  - Hamada designed the logo and led planning and operations. Since October 8, 2025, operations have passed to other members, and Hamada contributes as an advisor.
 - [NeuroAI Exploration Notes: thinking deeply about the brain and AI](https://note.com/arayashiki_/m/me73330fb88a5)
   - Hamada served as article planning lead, author, and editor.
+
+![Logos of DeSci Tokyo, Consciousness Club Tokyo, and metascientia](projects-banner.jpg)
 
 ## Community hub: DeSci Tokyo 2023-02 ~
 

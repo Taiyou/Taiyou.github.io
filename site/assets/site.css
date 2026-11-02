@@ -205,6 +205,23 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
 .project { padding: 30px 32px; }
 .project-year { font-size: 1.7rem; font-weight: 300; color: var(--gold); line-height: 1.2; margin-bottom: 8px; display: flex; align-items: center; gap: 12px; }
 .project-year::before { content: ""; width: 12px; height: 12px; border: 1px solid var(--gold-light); border-radius: 50%; flex: none; }
+.project-grid .featured { grid-column: 1 / -1; }
+.section-intro { max-width: 44em; margin: -12px 0 32px; font-size: 1.05rem; }
+
+/* 実績の数字 */
+.stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px; background: var(--border); border: 1px solid var(--border); margin: 0 0 36px; }
+.stat { background: var(--surface); padding: 20px 22px 18px; }
+.stat-num { font-size: 2.2rem; font-weight: 300; color: var(--gold); line-height: 1.15; white-space: nowrap; }
+.stat-num small { font-size: .46em; margin-left: 3px; }
+.stat-label { font-family: var(--sans); font-size: .8rem; line-height: 1.6; color: var(--muted); margin-top: 6px; }
+.prose .stat-num, .prose .stat-label { margin-bottom: 0; }
+
+/* 依頼できること */
+.services { display: grid; grid-template-columns: repeat(2, 1fr); gap: 14px; margin: 0 0 12px; }
+.service { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 20px 24px; }
+.prose .service h3 { font-size: 1.02rem; margin-bottom: 6px; }
+.prose .service p { font-size: .92rem; line-height: 1.75; color: var(--muted); margin: 0; }
+.speakers { font-size: .95rem; color: var(--muted); }
 
 /* 動画(暗い帯) */
 .film { position: relative; background: var(--ink); color: #fff; overflow: hidden; }
@@ -335,7 +352,8 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
   .hero-content { margin: 0; padding: 32px 0 0; }
   .agents { opacity: .7; -webkit-mask-image: none; mask-image: none; }
   .bio-grid, .theme-grid, .essay-grid, .video-grid { grid-template-columns: 1fr; }
-  .project-grid { grid-template-columns: 1fr; }
+  .project-grid, .services { grid-template-columns: 1fr; }
+  .stats { grid-template-columns: repeat(2, 1fr); }
   .page-grid { display: block; box-sizing: border-box; }
   .toc { position: static; max-height: none; flex-flow: row wrap; gap: 6px 14px; margin-bottom: 36px; }
   .toc a { border-left: 0; padding-left: 0; text-decoration: underline; text-underline-offset: 3px; }

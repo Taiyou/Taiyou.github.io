@@ -3,38 +3,55 @@ title: 企画・運営 · Hiro Taiyo Hamada
 description: DeSci Tokyo、Funding the Commons Tokyo、Consciousness Club Tokyo など、濱田太陽が企画・運営したイベントやコミュニティ。
 label: Projects
 heading: 企画・運営
-lead: 未来の社会・科学のあり方を模索するために様々なイベント企画・運営を実施しました。研究者向けのイベント開催について企画・動画・運営可能です。ご相談は gutenmorgen172 [at] gmail.com まで。
+lead: 科学と社会の未来を、研究者・市民・行政・企業が一緒に考える場をつくってきました。国際カンファレンスの企画と登壇者の招聘、研究コミュニティの運営、動画・ポッドキャストの企画制作、クラウドファンディングまで、構想から運営・発信までを一貫して担います。研究者向けのイベントや動画企画のご相談は gutenmorgen172 [at] gmail.com まで。
 toc: true
 ---
-![DeSci Tokyo, Consciousness Club Tokyo, metascientia のロゴ](projects-banner.jpg)
+<div class="stats">
+<div class="stat"><p class="stat-num">304<small>名</small></p><p class="stat-label">Funding the Commons Tokyo の参加者（国連大学、2日間）</p></div>
+<div class="stat"><p class="stat-num">2,000<small>名超</small></p><p class="stat-label">Consciousness Club Tokyo の登録者（33名から拡大）</p></div>
+<div class="stat"><p class="stat-num">5<small>時間</small>43<small>分</small></p><p class="stat-label">DeSci Tokyo クラウドファンディングの目標達成（同プラットフォーム史上最速）</p></div>
+<div class="stat"><p class="stat-num">59<small>本</small></p><p class="stat-label">DeSci Tokyo インタビューシリーズの動画（本編・予告・ショート）</p></div>
+</div>
 
-<h2 class="no-toc">代表的企画・運営</h2>
+<h2 class="no-toc">お手伝いできること</h2>
 
-- DeSci Tokyo [[Website](https://desci-tokyo.jp/)]
+<div class="services">
+<div class="service"><h3>国際イベント・シンポジウムの企画運営</h3><p>Funding the Commons Tokyo（国連大学、参加304名）ではディレクターとして企画・運営を統括しました。DAO UTokyo（Ethereum Foundation 共催）や DeSci Tokyo Conference（参加140名弱）も手がけています。</p></div>
+<div class="service"><h3>国内外の登壇者の招聘</h3><p>オードリー・タン氏、グレン・ワイル氏、宮口あや氏、Max Hodak 氏（元Neuralink CEO）、Tali Sharot 氏、下條信輔氏など、テクノロジー・政策・意識研究の第一線の方々を迎えてきました。</p></div>
+<div class="service"><h3>研究コミュニティの運営</h3><p>2023年の始動から DeSci Tokyo を運営しています。Consciousness Club Tokyo では2代目代表として29回のトークを運営し、登録者を33名から2,000名超に伸ばしました。</p></div>
+<div class="service"><h3>動画・ポッドキャスト・記事の企画制作</h3><p>DeSci Tokyo インタビューシリーズ（動画59本）で聞き手を務めています。ポッドキャスト metascientia は、書籍『サイエンス・オブ・サイエンス』の謝辞や文部科学省の調査報告書で取り上げられました。</p></div>
+<div class="service"><h3>資金調達と広報</h3><p>DeSci Tokyo のクラウドファンディングで約235万円を集め、同プラットフォーム史上最速の5時間43分で目標を達成しました。CHAIN のクラウドファンディングでは X スペース企画を広報し、10日での目標200万円達成に貢献しました。</p></div>
+<div class="service"><h3>書籍・寄稿による発信</h3><p>『PLURALITY』日本語版の一節を担当し、『攻殻機動隊 MESSED MESH AMBITIONS』に寄稿しました。イベントで投げかけた問いを、書籍のかたちでも残しています。</p></div>
+</div>
+
+<h2 class="no-toc">これまでの企画・運営</h2>
+
+- DeSci Tokyo インタビューシリーズ (2026-11 ~ 2027-01) [[YouTube](https://www.youtube.com/@descitokyo)]
+  - 神田元紀 教授（東京科学大学）、Brandon Possin 氏（[Merito Network](https://www.merito.network/about)）、鈴木健 博士（自然哲学者）に話を伺う動画シリーズ。本編6本、予告・ショート動画53本を順次公開。
+  - 濱田は、インタビュアー（聞き手）を務め、公開の運営を担当しています。
+- PRANCE国際シンポジウム「リバースアラインメント：多元的社会はAIを受容できるか」 (2026) [[慶應義塾 イベントページ](https://www.keio.ac.jp/ja/org/kgri/event/20260918-01/)]
+  - 特別講演者に E. グレン・ワイル氏を迎え、オードリー・タン氏からのビデオメッセージも寄せられました。
+- [CHAINクラウドファンディング](https://readyfor.jp/projects/chain2025) 支援 (目標額200万円, 2025)
+  - 終了17日前時点支援総額約120万円程度の時にスペース企画を広報し、10日で目標金額200万円達成に貢献
 - Funding the Commons Tokyo (2024)
   - 共催: Funding the Commons Tokyo, 2024年7月24・25日, 開催場所: 国連大学, 参加合計: 304名
   - 濱田は、ディレクター・イベント企画・運営代表として参加しました。
-- [DAO UTokyo](https://www.iii.u-tokyo.ac.jp/event/230921event)
+- [DAO UTokyo](https://www.iii.u-tokyo.ac.jp/event/230921event) (2024)
   - 共催: Ethereum Foundation, 2024年2月6・7日, 開催場所: 東京大学福武ホール, 参加合計: 60名弱
   - 濱田は、イベント企画メンバーの一人として参加しました。
 - [DeSci Tokyo Conference (2023)](https://desci-tokyo.jp/descitokyo2023)
   - 主催: 2023年4月14・15日, 開催場所: SmartNews Office2F, 参加合計: 140名弱
   - 濱田は、イベント企画・運営代表として参加しました。
-- DeSci Tokyo インタビュー動画シリーズ（本編6本、予告・ショート動画53本） (2026-11 ~ 2027-01) [[YouTube](https://www.youtube.com/@descitokyo)]
-  - 市民科学やオープンエンドサイエンスを応援しています。2026年11月10日より順次公開。
-  - 神田元紀 教授（東京科学大学） 前編・後編
-  - Brandon Possin 氏（[Merito Network](https://www.merito.network/about)）
-  - 鈴木健 博士（自然哲学者） 前編・後編
-  - 濱田は、インタビュアー（聞き手）を務め、公開の運営を担当しています。
-- [Consciousness Club Tokyo (2019 - 2024)](https://www.youtube.com/@ConsciousnessClubTokyo)
-  - 主催, 29回開催, 開催場所: オンライン, 登録合計: 33 → 2030 名登録
-  - 濱田は、ロゴのデザイン、企画・運営代表として参加しました。※ 現在2025年10月8日より運営は、他のメンバーに引き継ぎ、濱田はアドバイザーとして運営に貢献します。
-- [CHAINクラウドファンディング](https://readyfor.jp/projects/chain2025) 支援 (目標額200万円, 2025)
-  - 終了17日前時点支援総額約120万円程度の時にスペース企画を広報し、10日で目標金額200万円達成に貢献
+- DeSci Tokyo (2023-02 ~) [[Website](https://desci-tokyo.jp/)]
 - [metascientia](https://x.com/meta_scientia) 2022-10 ~ 2024-05
   - 「科学を再考する」をコンセプトに、世界のサイエンスニュースやディープテックスタートアップ、サイエンスをメタな視点で紹介&考察していくポッドキャスト番組。
+- [Consciousness Club Tokyo (2019 - 2025)](https://www.youtube.com/@ConsciousnessClubTokyo)
+  - 主催, 29回開催, 開催場所: オンライン, 登録合計: 33 → 2030 名登録
+  - 濱田は、ロゴのデザイン、企画・運営代表として参加しました。※ 現在2025年10月8日より運営は、他のメンバーに引き継ぎ、濱田はアドバイザーとして運営に貢献します。
 - [ニューロAI探究ノート – 脳とAIを深く考察する](https://note.com/arayashiki_/m/me73330fb88a5)
   - 濱田は、記事企画責任者・執筆者・編集者として参加しました。
+
+![DeSci Tokyo, Consciousness Club Tokyo, metascientia のロゴ](projects-banner.jpg)
 
 ## コミュニティハブ: DeSci Tokyo 2023-02 ~
 
