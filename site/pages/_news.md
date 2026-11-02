@@ -1,3 +1,9 @@
+### 2026/10
+- 濱田がリーダーを務める [Persona Lab](/persona/) が開発するAIパートナープラットフォーム [ClanExe](https://clanexe.araya.org/) の正式版の提供を開始しました。[[プレスリリース](https://www.araya.org/publications/news20261027/)]
+
+### 2026/08
+- アラヤとNTTデータ経営研究所が「AIパネル」の共同研究を開始しました。[[プレスリリース](https://www.araya.org/publications/news20260807/)]
+
 ### 2026/07
 - 濱田がインタビューされた内容が[日経サイエンス 2026年9月号 特集：AI・脳・意識『AI・脳・攻殻機動隊　“ゴースト” は機械に宿るのか』](https://www.nikkei-science.com/page/magazine/202609.html)に掲載されました。
 - TEPIA [[一般財団法人高度技術社会推進協会](https://www.tepia.jp/)] のアドバイザーに就任いたしました。

@@ -1,3 +1,9 @@
+### 2026/10
+- The full version of [ClanExe](https://clanexe.araya.org/), the AI partner platform developed by [Persona Lab](/en/persona/), the team Hamada leads, is now available. [[Press release](https://www.araya.org/publications/news20261027/)]
+
+### 2026/08
+- Araya and NTT DATA Institute of Management Consulting began joint research on an “AI panel.” [[Press release](https://www.araya.org/publications/news20260807/)]
+
 ### 2026/07
 - An interview with Hamada appeared in [Nikkei Science, September 2026 issue, special feature on AI, the brain and consciousness](https://www.nikkei-science.com/page/magazine/202609.html).
 - Hamada was appointed as an advisor to [TEPIA](https://www.tepia.jp/).

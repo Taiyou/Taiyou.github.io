@@ -17,13 +17,13 @@ SITE_DIR = REPO_ROOT / "site"
 PAGES_DIR = SITE_DIR / "pages"
 OUT_DIR = REPO_ROOT / "docs"
 
-SLUGS = ["research", "projects", "achievements", "media", "desci", "code", "cv", "articles"]
+SLUGS = ["research", "persona", "projects", "achievements", "media", "desci", "code", "cv", "articles"]
 
 LANGS = {
     "ja": {
         "pages": PAGES_DIR,
         "prefix": "",
-        "labels": ["研究", "企画・運営", "業績", "メディア", "DeSci", "コード", "CV", "記事"],
+        "labels": ["研究", "ペルソナチーム", "企画・運営", "業績", "メディア", "DeSci", "コード", "CV", "記事"],
         "switch": "EN",
         "footer_db": "業績データベース（researchmap から自動更新）",
         "menu": "メニューを開く",
@@ -32,7 +32,7 @@ LANGS = {
     "en": {
         "pages": PAGES_DIR / "en",
         "prefix": "en/",
-        "labels": ["Research", "Projects", "Achievements", "Media", "DeSci", "Code", "CV", "Articles"],
+        "labels": ["Research", "Persona Lab", "Projects", "Achievements", "Media", "DeSci", "Code", "CV", "Articles"],
         "switch": "日本語",
         "footer_db": "Publication database (updated daily from researchmap)",
         "menu": "Open menu",
