@@ -382,3 +382,32 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
 .pillars .card h3 { font-size: 1.3rem; font-weight: 400; }
 .pillar-stat { margin-top: auto; padding-top: 14px; font-family: var(--sans); font-size: .78rem !important; font-weight: 600; color: var(--gold) !important; border-top: 1px solid var(--border); }
 .pillars .card p:not(.pillar-stat):not(.card-meta) { margin-bottom: 14px; }
+
+/* 講演・企画のご依頼 */
+.hero-cta {
+  display: inline-block; margin-top: 30px; padding: 11px 22px;
+  border: 1px solid var(--gold-light); border-radius: 3px;
+  font-family: var(--sans); font-size: .84rem; font-weight: 600; letter-spacing: .06em;
+  color: #fff; text-decoration: none; animation-delay: .45s; transition: background .2s, color .2s;
+}
+.hero-cta:hover { background: var(--gold-light); color: var(--ink); }
+.contact-grid { display: grid; grid-template-columns: 1.25fr 1fr; gap: clamp(24px, 4vw, 48px); align-items: start; }
+.contact-head { font-family: var(--sans); font-size: .78rem; font-weight: 600; letter-spacing: .12em; color: var(--gold); margin-bottom: 14px; }
+.talk-list { list-style: none; padding: 0; counter-reset: talk; }
+.talk-list li { counter-increment: talk; display: grid; grid-template-columns: 2.2rem 1fr; gap: 2px 8px; padding: 14px 0; border-top: 1px solid var(--border); }
+.talk-list li:last-child { border-bottom: 1px solid var(--border); }
+.talk-list li::before { content: counter(talk, decimal-leading-zero); grid-row: 1 / 3; font-size: 1.2rem; font-weight: 300; color: var(--gold); line-height: 1.5; }
+.talk-title { font-size: 1.05rem; color: var(--heading); line-height: 1.6; }
+.talk-for { font-family: var(--sans); font-size: .78rem; color: var(--muted); }
+.contact-box { background: var(--surface); border: 1px solid var(--border); border-radius: 4px; padding: 24px 26px 26px; }
+.format-list { padding-left: 1.2em; margin-bottom: 16px; }
+.format-list li { margin-bottom: .3em; }
+.format-list li::marker { color: var(--gold-light); }
+.contact-howto { font-size: .92rem; color: var(--muted); line-height: 1.75; margin-bottom: 18px; }
+.contact-mail {
+  display: inline-block; padding: 11px 22px; border-radius: 3px; background: var(--ink); color: #fff;
+  font-family: var(--sans); font-size: .86rem; font-weight: 600; text-decoration: none;
+}
+.contact-mail:hover { background: var(--gold); color: #fff; }
+.contact-addr { margin-top: 10px; font-family: var(--sans); font-size: .82rem; color: var(--muted); }
+@media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; } }

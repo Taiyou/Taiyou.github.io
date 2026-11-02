@@ -214,3 +214,9 @@
     }
   }).observe(hero);
 })();
+
+// 講演・企画のご依頼: メールアドレスは表示時に組み立てる（収集対策）
+document.querySelectorAll('.contact-mail[data-u]').forEach((a) => {
+  const subject = a.dataset.s ? `?subject=${encodeURIComponent(a.dataset.s)}` : '';
+  a.href = `mailto:${a.dataset.u}@${a.dataset.d}${subject}`;
+});
