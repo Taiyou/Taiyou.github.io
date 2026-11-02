@@ -6,6 +6,7 @@ heading: Achievements
 lead: Papers, talks, conference presentations, books, and articles. Titles of works in Japanese are translated here. See also [Google Scholar](https://scholar.google.com/citations?user=twziqrsAAAAJ&hl=en) and the [publication database](/publications/), updated daily from researchmap. Team achievements, including press releases, are on the [Persona Lab](/en/persona/) page.
 toc: true
 ---
+<!--cv-->
 
 ## In preparation
 

@@ -28,6 +28,11 @@ LANGS = {
         "footer_db": "業績データベース（researchmap から自動更新）",
         "menu": "メニューを開く",
         "toc": "ページ内目次",
+        "cv_title": "CV",
+        "cv_desc": "学歴・経験・受賞歴・研究費・スキル",
+        "cv_open": "CVを開く",
+        "cv_close": "閉じる",
+        "cv_page": "CVのページで見る →",
     },
     "en": {
         "pages": PAGES_DIR / "en",
@@ -37,6 +42,11 @@ LANGS = {
         "footer_db": "Publication database (updated daily from researchmap)",
         "menu": "Open menu",
         "toc": "On this page",
+        "cv_title": "CV",
+        "cv_desc": "Education, experience, honors, grants, and skills",
+        "cv_open": "Open CV",
+        "cv_close": "Close",
+        "cv_page": "View the CV page →",
     },
 }
 
@@ -100,7 +110,7 @@ def render_list(lines: list[str], root: str) -> str:
     return "".join(parts)
 
 
-def render_markdown(text: str, root: str) -> tuple[str, list[tuple[str, str]]]:
+def render_markdown(text: str, root: str, prefix: str = "sec") -> tuple[str, list[tuple[str, str]]]:
     lines = text.strip("\n").split("\n")
     out: list[str] = []
     toc: list[tuple[str, str]] = []
@@ -111,7 +121,7 @@ def render_markdown(text: str, root: str) -> tuple[str, list[tuple[str, str]]]:
         if not line.strip():
             i += 1
         elif line.startswith("## "):
-            anchor = f"sec-{len(toc) + 1}"
+            anchor = f"{prefix}-{len(toc) + 1}"
             toc.append((anchor, line[3:].strip()))
             out.append(f'<h2 id="{anchor}">{inline(line[3:].strip(), root)}</h2>')
             i += 1
@@ -122,7 +132,7 @@ def render_markdown(text: str, root: str) -> tuple[str, list[tuple[str, str]]]:
             while i < len(lines) and not re.match(r"^#{2,3} ", lines[i]):
                 block.append(lines[i])
                 i += 1
-            body, _ = render_markdown("\n".join(block), root) if any(s.strip() for s in block) else ("", [])
+            body, _ = render_markdown("\n".join(block), root, prefix) if any(s.strip() for s in block) else ("", [])
             out.append(
                 f'<div class="entry"><h3>{inline(line[4:].strip(), root)}</h3>'
                 f'<div class="entry-body">{body}</div></div>'
@@ -201,8 +211,33 @@ def wrap(template: str, meta: dict[str, str], body: str, root: str, lang: str, a
     )
 
 
+CV_MARKER = "<!--cv-->"
+
+
+def render_cv_drawer(root: str, lang: str) -> str:
+    """業績ページなどに、ボタンで開閉できる CV を埋め込む。"""
+    conf = LANGS[lang]
+    _, cv_text = read_page(conf["pages"] / "cv.md")
+    cv_html, _ = render_markdown(cv_text, root, prefix="cv")
+    return (
+        '<details class="cv-drawer" id="cv">'
+        '<summary>'
+        f'<span class="cv-sum-text"><span class="cv-sum-title">{conf["cv_title"]}</span>'
+        f'<span class="cv-sum-desc">{conf["cv_desc"]}</span></span>'
+        f'<span class="cv-sum-btn"><span class="when-closed">{conf["cv_open"]}</span>'
+        f'<span class="when-open">{conf["cv_close"]}</span></span>'
+        '</summary>'
+        '<div class="cv-drawer-body">'
+        f'<p class="cv-drawer-link"><a href="{root}{conf["prefix"]}cv/">{conf["cv_page"]}</a></p>'
+        f'<div class="timeline cv-embed">{cv_html}</div>'
+        '</div></details>'
+    )
+
+
 def render_subpage(meta: dict[str, str], text: str, root: str, lang: str) -> str:
     content, toc = render_markdown(text, root)
+    if CV_MARKER in content:
+        content = content.replace(CV_MARKER, render_cv_drawer(root, lang))
     lead = f'<p class="page-lead">{inline(meta["lead"], root)}</p>' if meta.get("lead") else ""
     side = ""
     if meta.get("toc") == "true" and toc:

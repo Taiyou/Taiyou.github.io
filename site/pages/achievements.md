@@ -3,9 +3,10 @@ title: 業績 · Hiro Taiyo Hamada
 description: 濱田太陽の論文、招待講演、学会発表、書籍、記事、取材対応の一覧。
 label: Achievements
 heading: 業績
-lead: 論文、講演、学会発表、書籍、記事の一覧です。[Google Scholar](https://scholar.google.com/citations?user=twziqrsAAAAJ&hl=en) と、researchmap から毎日自動更新される[業績データベース](/publications/)もご覧ください。プレスリリースなどチームの業績は[ペルソナチーム](/persona/)にまとめています。
+lead: 論文、講演、学会発表、書籍、記事の一覧です。[Google Scholar](https://scholar.google.com/citations?user=twziqrsAAAAJ&hl=en) と、researchmap から毎日自動更新される[業績データベース](/publications/)もご覧ください。プレスリリースなどチームの業績は[Persona Lab](/persona/)にまとめています。
 toc: true
 ---
+<!--cv-->
 
 ## In preparation
 

@@ -411,3 +411,29 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
 .contact-mail:hover { background: var(--gold); color: #fff; }
 .contact-addr { margin-top: 10px; font-family: var(--sans); font-size: .82rem; color: var(--muted); }
 @media (max-width: 900px) { .contact-grid { grid-template-columns: 1fr; } }
+
+/* 業績ページの CV 引き出し */
+.cv-drawer { margin: 0 0 44px; background: var(--surface); border: 1px solid var(--border); border-radius: 4px; }
+.cv-drawer summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 18px 22px;
+}
+.cv-drawer summary::-webkit-details-marker { display: none; }
+.cv-sum-text { display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px 14px; }
+.cv-sum-title { font-size: 1.3rem; color: var(--heading); }
+.cv-sum-desc { font-family: var(--sans); font-size: .82rem; color: var(--muted); }
+.cv-sum-btn {
+  flex: none; padding: 9px 18px; border-radius: 3px; background: var(--ink); color: #fff;
+  font-family: var(--sans); font-size: .82rem; font-weight: 600; transition: background .2s;
+}
+.cv-drawer summary:hover .cv-sum-btn { background: var(--gold); }
+.cv-drawer .when-open, .cv-drawer[open] .when-closed { display: none; }
+.cv-drawer[open] .when-open { display: inline; }
+.cv-drawer[open] .cv-sum-btn { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 1px var(--border); }
+.cv-drawer-body { padding: 4px 22px 24px; border-top: 1px solid var(--border); }
+.cv-drawer-link { margin: 14px 0 0; font-family: var(--sans); font-size: .82rem; }
+.prose .cv-embed h2 { font-size: 1.2rem; margin: 30px 0 4px; padding-bottom: 8px; }
+.cv-embed .entry { margin: 0; }
+.cv-embed h2 + .entry { border-top: 0; padding-top: 6px; }
+.cv-embed .entry-body { margin-top: 0; }
+.cv-embed .entry ul { margin-bottom: 0; }
