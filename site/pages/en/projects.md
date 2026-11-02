@@ -20,11 +20,12 @@ toc: true
 - [DeSci Tokyo Conference (2023)](https://desci-tokyo.jp/descitokyo2023)
   - Organized April 14–15, 2023, SmartNews Office 2F, nearly 140 participants
   - Hamada served as lead for event planning and operations.
-- DeSci Tokyo interview series and videos, including about 50 short videos (2026)
-  - We support citizen science and open-ended science.
-  - Brandon Possin ([Merito Network](https://www.merito.network/about))
+- DeSci Tokyo interview series: 6 full episodes plus 53 trailers and short videos (2026-11 ~ 2027-01) [[YouTube](https://www.youtube.com/@descitokyo)]
+  - We support citizen science and open-ended science. Releasing from November 10, 2026.
   - Prof. Genki Kanda (Institute of Science Tokyo), parts 1 and 2
+  - Brandon Possin ([Merito Network](https://www.merito.network/about))
   - Dr. Ken Suzuki (natural philosopher), parts 1 and 2
+  - Hamada is the interviewer for the series and manages its release.
 - [Consciousness Club Tokyo (2019 - 2024)](https://www.youtube.com/@ConsciousnessClubTokyo)
   - Organizer, 29 sessions, online, subscribers grew from 33 to 2,030
   - Hamada designed the logo and led planning and operations. Since October 8, 2025, operations have passed to other members, and Hamada contributes as an advisor.
@@ -65,6 +66,32 @@ DeSci Tokyo is a community hub that supports researchers and research organizati
 - Supporter of [Nyx Foundation](https://nyx.foundation/) (formerly Titania Research)
   - Nyx Foundation is a private research institute focused on Ethereum. It runs research, formal verification, white-hat hacking, education, and a research house.
 - [Sponsor of the 1st Science of Science conference (March 16–17, 2024)](https://sciscijp.github.io/scisciconfJP2024/)
+
+## Video series: DeSci Tokyo interviews (2026-11 ~ 2027-01)
+
+An interview video series produced by DeSci Tokyo. Researchers, entrepreneurs, and thinkers talk about research automation, new ways to fund research, and science and society in the age of AI. Six full episodes and 53 trailers and short videos are released on YouTube and X from November 10, 2026 through January 2027. The series supports citizen science and open-ended science. Episodes are in Japanese, except the Brandon Possin episode, which is in English with Japanese subtitles.
+
+[[YouTube: @descitokyo](https://www.youtube.com/@descitokyo)] [[X: @descitokyo](https://x.com/descitokyo)] [[Website](https://desci-tokyo.jp/)]
+
+- Hamada is the interviewer for every episode and manages the release.
+
+### Release schedule (full episodes)
+- November 10, 2026: Hiro Taiyo Hamada (DeSci Tokyo) — the crisis in Japanese science, and DeSci (decentralized science) as a way for citizens to support it
+- November 17, 2026: Prof. Genki Kanda (Institute of Science Tokyo), part 1 — how does science change when robots run the experiments? Reproducibility, experts’ tacit knowledge, and a robotic cloud biology center
+- November 24, 2026: Prof. Genki Kanda, part 2 — how does society change when research is automated? Democratizing science, finding treatments for rare diseases, and research automation as social reform
+- December 7, 2026: Brandon Possin ([Merito Network](https://www.merito.network/about)) — the cost of sending research funds, and the barriers to DeSci in Japan
+- December 21, 2026: Dr. Ken Suzuki (natural philosopher), part 1 — how should humans live in the age of AI? AI and the acquisition of language, AGI, and the illusion of autonomy
+- December 29, 2026: Dr. Ken Suzuki, part 2 — digital democracy, scam ads on social media, and plural principles for AI
+
+Short videos are released alongside each episode through mid-January 2027.
+
+### Credits
+- Production: DeSci Tokyo, bitgrit
+- Director: Eriko Fujii
+- Production management, quality control, and design: Keiko Ishikawa
+- Proofreading and thumbnail planning: Makiko Nakagoshi
+- Translation supervision and planning: Risako Nakamura
+- Editing: Yosuke Shibata (Hamada and Suzuki episodes), Shun Mekaru (Kanda episodes), Misaki Sato (Brandon Possin episode, also translation)
 
 ## Funding the Commons Tokyo (FtC Tokyo, 2024)
 
