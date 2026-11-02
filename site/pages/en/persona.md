@@ -51,7 +51,7 @@ Persona Lab is Araya’s NeuroAI research organization. It aims at the next gene
 Papers and articles related to Persona Lab’s research themes. See also [Achievements](/en/achievements/).
 
 - Harada, Y., Hamada, H.T. (2026) Psychological Concept Neurons: Can Neural Control Bias Probing and Shift Generation in LLMs? [[arXiv](https://arxiv.org/abs/2604.11802)]
-- Hamada, H.T. (2026) Machine organizations through knowledge management: new developments in managing knowledge creation with AI and process management. Oyo Buturi 95(8), 449-452. [[Paper](https://doi.org/10.11470/oubutsu.95.8_449)] [[Announcement](https://www.araya.org/publications/media20260805/)]
+- Hamada, H.T. (2026) Machine Organization with Knowledge Management: New Developments in Knowledge Creation Management through AI and Process Management. Oyo Buturi 95(8), 449-452. [[Paper](https://doi.org/10.11470/oubutsu.95.8_449)] [[Announcement](https://www.araya.org/publications/media20260805/)]
 - Hamada, H.T. (2026) Machine neuroscience with neuro-aligned AI. Journal of the Japanese Society for Artificial Intelligence 41(2), 109-116. [[Paper](https://doi.org/10.11517/jjsai.41.2_109)] [[Press release](https://prtimes.jp/main/html/rd/p/000000066.000049573.html)]
 - Harada, Y., Hamada, H.T. (2026) Where personality concepts are represented in large language models, and how they can be manipulated. The Association for Natural Language Processing 2026. [[PDF](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B5-16.pdf)]
 - Hamada, H.T., Harada, Y. (2026) Alignment with Psychological Concept Network. ICONIP 2025, LNCS vol. 16312. [[Paper](https://doi.org/10.1007/978-981-95-4384-7_36)]

@@ -14,7 +14,7 @@ toc: true
 ## Preprint
 
 - Hamada, H.T., Takagi, S. SCIENCE IN THE LOOP: FROM RESEARCH AUTOMATION TO SYSTEM-LEVEL OPTIMIZATION. [[Preprint]](https://doi.org/10.5281/zenodo.21211892)
-- Hamada, H.T., Ippei Fujisawa, Genji Kawakita, Yuki Yamada, Measuring How LLMs Internalize Human Psychological Dimensions. [[Preprint](https://doi.org/10.48550/arXiv.2506.23055)]
+- Hamada, H.T., Ippei Fujisawa, Genji Kawakita, Yuki Yamada, Measuring How LLMs Internalize Human Psychological Concepts: A preliminary analysis. [[Preprint](https://doi.org/10.48550/arXiv.2506.23055)]
 
 ### Under review
 - Nemoto, K., Kudo, S., Ueda, K., Shirosaki, S. Nomura, A., Weidener, L., Hamada, H.T. The dawn of Decentralized Science (DeSci) in Japan: Values and principles. [[Preprint](https://doi.org/10.31222/osf.io/yxj53_v1)]
@@ -50,7 +50,7 @@ toc: true
 
 ## Invited papers (in Japanese)
 
-- Hamada, H.T. 2026. Machine Organization with Knowledge Management: New Developments in Knowledge Creation Management through AI and Process Management. Oyo Buturi, 95(8), 447-450. [https://doi.org/10.11470/oubutsu.95.8_447](https://doi.org/10.11470/oubutsu.95.8_447) [[Website](https://doi.org/10.11470/oubutsu.95.8_447)]
+- Hamada, H.T. 2026. Machine Organization with Knowledge Management: New Developments in Knowledge Creation Management through AI and Process Management. Oyo Buturi, 95(8), 449-452. [https://doi.org/10.11470/oubutsu.95.8_449](https://doi.org/10.11470/oubutsu.95.8_449) [[Website](https://doi.org/10.11470/oubutsu.95.8_449)]
 - Hamada, H.T. 2026. Machine neuroscience with neuro-aligned AI. Journal of the Japanese Society for Artificial Intelligence, 41(2), 109-116. [https://doi.org/10.11517/jjsai.41.2_109](https://doi.org/10.11517/jjsai.41.2_109) [[X post](https://x.com/HiroTHamadaJP/status/2028253865515380996)] [[Website](https://www.jstage.jst.go.jp/browse/jjsai/41/2/_contents/-char/ja)]
 - Hamada, H.T. 2025. Why do neuroscientists study language models instead of the brain? The Japanese Journal of Psychonomic Science. Vol. 43, No. 2, 1-7. [https://doi.org/10.14947/psychono.43.23](https://doi.org/10.14947/psychono.43.23) [[X post](https://x.com/HiroTHamadaJP/status/1935128212629241970)]
 - Hamada, H.T. 2024. A new ecosystem opened up by decentralized science: the role of DeSci.Tokyo. Information Science and Technology, 74 (3). [https://doi.org/10.18919/jkg.74.3_86](https://doi.org/10.18919/jkg.74.3_86) [[X post](https://doi.org/10.18919/jkg.74.3_86)]

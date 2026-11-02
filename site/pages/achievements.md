@@ -14,7 +14,7 @@ toc: true
 ## Preprint
 
 - Hamada, H.T., Takagi, S. SCIENCE IN THE LOOP: FROM RESEARCH AUTOMATION TO SYSTEM-LEVEL OPTIMIZATION. [[Preprint]](https://doi.org/10.5281/zenodo.21211892)
-- Hamada, H.T., Ippei Fujisawa, Genji Kawakita, Yuki Yamada, Measuring How LLMs Internalize Human Psychological Dimensions. [[Preprint](https://doi.org/10.48550/arXiv.2506.23055)]
+- Hamada, H.T., Ippei Fujisawa, Genji Kawakita, Yuki Yamada, Measuring How LLMs Internalize Human Psychological Concepts: A preliminary analysis. [[Preprint](https://doi.org/10.48550/arXiv.2506.23055)]
 
 ### Under review
 - Nemoto, K., Kudo, S., Ueda, K., Shirosaki, S. Nomura, A., Weidener, L., Hamada, H.T. The dawn of Decentralized Science (DeSci) in Japan: Values and principles. [[Preprint](https://doi.org/10.31222/osf.io/yxj53_v1)]
@@ -50,7 +50,7 @@ toc: true
 
 ## 和文招待論文
 
-- 濱田太陽. 2026. 『ナレッジマネジメントによる機械組織 ― AI×プロセスマネジメントによる知識創造管理の新展開 ―』応用物理. 95 巻 8 号 p. 447-450. [https://doi.org/10.11470/oubutsu.95.8_447](https://doi.org/10.11470/oubutsu.95.8_447) [[Webサイト](https://doi.org/10.11470/oubutsu.95.8_447)]
+- 濱田太陽. 2026. 『ナレッジマネジメントによる機械組織 ― AI×プロセスマネジメントによる知識創造管理の新展開 ―』応用物理. 95 巻 8 号 p. 449-452. [https://doi.org/10.11470/oubutsu.95.8_449](https://doi.org/10.11470/oubutsu.95.8_449) [[Webサイト](https://doi.org/10.11470/oubutsu.95.8_449)]
 - 濱田太陽. 2026.『Neuro-aligned AIによる機械神経科学』 人工知能学会 41 巻 2 号 p. 109-116. [https://doi.org/10.11517/jjsai.41.2_109](https://doi.org/10.11517/jjsai.41.2_109) [[Xポスト](https://x.com/HiroTHamadaJP/status/2028253865515380996)] [[Webサイト](https://www.jstage.jst.go.jp/browse/jjsai/41/2/_contents/-char/ja)]
 - 濱田太陽. 2025.『なぜ神経科学者は脳ではなく言語モデルで研究を行うのか?』 基礎心理学研究. Vol. 43, No. 2, 1-7. [https://doi.org/10.14947/psychono.43.23](https://doi.org/10.14947/psychono.43.23) [[Xポスト](https://x.com/HiroTHamadaJP/status/1935128212629241970)]
 - 濱田太陽. 2024.『分散型科学が拓く新たなエコシステム: DeSci.Tokyoが果たす役割』情報の科学と技術, 74 (3). [https://doi.org/10.18919/jkg.74.3_86](https://doi.org/10.18919/jkg.74.3_86) [[Xポスト](https://doi.org/10.18919/jkg.74.3_86)]
