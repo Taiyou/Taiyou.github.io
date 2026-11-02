@@ -1,10 +1,24 @@
 ---
 title: Articles · Hiro Taiyo Hamada
-description: Other articles, videos, and translation work by Hiro Taiyo Hamada.
+description: Essays on note, article series, explainers, videos, and translation work by Hiro Taiyo Hamada.
 label: Articles
-heading: Other articles
-lead: Blog posts, explainers, videos, and translation work.
+heading: Articles
+lead: Essays on note, article series, explainers, videos, and translation work. Papers and contributed articles are on the [Achievements](/en/achievements/) page.
 ---
+## note (in Japanese)
+
+Essays on living as a researcher, mentoring, metascience, and the governance of AI and society. New posts appear here automatically every day. [[note](https://note.com/hirotaiyohamada)]
+
+<!--note-->
+
+### Magazines (in Japanese)
+- [Research on research](https://note.com/hirotaiyohamada/m/m41bf73ab295f)
+- [Why do the very rich set up research foundations?](https://note.com/hirotaiyohamada/m/m9304a4b1254f) (paid)
+- [Entrepreneurship, innovation, and research](https://note.com/hirotaiyohamada/m/m944940b41563) (paid)
+- [Short stories about research](https://note.com/hirotaiyohamada/m/m251ead855013)
+- [Book notes](https://note.com/hirotaiyohamada/m/m458d8f1aa297)
+- [Consciousness Club Tokyo materials](https://note.com/hirotaiyohamada/m/m88d42dbc27f3)
+
 ## VitaDAO
 
 [Welcome to VitaDAO](https://vitadao.medium.com/vitadao-youkoso-1a1b14ae3bbc) (in Japanese)
@@ -33,8 +47,8 @@ lead: Blog posts, explainers, videos, and translation work.
 
 ## Blog (2020 ~)
 
-- [Series: a first-cohort graduate on OIST](https://note.com/hirohamada1989/m/m58c388a02337) (in Japanese): I entered the Okinawa Institute of Science and Technology in 2012 as a member of its first cohort, graduated in 2019, and write about OIST from a graduate’s perspective.
-- 2020 ~ my blog posts [in English](https://medium.com/@hiroakitaiyohamada/how-we-failed-to-collect-some-answers-via-an-online-questionnaire-9a28145a9a64) and [in Japanese](https://note.com/hirohamada1989).
+- [Series: a first-cohort graduate on OIST](https://note.com/hirotaiyohamada/m/m58c388a02337) (in Japanese): I entered the Okinawa Institute of Science and Technology in 2012 as a member of its first cohort, graduated in 2019, and write about OIST from a graduate’s perspective.
+- 2020 ~ my blog posts [in English](https://medium.com/@hiroakitaiyohamada/how-we-failed-to-collect-some-answers-via-an-online-questionnaire-9a28145a9a64) and [in Japanese](https://note.com/hirotaiyohamada).
 
 ## Other articles
 

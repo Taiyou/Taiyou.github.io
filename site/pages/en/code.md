@@ -29,4 +29,4 @@ This list was later developed by the Japan Neuroscience Society into a [director
 
 ## Notes on research about research (2020-)
 
-[Research on research series on note](https://note.com/hirohamada1989/m/m41bf73ab295f) (in Japanese)
+[Research on research series on note](https://note.com/hirotaiyohamada/m/m41bf73ab295f) (in Japanese)

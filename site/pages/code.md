@@ -29,4 +29,4 @@ lead: 論文に対応するコードやデータ、研究のためのまとめ�
 
 ## 研究の研究についてまとめ (2020-)
 
-[研究の研究シリーズ｜濱田太陽｜note](https://note.com/hirohamada1989/m/m41bf73ab295f)
+[研究の研究シリーズ｜濱田太陽｜note](https://note.com/hirotaiyohamada/m/m41bf73ab295f)

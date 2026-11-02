@@ -437,3 +437,16 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
 .cv-embed h2 + .entry { border-top: 0; padding-top: 6px; }
 .cv-embed .entry-body { margin-top: 0; }
 .cv-embed .entry ul { margin-bottom: 0; }
+
+/* note の記事一覧 */
+.note-list { list-style: none; padding: 0; margin: 0 0 8px; }
+.note-list li { display: grid; grid-template-columns: 6.5rem 1fr; gap: 4px 20px; padding: 12px 0; border-top: 1px solid var(--border); }
+.note-list li:last-child { border-bottom: 1px solid var(--border); }
+.prose .note-list { padding-left: 0; }
+.prose .note-list li { margin: 0; }
+.note-date { font-family: var(--sans); font-size: .8rem; font-weight: 600; color: var(--gold); padding-top: 3px; }
+.note-list a { color: var(--heading); text-decoration: none; }
+.note-list a:hover { color: var(--gold); text-decoration: underline; }
+.note-latest { margin-top: 44px; }
+.note-head { font-family: var(--sans); font-size: .78rem; font-weight: 600; letter-spacing: .12em; color: var(--gold); margin-bottom: 12px; }
+@media (max-width: 640px) { .note-list li { grid-template-columns: 1fr; gap: 0; } }

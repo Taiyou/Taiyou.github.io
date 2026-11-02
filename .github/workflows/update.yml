@@ -1,4 +1,4 @@
-name: Update researchmap data
+name: Update researchmap data and note articles
 
 on:
   schedule:
@@ -35,14 +35,19 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
         run: python scripts/fetch_researchmap.py
 
+      - name: Fetch note articles and rebuild site
+        run: |
+          python scripts/fetch_note.py
+          python scripts/build_site.py
+
       - name: Commit if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs/publications/data/
+          git add docs/ site/data/
           if git diff --staged --quiet; then
             echo "No changes."
           else
-            git commit -m "chore: update researchmap data [skip ci]"
+            git commit -m "chore: update researchmap data and note articles [skip ci]"
             git push
           fi

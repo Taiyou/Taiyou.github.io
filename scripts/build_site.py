@@ -8,6 +8,7 @@ docs/publications/ は researchmap の自動更新用なので触らない。
 from __future__ import annotations
 
 import html
+import json
 import re
 import shutil
 from pathlib import Path
@@ -211,6 +212,26 @@ def wrap(template: str, meta: dict[str, str], body: str, root: str, lang: str, a
     )
 
 
+NOTE_MARKER = "<!--note-->"
+NOTE_DATA = SITE_DIR / "data" / "note.json"
+
+
+def load_note() -> list[dict[str, str]]:
+    if not NOTE_DATA.exists():
+        return []
+    return json.loads(NOTE_DATA.read_text(encoding="utf-8")).get("items", [])
+
+
+def render_note_list(items: list[dict[str, str]], limit: int | None = None) -> str:
+    """note の記事を日付つきの一覧にする（scripts/fetch_note.py が毎日更新）。"""
+    rows = "".join(
+        f'<li><span class="note-date">{html.escape(x["date"].replace("-", "."))}</span>'
+        f'<a href="{html.escape(x["url"])}" target="_blank" rel="noopener">{html.escape(x["title"])}</a></li>'
+        for x in items[:limit]
+    )
+    return f'<ul class="note-list">{rows}</ul>'
+
+
 CV_MARKER = "<!--cv-->"
 
 
@@ -236,6 +257,8 @@ def render_cv_drawer(root: str, lang: str) -> str:
 
 def render_subpage(meta: dict[str, str], text: str, root: str, lang: str) -> str:
     content, toc = render_markdown(text, root)
+    if NOTE_MARKER in content:
+        content = content.replace(NOTE_MARKER, render_note_list(load_note()))
     if CV_MARKER in content:
         content = content.replace(CV_MARKER, render_cv_drawer(root, lang))
     lead = f'<p class="page-lead">{inline(meta["lead"], root)}</p>' if meta.get("lead") else ""
@@ -271,7 +294,7 @@ def build() -> None:
         meta, body = read_page(conf["pages"] / "index.html")
         _, news_text = read_page(conf["pages"] / "_news.md")
         news, _ = render_markdown(news_text, root)
-        body = body.replace("{{news}}", news)
+        body = body.replace("{{news}}", news).replace("{{note_latest}}", render_note_list(load_note(), 5))
         (out_dir / "index.html").write_text(wrap(template, meta, body, root, lang, "home"), encoding="utf-8")
 
         # 下層ページ

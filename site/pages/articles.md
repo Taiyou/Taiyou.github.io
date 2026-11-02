@@ -1,10 +1,24 @@
 ---
-title: その他記事 · Hiro Taiyo Hamada
-description: 濱田太陽のその他の記事、動画、翻訳活動。
+title: 記事 · Hiro Taiyo Hamada
+description: 濱田太陽の note のエッセイ、連載、解説記事、動画、翻訳活動。
 label: Articles
-heading: その他記事
-lead: ブログや解説記事、動画、翻訳などの活動です。
+heading: 記事
+lead: note のエッセイ、連載、解説記事、動画、翻訳などの活動です。論文や寄稿は[業績](/achievements/)にまとめています。
 ---
+## note
+
+研究者としての生き方、研究指導、メタサイエンス、AIと社会のガバナンスについて書いています。新しい記事は毎日自動で反映されます。[[note](https://note.com/hirotaiyohamada)]
+
+<!--note-->
+
+### マガジン
+- [研究の研究シリーズ](https://note.com/hirotaiyohamada/m/m41bf73ab295f)
+- [大富豪はなぜ研究財団を設立するか？](https://note.com/hirotaiyohamada/m/m9304a4b1254f)（有料）
+- [起業家精神, イノベーション, 研究](https://note.com/hirotaiyohamada/m/m944940b41563)（有料）
+- [研究小話](https://note.com/hirotaiyohamada/m/m251ead855013)
+- [読書感想](https://note.com/hirotaiyohamada/m/m458d8f1aa297)
+- [Consciousness Club Tokyo関連資料](https://note.com/hirotaiyohamada/m/m88d42dbc27f3)
+
 ## VitaDAO
 
 [VitaDAOへようこそ](https://vitadao.medium.com/vitadao-youkoso-1a1b14ae3bbc)
@@ -35,8 +49,8 @@ OISTの卒業生ムービーをつくってもらいました。
 
 ## ブログ (2020 ~)
 
-- [【連載】第1期生の卒業生が語るOISTのこと｜濱田太陽｜note](https://note.com/hirohamada1989/m/m58c388a02337): 沖縄科学技術大学院大学(OIST)に2012年第1期生として入学し2019年に卒業した濱田太陽が、卒業生の目から見たOISTについて語ります。
-- 2020 ~ ブログポスト開始しました。[mediumブログポスト](https://medium.com/@hiroakitaiyohamada/how-we-failed-to-collect-some-answers-via-an-online-questionnaire-9a28145a9a64) and [note日本語](https://note.com/hirohamada1989).
+- [【連載】第1期生の卒業生が語るOISTのこと｜濱田太陽｜note](https://note.com/hirotaiyohamada/m/m58c388a02337): 沖縄科学技術大学院大学(OIST)に2012年第1期生として入学し2019年に卒業した濱田太陽が、卒業生の目から見たOISTについて語ります。
+- 2020 ~ ブログポスト開始しました。[mediumブログポスト](https://medium.com/@hiroakitaiyohamada/how-we-failed-to-collect-some-answers-via-an-online-questionnaire-9a28145a9a64) and [note日本語](https://note.com/hirotaiyohamada).
 
 ## Other articles
 
