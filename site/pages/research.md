@@ -41,5 +41,10 @@ Hamada H.T.*, Abe Y., Takata N., Taira M, Tanaka F.K. and Doya K*. (2024) Optoge
 
 ### 関連研究
 - Hamada, H.T. & Harada, Y. (2025). Alignment with Psychological Concept Network. The International Conference on Neural Information Processing (ICONIP) 2025. [[DOI](https://doi.org/10.1007/978-981-95-4384-7_36)]
+- Harada, Y., Hamada, H.T. (2026) Psychological Concept Neurons: Can Neural Control Bias Probing and Shift Generation in LLMs? [[arXiv](https://arxiv.org/abs/2604.11802)]
+- 原田宥都, 濱田太陽 (2026) 『大規模言語モデルにおける性格概念の表現位置と操作可能性』言語処理学会2026. [[PDF](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B5-16.pdf)]
+- 濱田太陽 (2026) 『Neuro-aligned AIによる機械神経科学』人工知能 41巻2号 p. 109-116. [[論文](https://doi.org/10.11517/jjsai.41.2_109)]
 - Supke, M., Schäfer, S., Yamada, M., Hamada, H. T., Wessa, M., & Lieb, K. (2024, December 21). Positive Mental States and Their Relation to Psychosocial Resources: Protocol of a Systematic Review Focusing on Cultural Moderators. [[Preprint](https://doi.org/10.17605/OSF.IO/2XKHS)]
 - 濱田太陽. 2025. 『なぜ神経科学者は脳ではなく言語モデルで研究を行うのか?』 基礎心理学研究. Vol. 43, No. 2, 1-7. [[DOI](https://doi.org/10.14947/psychono.43.23)]
+
+この研究は、濱田が率いる [Persona Lab](/persona/#sec-2) で、LLMの内部表現を脳科学の手法で解析する研究として進めています。

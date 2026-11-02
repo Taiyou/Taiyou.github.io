@@ -42,5 +42,10 @@ Hamada H.T.*, Abe Y., Takata N., Taira M, Tanaka F.K. and Doya K*. (2024) Optoge
 
 ### Related research
 - Hamada, H.T. & Harada, Y. (2025). Alignment with Psychological Concept Network. The International Conference on Neural Information Processing (ICONIP) 2025. [[DOI](https://doi.org/10.1007/978-981-95-4384-7_36)]
+- Harada, Y., Hamada, H.T. (2026) Psychological Concept Neurons: Can Neural Control Bias Probing and Shift Generation in LLMs? [[arXiv](https://arxiv.org/abs/2604.11802)]
+- Harada, Y., Hamada, H.T. (2026) Where personality concepts are represented in large language models, and how they can be manipulated. The Association for Natural Language Processing 2026. (in Japanese) [[PDF](https://www.anlp.jp/proceedings/annual_meeting/2026/pdf_dir/B5-16.pdf)]
+- Hamada, H.T. (2026) Machine neuroscience with neuro-aligned AI. Journal of the Japanese Society for Artificial Intelligence 41(2), 109-116. (in Japanese) [[Paper](https://doi.org/10.11517/jjsai.41.2_109)]
 - Supke, M., Schäfer, S., Yamada, M., Hamada, H. T., Wessa, M., & Lieb, K. (2024, December 21). Positive Mental States and Their Relation to Psychosocial Resources: Protocol of a Systematic Review Focusing on Cultural Moderators. [[Preprint](https://doi.org/10.17605/OSF.IO/2XKHS)]
 - Hamada, H.T. 2025. Why do neuroscientists study language models instead of the brain? The Japanese Journal of Psychonomic Science. Vol. 43, No. 2, 1-7. (in Japanese) [[DOI](https://doi.org/10.14947/psychono.43.23)]
+
+This line of work continues at [Persona Lab](/en/persona/#sec-2), which I lead, as research analyzing the internal representations of LLMs with neuroscience methods.
