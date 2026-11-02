@@ -375,3 +375,10 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
   *, *::before, *::after { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
 }
+
+/* 三本柱（トップ） */
+.pillars .card-body { display: flex; flex-direction: column; height: 100%; }
+.pillars .card-meta { font-size: .74rem; }
+.pillars .card h3 { font-size: 1.3rem; font-weight: 400; }
+.pillar-stat { margin-top: auto; padding-top: 14px; font-family: var(--sans); font-size: .78rem !important; font-weight: 600; color: var(--gold) !important; border-top: 1px solid var(--border); }
+.pillars .card p:not(.pillar-stat):not(.card-meta) { margin-bottom: 14px; }

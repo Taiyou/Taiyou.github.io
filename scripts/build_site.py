@@ -23,7 +23,7 @@ LANGS = {
     "ja": {
         "pages": PAGES_DIR,
         "prefix": "",
-        "labels": ["研究", "ペルソナチーム", "企画・運営", "業績", "メディア", "DeSci", "コード", "CV", "記事"],
+        "labels": ["研究", "Persona Lab", "企画・運営", "業績", "メディア", "DeSci", "コード", "CV", "記事"],
         "switch": "EN",
         "footer_db": "業績データベース（researchmap から自動更新）",
         "menu": "メニューを開く",

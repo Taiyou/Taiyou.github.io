@@ -3,7 +3,7 @@ title: 研究 · Hiro Taiyo Hamada
 description: 濱田太陽の研究内容。セロトニンによる全脳活動の制御、LLMによる構成概念の再構成、構成概念ネットワークによるAIアライメント。
 label: Research
 heading: 研究内容
-lead: 三つのアプローチ（Systems Neuroscience / Cognitive Science / Digital Infrastructure）で人間の脳や知性を理解し、新たな技術への応用を目指します。
+lead: 脳を調べてきた道具で、AIの内側を読みます。セロトニンが全脳活動を変える仕組みの研究から、大規模言語モデルの中で心理概念がどう表現されるか、それをアラインメントにどう生かせるかまで、神経科学の手法でつないでいます。
 ---
 ## セロトニンによる全脳活動の制御 [Hamada et al., Nat Commun, 2024]
 

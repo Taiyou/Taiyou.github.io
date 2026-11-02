@@ -3,7 +3,7 @@ title: Research · Hiro Taiyo Hamada
 description: Research by Hiro Taiyo Hamada on serotonin regulation of brain-wide dynamics, psychological constructs in LLMs, and AI alignment with psychological concept networks.
 label: Research
 heading: Research
-lead: I try to understand the human brain and intelligence by combining three approaches (Systems Neuroscience, Cognitive Science, and Digital Infrastructure), and I apply these technologies to industry.
+lead: I read AI from the inside with the tools used to study the brain. From how serotonin changes brain-wide activity to how psychological concepts are represented inside large language models and how that can inform alignment, I connect these questions through the methods of neuroscience.
 ---
 ## Serotonin regulation of brain-wide dynamics [Hamada et al., Nat Commun, 2024]
 
