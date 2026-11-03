@@ -116,7 +116,23 @@ Three questions cut across all five designs.
 - **The bridge that runs the other way.** A rollup's state is derived from inputs posted on layer 1. A supervisor — above all a copy of you — must likewise be re-derived from your current intent at regular intervals, or it drifts away from you. Reports run up; updates have to run down.
 - **An escape hatch.** Rollups let users exit through layer 1 even when the sequencer refuses them. You need a path that bypasses the mechanism and stops the clones directly — what Shavit et al. call interruptibility.
 
-Putting a copy of yourself in the middle layer also means there are now two kinds of clone: those that execute, and one that supervises. The second carries the question of whose clone it is in its sharpest form, and we return to it below.
+Provenance looks different in each design.
+
+- **Validium type** — provenance stays inside the mechanism, as a full log that only its operator can see.
+- **Optimistic type** — provenance sits in an outside archive, readable by you or an auditor during the challenge window and disposed of afterward.
+- **Validity type** — provenance is compressed into a proof. Anyone can check that the constraints held, but the reasons are gone.
+- **Committee type** — each supervisor keeps its own lineage, and the record of where they disagreed becomes provenance in its own right.
+- **Based type** — provenance is fixed in advance, as derivation from your intent. Decisions your intent did not foresee leave little trace.
+
+Three points follow.
+
+First, a proof does not keep provenance; it replaces it. Accountable memory therefore comes in two kinds: memory that keeps how a result was reached, and memory that keeps only that it was correct. The second is cheaper and protects privacy — it is the same property as proving without showing — but it cannot answer the question "why?"
+
+Second, in a committee, disagreement is the most valuable provenance. A unanimous verdict tells you little; where the supervisors split tells you where to look. When the bandwidth of reception is scarce, reporting governance should summarize the disagreements, not the conclusions.
+
+Third, the supervisor has provenance too. If the middle layer is a copy of you, the answer to "who approved this?" is "you — or rather, your copy." Its judgments need a lineage of their own, and that lineage ends at you. The old question of who supervises the supervisor returns here as a question of provenance. Shavit et al.'s attributability asks which agent acted; it does not yet ask how a proof stands in for reasons, how disagreement should travel, or whose record a supervising copy keeps.
+
+So a copy of yourself in the middle layer means two kinds of clone: those that execute, and one that supervises. The second carries the question of whose clone it is in its sharpest form, and we return to it below.
 
 ## Forgetting as a governed act
 
