@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 120 1200 420" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Noto Sans CJK JP', 'Yu Gothic', Meiryo, sans-serif">
+  <defs>
+    <marker id="a4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f6a7d"/></marker>
+  </defs>
+  <rect width="1200" height="560" fill="#fff"/>
+
+  <!-- person -->
+  <circle cx="170" cy="225" r="44" fill="#f4f1ec" stroke="#c9a961" stroke-width="2"/>
+  <path d="M80,370 C80,295 260,295 260,370 Z" fill="#f4f1ec" stroke="#c9a961" stroke-width="2"/>
+  <text x="170" y="402" text-anchor="middle" font-size="20" font-weight="600" fill="#0f1923">人間</text>
+
+  <!-- agents -->
+  <rect x="860" y="150" width="290" height="250" rx="8" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+  <text x="1005" y="184" text-anchor="middle" font-size="20" font-weight="600" fill="#0f1923">ハーネス＋N体のエージェント</text>
+  <g fill="#f4f1ec" stroke="#e0ddd7">
+    <rect x="885" y="204" width="70" height="36" rx="4"/><rect x="970" y="204" width="70" height="36" rx="4"/><rect x="1055" y="204" width="70" height="36" rx="4"/>
+    <rect x="885" y="252" width="70" height="36" rx="4"/><rect x="970" y="252" width="70" height="36" rx="4"/><rect x="1055" y="252" width="70" height="36" rx="4"/>
+  </g>
+  <text x="1005" y="330" text-anchor="middle" font-size="21" font-weight="600" fill="#7d6430">② 行為の帯域</text>
+  <text x="1005" y="356" text-anchor="middle" font-size="16" fill="#2c3e50">エージェントが広げる</text>
+  <text x="1005" y="378" text-anchor="middle" font-size="16" fill="#2c3e50">（並列実行）</text>
+
+  <!-- 1: expression, wide band out -->
+  <path d="M275,150 L800,150 L850,190 L800,230 L275,230 Z" fill="#2a7f8a" fill-opacity=".14" stroke="#2a7f8a" stroke-width="2"/>
+  <text x="540" y="182" text-anchor="middle" font-size="21" font-weight="600" fill="#2a7f8a">① 表現の帯域</text>
+  <text x="540" y="209" text-anchor="middle" font-size="16" fill="#2c3e50">BMIが広げる：より豊かな意図を送り出す</text>
+
+  <!-- 3: reception, tapering back -->
+  <path d="M850,320 L330,365 L290,380 L330,395 L850,440 Z" fill="#c9a961" fill-opacity=".18" stroke="#7d6430" stroke-width="2"/>
+  <text x="600" y="376" text-anchor="middle" font-size="21" font-weight="600" fill="#7d6430">③ 受信の帯域</text>
+  <text x="600" y="403" text-anchor="middle" font-size="16" fill="#2c3e50">ボトルネック：多くの結果、一人の受け手</text>
+
+  <!-- loop -->
+  <g font-size="16" fill="#2c3e50" text-anchor="middle">
+    <text x="560" y="275" font-weight="600" fill="#0f1923">一つの循環として設計する</text>
+    <text x="560" y="300" fill="#5f6a7d">意図の推定と確認 → 権限内での実行 → 検証 → 報告</text>
+  </g>
+
+  <text x="600" y="490" text-anchor="middle" font-size="18" fill="#0f1923">①と②を広げると③が問題になる。<tspan font-weight="600" fill="#7d6430">ここに制度が要る</tspan></text>
+  <text x="600" y="520" text-anchor="middle" font-size="16" fill="#5f6a7d">BMIとAIエージェントは、その循環の中で補完し合う</text>
+</svg>

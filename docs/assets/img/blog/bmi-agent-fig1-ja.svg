@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Noto Sans CJK JP', 'Yu Gothic', Meiryo, sans-serif">
+  <defs>
+    <marker id="a1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f6a7d"/></marker>
+  </defs>
+  <rect width="1200" height="520" fill="#fff"/>
+
+  <!-- inner state -->
+  <text x="210" y="62" text-anchor="middle" font-size="20" font-weight="600" fill="#0f1923">内的な状態</text>
+  <text x="210" y="86" text-anchor="middle" font-size="16" fill="#5f6a7d">連続的・暗黙的</text>
+  <circle cx="210" cy="280" r="160" fill="#f4f1ec" stroke="#e0ddd7" stroke-width="2"/>
+  <g font-size="17" fill="#2c3e50" text-anchor="middle">
+    <text x="165" y="200">注意の向き</text>
+    <text x="255" y="245">違和感</text>
+    <text x="150" y="292">迷い</text>
+    <text x="270" y="318">確信</text>
+    <text x="205" y="368">言葉になる前の意図</text>
+  </g>
+  <g fill="#c9a961">
+    <circle cx="110" cy="230" r="5"/><circle cx="300" cy="200" r="4"/><circle cx="105" cy="330" r="4"/>
+    <circle cx="320" cy="370" r="5"/><circle cx="200" cy="410" r="4"/><circle cx="215" cy="160" r="3"/>
+  </g>
+
+  <!-- narrow channel: keyboard / voice -->
+  <text x="590" y="128" text-anchor="middle" font-size="19" font-weight="600" fill="#0f1923">キーボード・音声</text>
+  <text x="590" y="152" text-anchor="middle" font-size="16" fill="#5f6a7d">離散的・明示的・遅い</text>
+  <path d="M370,185 L808,185" stroke="#5f6a7d" stroke-width="10" stroke-linecap="round"/>
+  <path d="M808,185 L840,185" stroke="#5f6a7d" stroke-width="3" marker-end="url(#a1)"/>
+  <g fill="#c9a961" opacity=".85">
+    <circle cx="470" cy="214" r="4"/><circle cx="520" cy="228" r="3.5"/><circle cx="585" cy="219" r="4"/>
+    <circle cx="640" cy="236" r="3.5"/><circle cx="700" cy="222" r="4"/><circle cx="550" cy="248" r="3"/>
+  </g>
+  <text x="590" y="276" text-anchor="middle" font-size="16" fill="#7d6430">言葉への翻訳で多くが落ちる</text>
+
+  <!-- wide channel: BMI -->
+  <path d="M370,330 L800,330 L840,375 L800,420 L370,420 Z" fill="#2a7f8a" fill-opacity=".14" stroke="#2a7f8a" stroke-width="2"/>
+  <text x="590" y="368" text-anchor="middle" font-size="22" font-weight="600" fill="#2a7f8a">BMI</text>
+  <text x="590" y="396" text-anchor="middle" font-size="16" fill="#2c3e50">連続的・暗黙的・高密度な読み取り</text>
+
+  <!-- outputs -->
+  <rect x="870" y="160" width="270" height="52" rx="6" fill="#fff" stroke="#e0ddd7" stroke-width="2"/>
+  <text x="1005" y="192" text-anchor="middle" font-size="18" fill="#5f6a7d">わずかな言葉</text>
+  <rect x="870" y="315" width="270" height="120" rx="6" fill="#f4f1ec" stroke="#c9a961" stroke-width="2"/>
+  <text x="1005" y="368" text-anchor="middle" font-size="22" font-weight="600" fill="#7d6430">豊かな意図</text>
+  <text x="1005" y="396" text-anchor="middle" font-size="16" fill="#2c3e50">情報をほとんど落とさずに</text>
+
+  <text x="600" y="492" text-anchor="middle" font-size="17" fill="#5f6a7d">BMIは<tspan font-weight="600" fill="#2a7f8a">表現の帯域</tspan>を広げる</text>
+</svg>

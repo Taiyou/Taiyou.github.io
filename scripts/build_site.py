@@ -201,6 +201,7 @@ def wrap(
     active: str,
     path: str | None = None,
     switch_href: str | None = None,
+    langs: tuple[str, ...] | None = None,
 ) -> str:
     conf = LANGS[lang]
     if path is None:
@@ -210,8 +211,10 @@ def wrap(
             for code in LANGS
         )
     else:
-        # 片方の言語にしかないページ（ブログ記事）は自分自身だけを示す
+        # ブログ記事：自分自身を canonical にし、もう一方の言語版があれば hreflang で示す
         alternates = f'<link rel="canonical" href="https://taiyou.github.io/{conf["prefix"]}{path}">'
+        for code in langs or ():
+            alternates += f'\n  <link rel="alternate" hreflang="{code}" href="https://taiyou.github.io/{LANGS[code]["prefix"]}{path}">'
 
     return (
         template.replace("{{lang}}", lang)
@@ -367,7 +370,13 @@ def build() -> None:
                 (dest / "index.html").write_text(render_redirect(meta["redirect"], root), encoding="utf-8")
                 continue
             body = render_subpage(meta, text, root, lang)
-            page = wrap(template, meta, body, root, lang, "articles", f"blog/{slug}/", meta.get("original"))
+            other = "ja" if lang == "en" else "en"
+            if any(s == slug and not m.get("redirect") for s, m, _ in load_posts(other)):
+                # もう一方の言語版があれば、言語切替はそちらへ
+                switch, langs = f"{root}{LANGS[other]['prefix']}blog/{slug}/", (lang, other)
+            else:
+                switch, langs = meta.get("original"), None
+            page = wrap(template, meta, body, root, lang, "articles", f"blog/{slug}/", switch, langs)
             (dest / "index.html").write_text(page, encoding="utf-8")
             posts += 1
     print(f"Built {(len(SLUGS) + 1) * len(LANGS) + posts} pages into {OUT_DIR}")
