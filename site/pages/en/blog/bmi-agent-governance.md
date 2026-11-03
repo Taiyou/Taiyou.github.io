@@ -134,3 +134,5 @@ Improving the communication performance of BMIs alone will not necessarily incre
 What matters is designing the estimation and confirmation of intent, execution within the scope of granted authority, verification of results, and reporting back to the human as a single loop.
 
 BMIs and AI agents may complement each other within that loop.
+
+<p class="post-origin">Follow-up: <a href="{{root}}en/blog/shadow-clone-provenance/">What Comes Back When the Clones Dissolve</a> — a closer look at integration bandwidth and provenance.</p>
