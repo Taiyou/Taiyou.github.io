@@ -192,6 +192,30 @@ Each kind of data can be given a deliberate place among the four regimes:
 
 The rest of the harness carries over too. Access governance lives at the interface through which outside agents reach a local AI's tools and data — for example, servers exposed through the Model Context Protocol (MCP), an open standard for connecting AI applications to external tools and data — where the scope of what each caller may read and decide can be set. Reporting governance decides what a place returns to a question from outside, and in what form. And the warning from rollups applies: if a single hub orders and aggregates what every place sends, it becomes the point where power and attacks concentrate. What a network of local AIs should keep distributed is not only capability but the independence of each place's judgment.
 
+The boundaries between places deserve a warning of their own. In blockchains, the bridges that carry assets from one chain to another have been the site of some of the largest losses in the field's history; in 2022 alone, the Ronin and Wormhole bridges each lost hundreds of millions of dollars. Wherever one system's clones talk to another's — agents working across organizations, local AIs exchanging what they have learned — the same holds. Provenance is most easily lost, and most easily forged, at the moment it crosses a boundary. Those crossings need governance of their own.
+
+## What is left for us: layer 1, and layer 0
+
+If agents come to do most of the work, what is left for people? In the terms of this essay, people stop being the ones who execute and become the place where things settle.
+
+A layer 1 does little computation. What it provides is finality: it decides what counts as having happened, and it secures that decision. The work that remains for a person follows the clone's life.
+
+- **Sending out: write the intent.** Decide what is worth doing, in what order, and with what priority. This is less something AI cannot do than something that, once handed over, removes the answer to the question of whom the work is for.
+- **Coming back: take it on.** Stand at the end of "who approved this?", because accountability cannot be delegated. Be the honest watcher that optimistic designs depend on. Spend scarce attention where the supervisors disagreed, not on their conclusions.
+- **Governing: design the harness.** Decide where each kind of work sits among the four regimes. Decide what to forget, because appraisal is a judgment of value. Keep hold of the escape hatch.
+
+There is a trap here. If agents do everything, the capacity to judge may weaken. A layer 1 with no validators settles in name only: nothing is actually checked. To remain a layer 1, a person has to keep doing some of the work, so that judgment stays exercised — as practitioners put it, do not delegate what you could not review yourself. The bridge that runs downward, re-deriving supervisors from your current intent, also means something only if you keep learning and changing. A person who stops thinking leaves behind copies that go on reflecting an older self.
+
+Beneath layer 1, blockchains also speak of a layer 0, in two senses, and both apply.
+
+The first is the social layer. When a protocol breaks in a way its code did not foresee, the last recourse is the community's agreement about what should count. In 2016, after the attack on The DAO, the Ethereum community hard-forked the chain to reverse it. If each person is a layer 1, society is the layer 0. When every settlement mechanism fails — a captured committee, a proof built on a wrong assumption, a supervising copy that has drifted away from its original — society is where people can decide again, together, what was legitimate.
+
+The second is the shared infrastructure that connects many layer 1s and lets them share security. Some networks pool their validators so that each chain need not recruit its own; others leave each chain to secure itself. No individual can staff every watch over their own clones. Optimistic designs need at least one honest watcher, and that watcher can be supplied collectively: auditors, professional bodies, and public institutions that verify on everyone's behalf. The same warning applies as before. A common base is also a common point of failure, and of power.
+
+Layer 0 has a third, more literal sense: the physical substrate beneath a network. For a person, that substrate is the brain. Reading the brain is an input to layer 1; writing to it alters the foundation on which everything above rests. This is why, as Pugnet argues, the closer a technology comes to changing a mental state, the higher its burden of proof should be.
+
+So the answer has two levels. Individually, remain a layer 1: write the intent, take on what comes back, decide what to forget, and keep the power to stop. Collectively, remain a layer 0: keep the shared watch, govern the boundaries, and keep the capacity to decide together what counts. The task is not to keep pace with machines. It is to remain the place where what they do is settled.
+
 ## Summary
 
 None of the pieces of this argument is new on its own. What this essay adds is putting them in one picture. People want two things from AI: to draw out, and to act. BMIs widen the bandwidth of expression; agents widen the bandwidth of action. Widen both, and the bandwidth of reception becomes the problem — the shadow clone problem.
