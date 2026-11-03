@@ -119,6 +119,21 @@ If clones are parts of a self rather than tools held by one, provenance changes 
 
 For LLM agents, this can sound like a metaphor. For the brain emulations Pugnet describes, it is not. An emulation of you that has spent a thousand subjective hours supervising a machine comes back with experience that is yours and that you did not live. How much of it you take in, and how much of its lineage you keep, decides what kind of person you are afterward.
 
+## The privacy of the return
+
+So far, provenance has been a cost of storing, verifying and reading a record. With BMIs in the loop, it has a fourth component: exposure.
+
+When intent is decoded from the brain, "which instruction did this clone act on" points back to a reading of someone's mind. The more lineage we keep, the more accountable the return — and the more there is to leak. Accountable memory, the corner we want, is also the corner with the most to lose. Provenance needs a third dimension next to integration and retention: who may see it.
+
+Several of the ideas above turn out to be privacy measures as well.
+
+- **The division of labor is a privacy boundary.** If the BMI layer hands on intent rather than raw signals, the boundary that keeps each clone's instructions dense also keeps the raw mind at home. Pugnet makes the same recommendation: process locally, and transmit intent rather than brainwaves.
+- **Forgetting for bandwidth and forgetting for privacy coincide.** Neural recordings grow more revealing as decoders improve; a trace that shows only focus today may tell a better model of the future much more. Pugnet's answer is consent that expires unless it is renewed. A retention schedule is the same instrument. A record that has been disposed of cannot be re-read by tomorrow's model.
+- **Inaccessible memory is the worst corner for privacy.** Logs that nobody reads still exist. They can be breached, demanded, and re-analyzed. They carry the full cost of exposure and none of the benefit of understanding.
+- **Proving without showing.** Validity proofs let a chain confirm a result without reading its history; zero-knowledge proofs let it do so without seeing the data at all. The same move could let a clone show that it acted within its authority without revealing what it saw. One tool addresses bandwidth and privacy together — though, as before, only for what can be stated precisely enough to prove.
+
+There is also a case for not integrating at all. Helen Nissenbaum's idea of contextual integrity holds that information appropriate in one context becomes a violation when it flows into another; access governance is that idea applied to clones. The dividual view adds that we are different persons in different relationships. Clones that act inside different relationships carry contexts that should not all be merged into a single self. Sometimes the right regime for a clone's memory is to keep it, under seal, in its own context, unintegrated on purpose. Inaccessible memory, chosen deliberately and governed, becomes compartmentalization.
+
 ## How this relates to existing work
 
 Each part of this argument has precedents. What is new here is putting them in one picture.
@@ -129,6 +144,7 @@ Each part of this argument has precedents. What is new here is putting them in o
 - **Attention as the bottleneck for agents.** Practitioners running many coding agents report the same limit from the other side: the constraint is not the agents but the developer's attention, as in Zack Proser's talk [Your attention is the bottleneck, not your agents](https://www.ai.engineer/talks/so9l_MwS2yg-your-attention-is-bottleneck-not-your-agents) (AI Engineer Europe 2026).
 - **Governing agents.** OpenAI's [Practices for Governing Agentic AI Systems](https://openai.com/index/practices-for-governing-agentic-ai-systems/) (Shavit et al., 2023) proposes constraining the action space and requiring approval, legibility of agent activity, automatic monitoring, attributability, and interruptibility. These map onto access governance and onto the provenance side of the return; the cost of reading what they produce is what this essay adds.
 - **Blockchain scaling.** Layer-2 rollups, data availability, and EIP-4844's pruned blobs are the most concrete existing price for the B–C trade-off; the analogy above borrows from that engineering literature rather than claiming anything new about it.
+- **Privacy.** Helen Nissenbaum's contextual integrity frames privacy as appropriate information flow rather than secrecy. Neurorights are now entering law: Chile wrote them into its constitution in 2021, and UNESCO adopted a Recommendation on the Ethics of Neurotechnology in 2025. Pugnet's Phase Lock proposes on-device processing, transmitting intent rather than raw signals, and consent that expires unless renewed.
 - **Provenance and memory.** Data provenance has standards such as W3C PROV. In psychology, source-monitoring research (Johnson, Hashtroudi & Lindsay, 1993) studies how people lose track of where a memory came from — the human form of source amnesia. Transactive memory (Wegner) and organizational memory (Walsh & Ungson, 1991) describe how groups store knowledge across members. Archival appraisal and retention scheduling come from archival science. Conway's law (1968) — systems mirror the communication structure of the organizations that build them — suggests that how we allot integration bandwidth among clones will shape what the merged self becomes.
 
 ## Summary
@@ -137,6 +153,6 @@ People want two things from AI: to draw out, and to act. BMIs widen the bandwidt
 
 <figure class="post-fig"><img src="{{root}}assets/img/blog/bmi-agent-fig4.svg" alt="A loop between a person and AI agents: expression bandwidth widened by BMIs on the way out, action bandwidth widened by agents, and reception bandwidth on the way back as the bottleneck where institutions are needed." loading="lazy"><figcaption>Figure 5. The three bandwidths, and the loop that has to be designed</figcaption></figure>
 
-Faster interfaces do not remove it, and neither does faster cognition. Copying ourselves multiplies it: more clones, more experience coming back, the same single point of return. So the return path has to be designed, not assumed. The harness gives one mechanism to each moment of the clone's life: access governance for acting, reporting governance for choosing what comes back and how, and memory governance for what is kept and what is let go.
+Faster interfaces do not remove it, and neither does faster cognition. Copying ourselves multiplies it: more clones, more experience coming back, the same single point of return. So the return path has to be designed, not assumed. The harness gives one mechanism to each moment of the clone's life: access governance for acting, reporting governance for choosing what comes back and how, and memory governance for what is kept, what is let go, and who may see it.
 
 What matters is designing the estimation and confirmation of intent, execution within the scope of granted authority, verification of results, and reporting back to the human as a single loop. BMIs and AI agents can complement each other within that loop — as long as we take responsibility for what comes home.
