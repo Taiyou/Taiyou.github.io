@@ -5,6 +5,12 @@ label: Articles
 heading: 記事
 lead: note のエッセイ、連載、解説記事、動画、翻訳などの活動です。論文や寄稿は[業績](/achievements/)にまとめています。
 ---
+## ブログ
+
+note の記事をもとに、より長く展開した論考です。英語版もあります。
+
+<!--blog-->
+
 ## note
 
 研究者としての生き方、研究指導、メタサイエンス、AIと社会のガバナンスについて書いています。新しい記事は毎日自動で反映されます。[[note](https://note.com/hirotaiyohamada)]
