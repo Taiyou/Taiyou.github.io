@@ -17,7 +17,7 @@ In the manga Naruto, the shadow clone technique (影分身, kage bunshin) create
 
 This is a fair picture of where human–AI collaboration is heading. People want two things from AI. The first is to **draw out the information inside themselves more richly**. The second is to **run more work in parallel than they could ever handle alone**. The decoding technology that serves the first need is the **brain–machine interface (BMI)**; what serves the second is the **AI agent**.
 
-The two are almost never drawn in the same picture. BMIs are discussed in neural engineering and clinical medicine; agents in software development and multi-agent research. I have been arguing that BMIs on their own solve only half the problem, and that the two should be designed together. Seen from the human side, they are attacking the same problem from opposite ends — and together they run straight into the problem of the shadow clone.
+The two are almost never drawn in the same picture. BMIs are discussed in neural engineering and clinical medicine; agents in software development and multi-agent research. I have been arguing that BMIs on their own solve only half the problem, and that the two should be designed together. The best-known case for BMIs, Elon Musk's, is itself a bandwidth argument: human output is pitifully slow, so BMIs are the path to human–AI symbiosis. I take that diagnosis seriously, but it stops halfway. Seen from the human side, they are attacking the same problem from opposite ends — and together they run straight into the problem of the shadow clone.
 
 A clone has a life in three moments. It is **sent out** with an intent, it **acts** on its own, and it **comes back**. Each moment has its own bandwidth limit, and each needs its own kind of governance.
 
@@ -31,7 +31,7 @@ This is a limit on the input side: the **bandwidth of expression**.
 
 What a BMI tries to capture is the continuous, implicit state that exists before that translation: where attention is pointed, what feels off, whether we are hesitating or sure. The real strength of a BMI lies in **extracting rich intent with as little loss of information as possible**.
 
-One can imagine using a BMI to steer agents directly. But the job of the BMI is to make the human side's intent denser — to decide well what each clone is sent out with. Parallelizing and organizing what comes after belongs to a separate layer.
+One can imagine using a BMI to steer agents directly. But the job of the BMI is to make the human side's intent denser — to decide well what each clone is sent out with. Parallelizing and organizing what comes after belongs to a separate layer. Research is beginning to draw the same line. [Meunier et al. (2024)](https://arxiv.org/abs/2402.15011) propose brain–artificial intelligence interfaces in which the user supplies high-level intent from EEG and an AI agent fills in the details, and [Chen et al.](https://arxiv.org/abs/2510.22095) call for a shift from brain–computer interfaces to brain–agent collaboration, with intent clarification, user agency and governance built in. Both stop before the return.
 
 ## Acting: the bandwidth of action
 
@@ -49,22 +49,24 @@ The first belongs here, at the moment of acting:
 
 The other two belong to the return, and are introduced below.
 
+OpenAI's [Practices for Governing Agentic AI Systems](https://openai.com/index/practices-for-governing-agentic-ai-systems/) (Shavit et al., 2023) gives a useful starting list: constrain the action space and require approval, make agent activity legible, monitor automatically, keep actions attributable, and keep agents interruptible. Most of this is access governance, or the record-keeping side of the return. What it leaves open is the cost of reading the records those practices produce. That cost is the subject of the rest of this essay.
+
 ## Coming back: the bandwidth of reception
 
 Each agent that branches off builds up its own context. Eventually it finishes its work, and that experience flows back to the human. Here the two demands collide. BMIs have made intent richer, and rich intent produces rich results. Agents have made processing parallel, and parallel processing produces many results. All of it **floods into the receiving bandwidth of a single person**.
 
 <figure class="post-fig"><img src="{{root}}assets/img/blog/bmi-agent-fig3.svg" alt="Results from many agents, each carrying its own context, converge into a funnel that summarizes and abstracts them before a narrow outlet reaches one person." loading="lazy"><figcaption>Figure 3. The bandwidth of reception</figcaption></figure>
 
-The more we widen the input and output sides, the narrower a person's **bandwidth of reception** becomes in relative terms. This is not a technical shortcoming. Human behavior appears to run at roughly 10 bits per second, while our senses take in on the order of a billion ([Zheng & Meister](https://arxiv.org/abs/2408.10234v2)). If that rate reflects thinking itself rather than our fingers and voices, then a wider pipe into the brain does not make the brain take in more. The third bandwidth follows from the structure, not from immature technology.
+The more we widen the input and output sides, the narrower a person's **bandwidth of reception** becomes in relative terms. This is not a technical shortcoming. Human behavior appears to run at roughly 10 bits per second, while our senses take in on the order of a billion ([Zheng & Meister](https://arxiv.org/abs/2408.10234v2)). Herbert Simon made the institutional version of the point in 1971: a wealth of information creates a poverty of attention, and organizations have to be designed around that scarcity. If that rate reflects thinking itself rather than our fingers and voices, then a wider pipe into the brain does not make the brain take in more. The third bandwidth follows from the structure, not from immature technology. Developers who run many coding agents already report the limit from the other side: the constraint is not the agents but their own attention, as Zack Proser put it in a talk titled [Your attention is the bottleneck, not your agents](https://www.ai.engineer/talks/so9l_MwS2yg-your-attention-is-bottleneck-not-your-agents) (AI Engineer Europe 2026).
 
-This holds even in the most ambitious futures. In his manifesto [Phase Lock](https://phaselock.satpugnet.com/), Saturnin Pugnet suggests that accelerated whole-brain emulations of a person could supervise an AI at machine speed and then report back at a pace the person can follow. That is a shadow clone in the most literal sense — and it ends with the same step as every agent pipeline: "report back." That step is usually written in a single sentence. It is where the cost lives.
+This holds even in the most ambitious futures. In his manifesto [Phase Lock](https://phaselock.satpugnet.com/), Saturnin Pugnet suggests that accelerated whole-brain emulations of a person could supervise an AI at machine speed and then report back at a pace the person can follow. Pugnet concedes that the binding constraint may be comprehension rather than communication, and his remedy is to expand cognition itself, through neural augmentation and whole-brain emulation. That is a shadow clone in the most literal sense — and it ends with the same step as every agent pipeline: "report back." That step is usually written in a single sentence. It is where the cost lives. Even copies of ourselves have to come back.
 
 ## The two costs of the return
 
 The return has two separate costs.
 
 - **Integration bandwidth (B)** — how much of what a clone lived through can be folded back into the one who acts and decides. For a person, it is bounded by attention and central processing; for an agent, by the context window of whoever does the merging.
-- **Provenance (C)** — the cost of keeping track of where each piece came from: which clone did it, under what instruction, from which source, and why it turned out that way. This is the cost of storing that record, verifying it, and reading it.
+- **Provenance (C)** — the cost of keeping track of where each piece came from: which clone did it, under what instruction, from which source, and why it turned out that way. This is the cost of storing that record, verifying it, and reading it. Data provenance already has standards, such as W3C PROV; what is missing is a way to price it against attention.
 
 These costs are not independent. Provenance is itself information that has to be integrated. Every line of "who did what and why" that comes back competes for the same narrow channel as the result it describes. Whether we integrate what comes back, and whether we keep its provenance, gives four regimes (Figure 4).
 
@@ -72,7 +74,7 @@ These costs are not independent. Provenance is itself information that has to be
 
 - **Dissociation** — nothing is integrated and nothing is traced. Work happened, but no one holds it and no one can say who did it.
 - **Inaccessible memory** — every log is kept, but nobody reads it. The archive is complete and has no reader.
-- **Source amnesia** — the conclusion is absorbed, but where it came from is lost. You know what you believe and not why, or whose belief it originally was.
+- **Source amnesia** — the conclusion is absorbed, but where it came from is lost. You know what you believe and not why, or whose belief it originally was. Psychologists know this failure in people: source-monitoring research (Johnson, Hashtroudi & Lindsay, 1993) studies how we lose track of where a memory came from.
 - **Accountable memory** — the result is integrated and its lineage is kept, so you can both act on it and answer for it.
 
 Today's agent stacks mostly sit in source amnesia, running at machine speed: a summary arrives without its lineage, and we act on it. Accountable memory is the corner we want, and it is the expensive one, because it asks us to pay B and C at once.
@@ -138,7 +140,7 @@ So a copy of yourself in the middle layer means two kinds of clone: those that e
 
 If we cannot afford to keep everything and read everything, something has to be let go. The question is whether that happens by accident or by decision.
 
-Archival science has dealt with this for a long time. Archivists **appraise** records when they are created, deciding what is worth keeping. They set **retention schedules** that say how long each kind of record is kept, and they carry out **scheduled disposal** when that time is up. Forgetting becomes an act someone is responsible for, rather than a failure that happens to us.
+Archival science has dealt with this for a long time. Archivists **appraise** records when they are created, deciding what is worth keeping. They set **retention schedules** that say how long each kind of record is kept, and they carry out **scheduled disposal** when that time is up. Forgetting becomes an act someone is responsible for, rather than a failure that happens to us. Organization studies has long looked at memory the same way. Organizational memory (Walsh & Ungson, 1991) and transactive memory (Wegner) describe knowledge that is held across members and retrieved by knowing who knows what, rather than stored in a single head.
 
 Brought into a multi-agent system, this does more than pick a point between B and C. A record that will be disposed of on a known schedule does not have to be read now; what remains stays small enough to be read. Disposal, done on purpose, is what keeps provenance affordable.
 
@@ -156,11 +158,13 @@ If clones are parts of a self rather than tools held by one, provenance changes 
 
 For LLM agents, this can sound like a metaphor. For the brain emulations Pugnet describes, it is not. An emulation of you that has spent a thousand subjective hours supervising a machine comes back with experience that is yours and that you did not live. How much of it you take in, and how much of its lineage you keep, decides what kind of person you are afterward.
 
+Conway's law (1968) holds that systems mirror the communication structure of the organizations that build them. Applied to clones, it suggests that how we allot integration bandwidth among them will shape what the merged self becomes.
+
 ## The privacy of the return
 
 So far, provenance has been a cost of storing, verifying and reading a record. With BMIs in the loop, it has a fourth component: exposure.
 
-When intent is decoded from the brain, "which instruction did this clone act on" points back to a reading of someone's mind. The more lineage we keep, the more accountable the return — and the more there is to leak. Accountable memory, the corner we want, is also the corner with the most to lose. Provenance needs a third dimension next to integration and retention: who may see it.
+When intent is decoded from the brain, "which instruction did this clone act on" points back to a reading of someone's mind. The more lineage we keep, the more accountable the return — and the more there is to leak. Accountable memory, the corner we want, is also the corner with the most to lose. Provenance needs a third dimension next to integration and retention: who may see it. Law is beginning to treat this dimension as special: Chile wrote neurorights into its constitution in 2021, and UNESCO adopted a Recommendation on the Ethics of Neurotechnology in 2025.
 
 Several of the ideas above turn out to be privacy measures as well.
 
@@ -177,34 +181,44 @@ The same frame scales up. Replace the single person with a community, and the cl
 
 Imagine a region that gathers what its environment says about itself — environmental DNA from water and soil, sensors on trees, records from farmers and local government — into an AI that runs locally and returns what it learns to the people who live there. Now imagine many such regions, each with its own local AI, connected into a network. Each local AI builds up its own context, as a clone does. Connecting them is a return: what each place has learned flows into a shared layer that, like layer 1, has limited room. Which of it goes up, and with how much provenance, is the design question.
 
-Provenance here is not only accountability; it is how value finds its way home. Returning benefit to a community requires knowing which data came from where, from whose land, and which knowledge from whom. Source amnesia at this scale has a familiar name: extraction. Data flows to a center, its origin is lost, and the value it creates never returns. This is precisely the problem behind current debates on digital sequence information under the Convention on Biological Diversity, where genetic data detached from its source can generate value with no path back. Environmental DNA sits squarely inside that problem.
+Provenance here is not only accountability; it is how value finds its way home. Returning benefit to a community requires knowing which data came from where, from whose land, and which knowledge from whom. Source amnesia at this scale has a familiar name: extraction. Data flows to a center, its origin is lost, and the value it creates never returns. This is precisely the problem behind current debates on digital sequence information under the Convention on Biological Diversity, where genetic data detached from its source can generate value with no path back. Environmental DNA sits squarely inside that problem. The Nagoya Protocol governs access to genetic resources and the sharing of their benefits, and the 2024 UN biodiversity conference (COP16) set up a fund for benefits from digital sequence information — institutional attempts to rebuild the path home.
 
 Each kind of data can be given a deliberate place among the four regimes:
 
-- **Raw sensor streams and sequencing reads** stay in the place where they were collected, under a retention schedule. They are large, and like neural recordings they may reveal more to future models than anyone intended.
+- **Raw sensor streams and sequencing reads** stay in the place where they were collected, under a retention schedule. They are large, and like neural recordings they may reveal more to future models than anyone intended. Federated learning offers a way to learn across places without pooling this data.
 - **Summaries such as which species are present** are integrated into the network with their provenance intact. They make comparison across places possible and are the basis for returning value.
 - **The locations of rare species** are compartmented on purpose. Keeping them out of the network is itself an act of conservation, since that information also serves poachers.
-- **Local and traditional knowledge** is integrated only under explicit consent and benefit-sharing terms, so that whose knowledge it is never gets lost.
+- **Local and traditional knowledge** is integrated only under explicit consent and benefit-sharing terms, so that whose knowledge it is never gets lost. The CARE Principles for Indigenous Data Governance — collective benefit, authority to control, responsibility, ethics — spell out what that takes.
 
 The rest of the harness carries over too. Access governance lives at the interface through which outside agents reach a local AI's tools and data — for example, servers exposed through the Model Context Protocol (MCP), an open standard for connecting AI applications to external tools and data — where the scope of what each caller may read and decide can be set. Reporting governance decides what a place returns to a question from outside, and in what form. And the warning from rollups applies: if a single hub orders and aggregates what every place sends, it becomes the point where power and attacks concentrate. What a network of local AIs should keep distributed is not only capability but the independence of each place's judgment.
 
-## How this relates to existing work
+The boundaries between places deserve a warning of their own. In blockchains, the bridges that carry assets from one chain to another have been the site of some of the largest losses in the field's history; in 2022 alone, the Ronin and Wormhole bridges each lost hundreds of millions of dollars. Wherever one system's clones talk to another's — agents working across organizations, local AIs exchanging what they have learned — the same holds. Provenance is most easily lost, and most easily forged, at the moment it crosses a boundary. Those crossings need governance of their own.
 
-Each part of this argument has precedents. What is new here is putting them in one picture.
+## What is left for us: layer 1, and layer 0
 
-- **Bandwidth and BMIs.** Elon Musk has long argued that human output bandwidth is pitifully low and that BMIs are the path to human–AI symbiosis. Pugnet's Phase Lock develops a fuller version, and explicitly concedes that the binding constraint may be comprehension rather than communication; his answer is to expand cognition itself, through neural augmentation and whole-brain emulation. This essay agrees on the diagnosis but not the remedy: even copies of ourselves still have to come back.
-- **The central bottleneck.** [Zheng & Meister](https://arxiv.org/abs/2408.10234v2) estimate human behavioral throughput at about 10 bits per second. Herbert Simon made the institutional version of the point in 1971: a wealth of information creates a poverty of attention, and organizations must be designed around that scarcity.
-- **BMIs and agents together.** [Meunier et al. (2024)](https://arxiv.org/abs/2402.15011) propose brain–artificial intelligence interfaces, in which the user supplies high-level intent from EEG and an AI agent fills in the details. [Chen et al.](https://arxiv.org/abs/2510.22095) call for a shift from brain–computer interfaces to brain–agent collaboration, with intent clarification, user agency and governance built in. Both match the division of labor here — BMI for intent, agents for the rest — but stop before the return.
-- **Attention as the bottleneck for agents.** Practitioners running many coding agents report the same limit from the other side: the constraint is not the agents but the developer's attention, as in Zack Proser's talk [Your attention is the bottleneck, not your agents](https://www.ai.engineer/talks/so9l_MwS2yg-your-attention-is-bottleneck-not-your-agents) (AI Engineer Europe 2026).
-- **Governing agents.** OpenAI's [Practices for Governing Agentic AI Systems](https://openai.com/index/practices-for-governing-agentic-ai-systems/) (Shavit et al., 2023) proposes constraining the action space and requiring approval, legibility of agent activity, automatic monitoring, attributability, and interruptibility. These map onto access governance and onto the provenance side of the return; the cost of reading what they produce is what this essay adds.
-- **Blockchain scaling.** Layer-2 rollups, data availability, and EIP-4844's pruned blobs are the most concrete existing price for the B–C trade-off; the analogy above borrows from that engineering literature rather than claiming anything new about it.
-- **Privacy.** Helen Nissenbaum's contextual integrity frames privacy as appropriate information flow rather than secrecy. Neurorights are now entering law: Chile wrote them into its constitution in 2021, and UNESCO adopted a Recommendation on the Ethics of Neurotechnology in 2025. Pugnet's Phase Lock proposes on-device processing, transmitting intent rather than raw signals, and consent that expires unless renewed.
-- **Data from places.** The Nagoya Protocol governs access to genetic resources and the sharing of their benefits, and the 2024 UN biodiversity conference (COP16) set up a fund for benefits from digital sequence information. The CARE Principles for Indigenous Data Governance (collective benefit, authority to control, responsibility, ethics) state the conditions under which community data stays accountable to its source. Federated learning offers a technical route for learning across places without pooling raw data.
-- **Provenance and memory.** Data provenance has standards such as W3C PROV. In psychology, source-monitoring research (Johnson, Hashtroudi & Lindsay, 1993) studies how people lose track of where a memory came from — the human form of source amnesia. Transactive memory (Wegner) and organizational memory (Walsh & Ungson, 1991) describe how groups store knowledge across members. Archival appraisal and retention scheduling come from archival science. Conway's law (1968) — systems mirror the communication structure of the organizations that build them — suggests that how we allot integration bandwidth among clones will shape what the merged self becomes.
+If agents come to do most of the work, what is left for people? In the terms of this essay, people stop being the ones who execute and become the place where things settle.
+
+A layer 1 does little computation. What it provides is finality: it decides what counts as having happened, and it secures that decision. The work that remains for a person follows the clone's life.
+
+- **Sending out: write the intent.** Decide what is worth doing, in what order, and with what priority. This is less something AI cannot do than something that, once handed over, removes the answer to the question of whom the work is for.
+- **Coming back: take it on.** Stand at the end of "who approved this?", because accountability cannot be delegated. Be the honest watcher that optimistic designs depend on. Spend scarce attention where the supervisors disagreed, not on their conclusions.
+- **Governing: design the harness.** Decide where each kind of work sits among the four regimes. Decide what to forget, because appraisal is a judgment of value. Keep hold of the escape hatch.
+
+There is a trap here. If agents do everything, the capacity to judge may weaken. A layer 1 with no validators settles in name only: nothing is actually checked. To remain a layer 1, a person has to keep doing some of the work, so that judgment stays exercised — as practitioners put it, do not delegate what you could not review yourself. The bridge that runs downward, re-deriving supervisors from your current intent, also means something only if you keep learning and changing. A person who stops thinking leaves behind copies that go on reflecting an older self.
+
+Beneath layer 1, blockchains also speak of a layer 0, in two senses, and both apply.
+
+The first is the social layer. When a protocol breaks in a way its code did not foresee, the last recourse is the community's agreement about what should count. In 2016, after the attack on The DAO, the Ethereum community hard-forked the chain to reverse it. If each person is a layer 1, society is the layer 0. When every settlement mechanism fails — a captured committee, a proof built on a wrong assumption, a supervising copy that has drifted away from its original — society is where people can decide again, together, what was legitimate.
+
+The second is the shared infrastructure that connects many layer 1s and lets them share security. Some networks pool their validators so that each chain need not recruit its own; others leave each chain to secure itself. No individual can staff every watch over their own clones. Optimistic designs need at least one honest watcher, and that watcher can be supplied collectively: auditors, professional bodies, and public institutions that verify on everyone's behalf. The same warning applies as before. A common base is also a common point of failure, and of power.
+
+Layer 0 has a third, more literal sense: the physical substrate beneath a network. For a person, that substrate is the brain. Reading the brain is an input to layer 1; writing to it alters the foundation on which everything above rests. This is why, as Pugnet argues, the closer a technology comes to changing a mental state, the higher its burden of proof should be.
+
+So the answer has two levels. Individually, remain a layer 1: write the intent, take on what comes back, decide what to forget, and keep the power to stop. Collectively, remain a layer 0: keep the shared watch, govern the boundaries, and keep the capacity to decide together what counts. The task is not to keep pace with machines. It is to remain the place where what they do is settled.
 
 ## Summary
 
-People want two things from AI: to draw out, and to act. BMIs widen the bandwidth of expression; agents widen the bandwidth of action. Widen both, and the bandwidth of reception becomes the problem — the shadow clone problem.
+None of the pieces of this argument is new on its own. What this essay adds is putting them in one picture. People want two things from AI: to draw out, and to act. BMIs widen the bandwidth of expression; agents widen the bandwidth of action. Widen both, and the bandwidth of reception becomes the problem — the shadow clone problem.
 
 <figure class="post-fig"><img src="{{root}}assets/img/blog/bmi-agent-fig4.svg" alt="A loop between a person and AI agents: expression bandwidth widened by BMIs on the way out, action bandwidth widened by agents, and reception bandwidth on the way back as the bottleneck where institutions are needed." loading="lazy"><figcaption>Figure 6. The three bandwidths, and the loop that has to be designed</figcaption></figure>
 
