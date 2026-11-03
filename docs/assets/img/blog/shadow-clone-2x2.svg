@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="ax" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f6a7d"/></marker>
+  </defs>
+  <rect width="1200" height="640" fill="#fff"/>
+
+  <!-- axes -->
+  <path d="M230,560 L1130,560" stroke="#5f6a7d" stroke-width="2" marker-end="url(#ax)"/>
+  <path d="M230,560 L230,40" stroke="#5f6a7d" stroke-width="2" marker-end="url(#ax)"/>
+  <text x="680" y="602" text-anchor="middle" font-size="19" font-weight="600" fill="#0f1923">Integrated into the one who acts  →  <tspan fill="#2a7f8a">uses integration bandwidth (B)</tspan></text>
+  <text x="250" y="590" font-size="16" fill="#5f6a7d">not integrated</text>
+  <text x="1110" y="590" text-anchor="end" font-size="16" fill="#5f6a7d">integrated</text>
+  <text transform="translate(150 300) rotate(-90)" text-anchor="middle" font-size="19" font-weight="600" fill="#0f1923">Provenance kept  →  <tspan fill="#7d6430">pays provenance cost (C)</tspan></text>
+  <text transform="translate(205 540) rotate(-90)" font-size="16" fill="#5f6a7d">dropped</text>
+  <text transform="translate(205 120) rotate(-90)" text-anchor="end" font-size="16" fill="#5f6a7d">kept</text>
+
+  <!-- quadrants -->
+  <!-- bottom-left: dissociation -->
+  <rect x="250" y="310" width="420" height="230" rx="8" fill="#fff" stroke="#e0ddd7" stroke-width="2"/>
+  <text x="460" y="388" text-anchor="middle" font-size="24" font-weight="600" fill="#0f1923">Dissociation</text>
+  <text x="460" y="420" text-anchor="middle" font-size="17" fill="#2c3e50">the work happened,</text>
+  <text x="460" y="444" text-anchor="middle" font-size="17" fill="#2c3e50">but no one holds it or can say who did it</text>
+
+  <!-- top-left: inaccessible memory -->
+  <rect x="250" y="60" width="420" height="230" rx="8" fill="#c9a961" fill-opacity=".1" stroke="#c9a961" stroke-width="2"/>
+  <text x="460" y="138" text-anchor="middle" font-size="24" font-weight="600" fill="#7d6430">Inaccessible memory</text>
+  <text x="460" y="170" text-anchor="middle" font-size="17" fill="#2c3e50">every log is kept,</text>
+  <text x="460" y="194" text-anchor="middle" font-size="17" fill="#2c3e50">but nobody reads it — an archive without a reader</text>
+
+  <!-- bottom-right: source amnesia -->
+  <rect x="690" y="310" width="420" height="230" rx="8" fill="#2a7f8a" fill-opacity=".08" stroke="#2a7f8a" stroke-width="2"/>
+  <text x="900" y="388" text-anchor="middle" font-size="24" font-weight="600" fill="#2a7f8a">Source amnesia</text>
+  <text x="900" y="420" text-anchor="middle" font-size="17" fill="#2c3e50">the conclusion is absorbed,</text>
+  <text x="900" y="444" text-anchor="middle" font-size="17" fill="#2c3e50">but not where it came from or whose it was</text>
+  <rect x="790" y="476" width="220" height="32" rx="16" fill="#2a7f8a"/>
+  <text x="900" y="498" text-anchor="middle" font-size="16" font-weight="600" fill="#fff">today's agent stacks</text>
+
+  <!-- top-right: accountable memory -->
+  <rect x="690" y="60" width="420" height="230" rx="8" fill="#f4f1ec" stroke="#0f1923" stroke-width="2.5"/>
+  <text x="900" y="138" text-anchor="middle" font-size="24" font-weight="600" fill="#0f1923">Accountable memory</text>
+  <text x="900" y="170" text-anchor="middle" font-size="17" fill="#2c3e50">integrated with its lineage —</text>
+  <text x="900" y="194" text-anchor="middle" font-size="17" fill="#2c3e50">you can act on it and answer for it</text>
+  <rect x="770" y="226" width="260" height="32" rx="16" fill="#0f1923"/>
+  <text x="900" y="248" text-anchor="middle" font-size="16" font-weight="600" fill="#fff">the goal: pays B and C at once</text>
+</svg>

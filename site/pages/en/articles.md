@@ -5,6 +5,12 @@ label: Articles
 heading: Articles
 lead: Essays on note, article series, explainers, videos, and translation work. Papers and contributed articles are on the [Achievements](/en/achievements/) page.
 ---
+## Blog
+
+Essays in English, including translations of selected note posts.
+
+<!--blog-->
+
 ## note (in Japanese)
 
 Essays on living as a researcher, mentoring, metascience, and the governance of AI and society. New posts appear here automatically every day. [[note](https://note.com/hirotaiyohamada)]

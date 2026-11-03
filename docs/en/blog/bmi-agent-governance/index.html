@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Governance for BMIs and AI Agents · Hiro Taiyo Hamada</title>
+  <meta name="description" content="Brain–machine interfaces widen the bandwidth of expression and AI agents widen the bandwidth of action. Widen both, and a third bottleneck appears — the bandwidth of reception.">
+  <link rel="canonical" href="https://taiyou.github.io/en/blog/bmi-agent-governance/">
+  <meta property="og:title" content="Governance for BMIs and AI Agents · Hiro Taiyo Hamada">
+  <meta property="og:description" content="Brain–machine interfaces widen the bandwidth of expression and AI agents widen the bandwidth of action. Widen both, and a third bottleneck appears — the bandwidth of reception.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://taiyou.github.io/assets/img/portrait.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&family=Shippori+Mincho:wght@400;600&family=Source+Sans+3:wght@400;500;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="../../../assets/site.css">
+</head>
+<body>
+  <nav class="site-nav" id="site-nav">
+    <div class="nav-content">
+      <a class="nav-logo" href="../../../en/">Hiro Taiyo Hamada <span class="cjk">濱田太陽</span></a>
+      <input class="nav-check" type="checkbox" id="nav-check" aria-label="Open menu">
+      <label class="hamburger" for="nav-check" aria-hidden="true"><span></span><span></span><span></span></label>
+      <div class="nav-links"><a href="../../../en/research/">Research</a><a href="../../../en/persona/">Persona Lab</a><a href="../../../en/projects/">Projects</a><a href="../../../en/achievements/">Achievements</a><a href="../../../en/media/">Media</a><a href="../../../en/desci/">DeSci</a><a href="../../../en/code/">Code</a><a href="../../../en/cv/">CV</a><a href="../../../en/articles/" class=active>Articles</a><a class="nav-lang" href="https://note.com/hirotaiyohamada/n/n003b60d63692" lang="ja">日本語</a></div>
+    </div>
+  </nav>
+
+  <header class="page-head"><div class="page-head-inner"><p class="section-label">Blog · 13 September 2026</p><h1>Governance for BMIs and AI Agents</h1><p class="page-lead">Brain–machine interfaces widen what we can express. AI agents widen what we can do. Widen both, and a third bottleneck appears — how much one person can take back in.</p></div></header><main class="page-single"><article class="prose "><p class="post-origin">This is an English version of an essay first published in Japanese on <a href="https://note.com/hirotaiyohamada/n/n003b60d63692" target="_blank" rel="noopener">note</a> on 13 September 2026.</p>
+<p>I have been arguing that <strong>brain–machine interfaces (BMIs)</strong> on their own solve only half the problem, and that we need to invest much more in AI alongside them. Here is a short summary of why.</p>
+<p>People want two things from AI.</p>
+<p>The first is to <strong>draw out the information inside themselves more richly</strong>.</p>
+<p>The second is to <strong>run more work in parallel than they could ever handle alone</strong>.</p>
+<p>In the world that is coming, the decoding technology that serves the first need is the <strong>brain–machine interface (BMI)</strong>, and what serves the second is the <strong>AI agent</strong>.</p>
+<p>The two are almost never drawn in the same picture. BMIs have been discussed in the context of neural engineering and clinical medicine; agents in the context of software development and multi-agent research. They have been talked about separately.</p>
+<h2 id="sec-1">The bandwidth of expression and the bandwidth of action</h2>
+<p>BMIs and agents look like entirely different technologies.</p>
+<p>Seen from the human side, though, they are attacking the same problem from opposite directions: the <strong>bandwidth of expression</strong> and the <strong>bandwidth of action</strong>.</p>
+<p>Humans have <strong>bandwidth limits</strong>.</p>
+<p>When we type on a keyboard or give instructions by voice, we get only a tiny fraction of what is in our heads out into the world — our judgments, where our attention is pointed, intentions that have not yet become words.</p>
+<p>This is a limit on the input side: the <strong>bandwidth of expression</strong>.</p>
+<p>At the same time, however clear our intentions are, each of us has only one body and one stream of time. We cannot push ten jobs forward at once.</p>
+<p>This is a limit on the output side: the <strong>bandwidth of action</strong>.</p>
+<p><strong>BMIs widen the bandwidth of expression; agents widen the bandwidth of action.</strong></p>
+<p>So the two things people want from AI — "draw more out of me" and "do more for me" — correspond to the two ends of a single person's expressive and behavioral constraints.</p>
+<p>Framed this way, a question follows naturally:</p>
+<p><strong>How do we hand the rich intent we have extracted to many agents, and how do we bring their results back to one person?</strong></p>
+<h2 id="sec-2">BMIs extract intent</h2>
+<p>Start with the first demand: extraction (Figure 1).</p>
+<p>Keyboards and voice are discrete, explicit, and slow.</p>
+<p>We first translate what we want to convey into words, and only then type it in. A great deal is lost in that translation.</p>
+<figure class="post-fig"><img src="../../../assets/img/blog/bmi-agent-fig1.svg" alt="Two channels lead out of a person's inner state. Keyboard and voice form a narrow, slow channel that yields only a few words; a BMI forms a wide channel that yields rich intent." loading="lazy"><figcaption>Figure 1. BMIs and the bandwidth of expression</figcaption></figure>
+<p>What a BMI tries to capture is the continuous, implicit state that exists before that translation: where attention is pointed, what feels off, whether we are hesitating or sure.</p>
+<p>The point I want to stress is that the real strength of a BMI lies in <strong>extracting rich intent with as little loss of information as possible</strong>.</p>
+<p>One can imagine using a BMI to steer agents directly.</p>
+<p>But the job of the BMI is to make the human side's intent denser. Parallelizing and organizing what comes after should be the job of a separate layer.</p>
+<h2 id="sec-3">Agents take human intent and execute it in parallel</h2>
+<p>Now the second demand: parallel execution (Figure 2).</p>
+<p>As of September 2026, it is fair to say that in most cases agents already exceed the abilities of the average person.</p>
+<figure class="post-fig"><img src="../../../assets/img/blog/bmi-agent-fig2.svg" alt="One person's rich intent passes through a harness made of access, memory and reporting governance, then branches out to N agents working in parallel on code, research and documents." loading="lazy"><figcaption>Figure 2. AI agents and the bandwidth of action</figcaption></figure>
+<p>They write code, do research, and produce documents. It is already technically possible for dozens of agents to take one person's intent in the form of prompts and carry out separate pieces of work at the same time.</p>
+<p>Each agent is given its share of the intent, and the work runs in parallel. The parallel results are then gathered and integrated into a form a human can understand.</p>
+<p>This is what is called multi-agent coordination.</p>
+<p>Multi-agent coordination is not easy, however. It needs mechanisms for governing how agents behave toward one another.</p>
+<p>Human organizations, for example, have mechanisms for keeping information in order: work rules, approval authority, records that are kept, reporting lines. Only with such institutions in place can many people move toward a single goal.</p>
+<p>Agents need the same thing. This is what is called a harness.</p>
+<p>I think a harness needs three mechanisms:</p>
+<ul><li><strong>Access governance</strong> — who may access what, and who may decide what.</li><li><strong>Memory governance</strong> — what is kept, what is discarded, and who inherits that memory.</li><li><strong>Reporting governance</strong> — what is summarized and abstracted, and in what form results are reported back to the human.</li></ul>
+<p>One person's intent passes through the harness, branches out to N agents, and the results come back. That is parallel execution.</p>
+<h2 id="sec-4">Where the two demands collide</h2>
+<p>So far I have treated BMIs and agents separately.</p>
+<p>But try to satisfy both at once, and there is one place where problems are bound to arise: the integration of information.</p>
+<p>Each agent that branches off builds up its own context. Eventually it finishes its work, and that experience flows back to the human.</p>
+<figure class="post-fig"><img src="../../../assets/img/blog/bmi-agent-fig3.svg" alt="Results from many agents, each carrying its own context, converge into a funnel that summarizes and abstracts them before a narrow outlet reaches one person." loading="lazy"><figcaption>Figure 3. The bandwidth of reception</figcaption></figure>
+<p>At this point the two demands collide.</p>
+<p>BMIs have made intent richer, and rich intent produces rich results. Agents have made processing parallel, and parallel processing produces many results.</p>
+<p>All of it <strong>floods into the receiving bandwidth of a single person</strong>.</p>
+<p>The more we widen the input and output sides, the narrower a person's bandwidth for receiving information becomes in relative terms. This is not a technical shortcoming; it is a third bandwidth problem that follows inevitably from the structure itself.</p>
+<p>So whatever comes back has to be summarized and abstracted so that it stays within the limits of human cognition.</p>
+<p>What do we throw away, and what do we keep? Do we preserve provenance — who did what, and why it turned out that way — or receive only the results?</p>
+<p>This is where AI is needed to integrate and organize information.</p>
+<p>Even once we have decided who may see what and what gets kept, the amount one person can take in does not, for now, increase.</p>
+<p>There may be a future in which <strong>the amount one person can take in</strong> itself changes — one in which BMIs dramatically improve the brain's capacity for understanding and judgment. Even so, this is likely to remain the bottleneck.</p>
+<h2 id="sec-5">Summary</h2>
+<p>People want two things from AI: to draw out, and to act.</p>
+<figure class="post-fig"><img src="../../../assets/img/blog/bmi-agent-fig4.svg" alt="A loop between a person and AI agents: expression bandwidth widened by BMIs on the way out, action bandwidth widened by agents, and reception bandwidth on the way back as the bottleneck where institutions are needed." loading="lazy"><figcaption>Figure 4. The three bandwidths</figcaption></figure>
+<p>These correspond to the two ends of human bandwidth constraints. BMIs widen the <strong>bandwidth of expression</strong>; agents widen the <strong>bandwidth of action</strong>.</p>
+<p>And when both are widened, a third bandwidth — the <strong>bandwidth of reception</strong> — inevitably becomes the problem. This is where institutions are needed.</p>
+<p>Improving the communication performance of BMIs alone will not necessarily increase the outcomes people actually want.</p>
+<p>What matters is designing the estimation and confirmation of intent, execution within the scope of granted authority, verification of results, and reporting back to the human as a single loop.</p>
+<p>BMIs and AI agents may complement each other within that loop.</p>
+<p class="post-origin">Follow-up: <a href="../../../en/blog/shadow-clone-provenance/">What Comes Back When the Clones Dissolve</a> — a closer look at integration bandwidth and provenance.</p></article></main>
+
+  <footer class="site-footer">
+    <p class="footer-name">Hiro Taiyo Hamada · 濱田太陽</p>
+    <p class="footer-links">
+      <a href="../../../publications/">Publication database (updated daily from researchmap)</a>
+    </p>
+    <p class="footer-note">“Per aspera ad astra”</p>
+  </footer>
+  <script src="../../../assets/site.js" defer></script>
+</body>
+</html>

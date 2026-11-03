@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f6a7d"/></marker>
+  </defs>
+  <rect width="1200" height="520" fill="#fff"/>
+
+  <!-- agents with their own context -->
+  <text x="170" y="48" text-anchor="middle" font-size="18" font-weight="600" fill="#0f1923">Agents return their results</text>
+  <g font-size="16">
+    <g transform="translate(40,70)">
+      <rect width="260" height="62" rx="6" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+      <text x="16" y="27" font-weight="600" fill="#0f1923">Agent 1</text>
+      <rect x="16" y="38" width="200" height="5" rx="2" fill="#c9a961"/><rect x="16" y="48" width="150" height="5" rx="2" fill="#e0ddd7"/>
+    </g>
+    <g transform="translate(40,150)">
+      <rect width="260" height="62" rx="6" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+      <text x="16" y="27" font-weight="600" fill="#0f1923">Agent 2</text>
+      <rect x="16" y="38" width="170" height="5" rx="2" fill="#c9a961"/><rect x="16" y="48" width="220" height="5" rx="2" fill="#e0ddd7"/>
+    </g>
+    <g transform="translate(40,230)">
+      <rect width="260" height="62" rx="6" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+      <text x="16" y="27" font-weight="600" fill="#0f1923">Agent 3</text>
+      <rect x="16" y="38" width="220" height="5" rx="2" fill="#c9a961"/><rect x="16" y="48" width="120" height="5" rx="2" fill="#e0ddd7"/>
+    </g>
+    <text x="170" y="332" text-anchor="middle" font-size="26" fill="#5f6a7d">⋮</text>
+    <g transform="translate(40,360)">
+      <rect width="260" height="62" rx="6" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+      <text x="16" y="27" font-weight="600" fill="#0f1923">Agent N</text>
+      <rect x="16" y="38" width="190" height="5" rx="2" fill="#c9a961"/><rect x="16" y="48" width="200" height="5" rx="2" fill="#e0ddd7"/>
+    </g>
+  </g>
+  <text x="170" y="455" text-anchor="middle" font-size="15" fill="#5f6a7d">each carries its own accumulated context</text>
+
+  <!-- converge -->
+  <g stroke="#5f6a7d" stroke-width="2" fill="none" marker-end="url(#a3)">
+    <path d="M302,101 C380,101 380,200 452,200"/>
+    <path d="M302,181 C380,181 380,235 452,235"/>
+    <path d="M302,261 C380,261 380,275 452,275"/>
+    <path d="M302,391 C380,391 380,315 452,315"/>
+  </g>
+
+  <!-- funnel -->
+  <path d="M460,150 L800,232 L800,288 L460,370 Z" fill="#2a7f8a" fill-opacity=".1" stroke="#2a7f8a" stroke-width="2"/>
+  <text x="610" y="245" text-anchor="middle" font-size="20" font-weight="600" fill="#2a7f8a">Integration</text>
+  <text x="610" y="272" text-anchor="middle" font-size="16" fill="#2c3e50">summarize · abstract</text>
+  <g font-size="15" fill="#7d6430" text-anchor="middle">
+    <text x="610" y="112">What is discarded, what is kept?</text>
+    <text x="610" y="134">Keep provenance (who did what, and why)</text>
+    <text x="610" y="404">— or only the results?</text>
+  </g>
+
+  <!-- narrow outlet to one person -->
+  <path d="M800,260 L905,260" stroke="#2a7f8a" stroke-width="6"/>
+  <path d="M905,260 L930,260" stroke="#2a7f8a" stroke-width="2.5" marker-end="url(#a3)"/>
+  <circle cx="1040" cy="210" r="34" fill="#f4f1ec" stroke="#c9a961" stroke-width="2"/>
+  <path d="M970,330 C970,275 1110,275 1110,330 Z" fill="#f4f1ec" stroke="#c9a961" stroke-width="2"/>
+  <text x="1040" y="370" text-anchor="middle" font-size="18" font-weight="600" fill="#0f1923">One person</text>
+  <text x="1040" y="394" text-anchor="middle" font-size="15" fill="#5f6a7d">limited capacity</text>
+  <text x="1040" y="414" text-anchor="middle" font-size="15" fill="#5f6a7d">to take things in</text>
+
+  <text x="600" y="495" text-anchor="middle" font-size="17" fill="#5f6a7d">Widening expression and action narrows, in relative terms, the <tspan font-weight="600" fill="#2a7f8a">bandwidth of reception</tspan></text>
+</svg>
