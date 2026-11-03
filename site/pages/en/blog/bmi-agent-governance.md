@@ -98,6 +98,26 @@ Rollups also offer two strategies for the return, and both translate. An optimis
 
 Two lessons carry over with warnings. First, many rollups still depend on a single sequencer that orders all transactions. The clones are many, but the one who decides the order of their return is one — the same concentration risk an orchestrating agent poses. Second, the analogy breaks exactly where it matters. A blockchain verifies a deterministic state transition mechanically. A person cannot check a proof by intuition, and the work agents do involves meaning and judgment that do not compress into a proof. The human side of the return needs institutions and not only cryptography.
 
+## Settling what the clones bring back: five designs
+
+Seen through rollups, Pugnet's proposal has three parts, not two. The AI agents are the clones, executing at machine speed. You are layer 1, where results become final. Between them sits a settlement mechanism — the harness — that bundles what the clones bring back, checks it, and hands it on. Pugnet's accelerated emulation is one way to build that middle layer: it places a clone of you inside the governance layer itself. Auditor agents, rule engines and verifiers are others. Whatever fills it, the single arrow labelled "at your pace" hides a whole design space. Rollups suggest five designs (Figure 5).
+
+<figure class="post-fig"><img src="{{root}}assets/img/blog/emulation-oversight-types.svg" alt="Five rows, each showing you, a settlement mechanism in the middle, and many AI clones on the right. Dots move quickly between the mechanism and the clones at every step, and slowly between the mechanism and you. Validium type: only a verdict comes back. Optimistic type: a summary comes back while the full log goes to an archive that can be challenged within a window. Validity type: the result comes back with a proof. Committee type: three supervisors share the same blind spot. Based type: you send intent first and the mechanism only enforces it." loading="lazy"><figcaption>Figure 5. Five designs for settling what the AI clones bring back</figcaption></figure>
+
+- **Validium type** — only the verdict comes back; the log stays inside the mechanism. This is source amnesia: you are trusting whoever runs the middle layer.
+- **Optimistic type** — a summary comes back and the full log goes to an archive. Within a challenge window, you or an auditor can contest it. This is accountable memory if someone is watching, and inaccessible memory if no one is.
+- **Validity type** — the result comes back with a proof that it met stated constraints. Accountability becomes cheap, but only for properties precise enough to prove.
+- **Committee type** — several supervisors check one another. A committee is only as diverse as its members. Supervisors from one source — copies of one person, instances of one model — share the same blind spots, and whatever they all fail to catch is exactly what the supervised agents will learn to do. Diversity has to be designed in: different people, different models, the same person at different moments.
+- **Based type** — you set the intent and the order of work first, and the mechanism only enforces it. Lineage is derived from your intent. This is where a BMI that extracts intent densely pays off; the cost is less room to respond to the unexpected.
+
+Three questions cut across all five designs.
+
+- **Finality and irreversibility.** A rollup's sequencer gives a soft confirmation; layer 1 makes it final, and a fraud proof can roll a bad result back. Actions in the world cannot be rolled back. Optimistic designs suit reversible actions. Irreversible ones need a validity check or approval in advance.
+- **The bridge that runs the other way.** A rollup's state is derived from inputs posted on layer 1. A supervisor — above all a copy of you — must likewise be re-derived from your current intent at regular intervals, or it drifts away from you. Reports run up; updates have to run down.
+- **An escape hatch.** Rollups let users exit through layer 1 even when the sequencer refuses them. You need a path that bypasses the mechanism and stops the clones directly — what Shavit et al. call interruptibility.
+
+Putting a copy of yourself in the middle layer also means there are now two kinds of clone: those that execute, and one that supervises. The second carries the question of whose clone it is in its sharpest form, and we return to it below.
+
 ## Forgetting as a governed act
 
 If we cannot afford to keep everything and read everything, something has to be let go. The question is whether that happens by accident or by decision.
@@ -170,7 +190,7 @@ Each part of this argument has precedents. What is new here is putting them in o
 
 People want two things from AI: to draw out, and to act. BMIs widen the bandwidth of expression; agents widen the bandwidth of action. Widen both, and the bandwidth of reception becomes the problem — the shadow clone problem.
 
-<figure class="post-fig"><img src="{{root}}assets/img/blog/bmi-agent-fig4.svg" alt="A loop between a person and AI agents: expression bandwidth widened by BMIs on the way out, action bandwidth widened by agents, and reception bandwidth on the way back as the bottleneck where institutions are needed." loading="lazy"><figcaption>Figure 5. The three bandwidths, and the loop that has to be designed</figcaption></figure>
+<figure class="post-fig"><img src="{{root}}assets/img/blog/bmi-agent-fig4.svg" alt="A loop between a person and AI agents: expression bandwidth widened by BMIs on the way out, action bandwidth widened by agents, and reception bandwidth on the way back as the bottleneck where institutions are needed." loading="lazy"><figcaption>Figure 6. The three bandwidths, and the loop that has to be designed</figcaption></figure>
 
 Faster interfaces do not remove it, and neither does faster cognition. Copying ourselves multiplies it: more clones, more experience coming back, the same single point of return. And it holds just as well when the one receiving is not a person but a place. So the return path has to be designed, not assumed. The harness gives one mechanism to each moment of the clone's life: access governance for acting, reporting governance for choosing what comes back and how, and memory governance for what is kept, what is let go, and who may see it.
 
