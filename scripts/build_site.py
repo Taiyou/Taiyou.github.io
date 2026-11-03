@@ -179,7 +179,7 @@ def read_page(path: Path) -> tuple[dict[str, str], str]:
     return meta, raw
 
 
-def render_nav(lang: str, active: str, root: str) -> str:
+def render_nav(lang: str, active: str, root: str, switch_href: str | None = None) -> str:
     conf = LANGS[lang]
     links = "".join(
         f'<a href="{root}{conf["prefix"]}{slug}/"{" class=active" if slug == active else ""}>{label}</a>'
@@ -187,17 +187,32 @@ def render_nav(lang: str, active: str, root: str) -> str:
     )
     page = "" if active == "home" else f"{active}/"
     other = "ja" if lang == "en" else "en"
-    switch = f'<a class="nav-lang" href="{root}{LANGS[other]["prefix"]}{page}" lang="{other}">{conf["switch"]}</a>'
+    href = switch_href or f"{root}{LANGS[other]['prefix']}{page}"
+    switch = f'<a class="nav-lang" href="{html.escape(href)}" lang="{other}">{conf["switch"]}</a>'
     return links + switch
 
 
-def wrap(template: str, meta: dict[str, str], body: str, root: str, lang: str, active: str) -> str:
+def wrap(
+    template: str,
+    meta: dict[str, str],
+    body: str,
+    root: str,
+    lang: str,
+    active: str,
+    path: str | None = None,
+    switch_href: str | None = None,
+) -> str:
     conf = LANGS[lang]
-    page = "" if active == "home" else f"{active}/"
-    alternates = "\n  ".join(
-        f'<link rel="alternate" hreflang="{code}" href="https://taiyou.github.io/{LANGS[code]["prefix"]}{page}">'
-        for code in LANGS
-    )
+    if path is None:
+        page = "" if active == "home" else f"{active}/"
+        alternates = "\n  ".join(
+            f'<link rel="alternate" hreflang="{code}" href="https://taiyou.github.io/{LANGS[code]["prefix"]}{page}">'
+            for code in LANGS
+        )
+    else:
+        # 片方の言語にしかないページ（ブログ記事）は自分自身だけを示す
+        alternates = f'<link rel="canonical" href="https://taiyou.github.io/{conf["prefix"]}{path}">'
+
     return (
         template.replace("{{lang}}", lang)
         .replace("{{title}}", html.escape(meta["title"]))
@@ -206,7 +221,7 @@ def wrap(template: str, meta: dict[str, str], body: str, root: str, lang: str, a
         .replace("{{home}}", root + conf["prefix"])
         .replace("{{menu}}", conf["menu"])
         .replace("{{footer_db}}", conf["footer_db"])
-        .replace("{{nav}}", render_nav(lang, active, root))
+        .replace("{{nav}}", render_nav(lang, active, root, switch_href))
         .replace("{{content}}", body)
         .replace("{{root}}", root)
     )
@@ -228,6 +243,25 @@ def render_note_list(items: list[dict[str, str]], limit: int | None = None) -> s
         f'<li><span class="note-date">{html.escape(x["date"].replace("-", "."))}</span>'
         f'<a href="{html.escape(x["url"])}" target="_blank" rel="noopener">{html.escape(x["title"])}</a></li>'
         for x in items[:limit]
+    )
+    return f'<ul class="note-list">{rows}</ul>'
+
+
+BLOG_MARKER = "<!--blog-->"
+
+
+def load_posts(lang: str) -> list[tuple[str, dict[str, str], str]]:
+    """site/pages/<lang>/blog/*.md を新しい順に読む。ファイル名がそのまま URL になる。"""
+    blog_dir = LANGS[lang]["pages"] / "blog"
+    posts = [(p.stem, *read_page(p)) for p in blog_dir.glob("*.md")] if blog_dir.exists() else []
+    return sorted(posts, key=lambda x: x[1].get("date", ""), reverse=True)
+
+
+def render_blog_list(lang: str, root: str) -> str:
+    rows = "".join(
+        f'<li><span class="note-date">{html.escape(meta.get("date", "").replace("-", "."))}</span>'
+        f'<a href="{root}{LANGS[lang]["prefix"]}blog/{slug}/">{html.escape(meta["heading"])}</a></li>'
+        for slug, meta, _ in load_posts(lang)
     )
     return f'<ul class="note-list">{rows}</ul>'
 
@@ -261,6 +295,8 @@ def render_subpage(meta: dict[str, str], text: str, root: str, lang: str) -> str
         content = content.replace(NOTE_MARKER, render_note_list(load_note()))
     if CV_MARKER in content:
         content = content.replace(CV_MARKER, render_cv_drawer(root, lang))
+    if BLOG_MARKER in content:
+        content = content.replace(BLOG_MARKER, render_blog_list(lang, root))
     lead = f'<p class="page-lead">{inline(meta["lead"], root)}</p>' if meta.get("lead") else ""
     side = ""
     if meta.get("toc") == "true" and toc:
@@ -283,6 +319,7 @@ def build() -> None:
     for name in ("site.css", "site.js"):
         shutil.copy(SITE_DIR / "assets" / name, OUT_DIR / "assets" / name)
     (OUT_DIR / ".nojekyll").touch()
+    posts = 0
 
     for lang, conf in LANGS.items():
         out_dir = OUT_DIR / conf["prefix"]
@@ -305,7 +342,17 @@ def build() -> None:
             dest = out_dir / slug
             dest.mkdir(parents=True, exist_ok=True)
             (dest / "index.html").write_text(wrap(template, meta, body, root, lang, slug), encoding="utf-8")
-    print(f"Built {(len(SLUGS) + 1) * len(LANGS)} pages into {OUT_DIR}")
+
+        # ブログ記事（docs/<lang>/blog/<slug>/）。言語切替は原文（note など）があればそちらへ
+        root = "../" * (depth + 2)
+        for slug, meta, text in load_posts(lang):
+            body = render_subpage(meta, text, root, lang)
+            dest = out_dir / "blog" / slug
+            dest.mkdir(parents=True, exist_ok=True)
+            page = wrap(template, meta, body, root, lang, "articles", f"blog/{slug}/", meta.get("original"))
+            (dest / "index.html").write_text(page, encoding="utf-8")
+            posts += 1
+    print(f"Built {(len(SLUGS) + 1) * len(LANGS) + posts} pages into {OUT_DIR}")
 
 
 if __name__ == "__main__":

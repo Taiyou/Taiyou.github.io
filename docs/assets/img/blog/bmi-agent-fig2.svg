@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" font-family="'Source Sans 3', 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <marker id="a2" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5f6a7d"/></marker>
+  </defs>
+  <rect width="1200" height="520" fill="#fff"/>
+
+  <!-- intent -->
+  <rect x="40" y="205" width="180" height="110" rx="6" fill="#f4f1ec" stroke="#c9a961" stroke-width="2"/>
+  <text x="130" y="252" text-anchor="middle" font-size="20" font-weight="600" fill="#7d6430">Rich intent</text>
+  <text x="130" y="280" text-anchor="middle" font-size="16" fill="#2c3e50">one person</text>
+  <path d="M222,260 L292,260" stroke="#5f6a7d" stroke-width="2.5" marker-end="url(#a2)"/>
+
+  <!-- harness -->
+  <rect x="300" y="70" width="340" height="380" rx="8" fill="#2a7f8a" fill-opacity=".07" stroke="#2a7f8a" stroke-width="2"/>
+  <text x="470" y="108" text-anchor="middle" font-size="22" font-weight="600" fill="#2a7f8a">Harness</text>
+  <g>
+    <rect x="322" y="130" width="296" height="90" rx="5" fill="#fff" stroke="#e0ddd7"/>
+    <text x="340" y="160" font-size="18" font-weight="600" fill="#0f1923">Access governance</text>
+    <text x="340" y="185" font-size="15" fill="#2c3e50">who may access what,</text>
+    <text x="340" y="205" font-size="15" fill="#2c3e50">and who may decide what</text>
+
+    <rect x="322" y="232" width="296" height="90" rx="5" fill="#fff" stroke="#e0ddd7"/>
+    <text x="340" y="262" font-size="18" font-weight="600" fill="#0f1923">Memory governance</text>
+    <text x="340" y="287" font-size="15" fill="#2c3e50">what is kept or discarded,</text>
+    <text x="340" y="307" font-size="15" fill="#2c3e50">and who inherits the memory</text>
+
+    <rect x="322" y="334" width="296" height="90" rx="5" fill="#fff" stroke="#e0ddd7"/>
+    <text x="340" y="364" font-size="18" font-weight="600" fill="#0f1923">Reporting governance</text>
+    <text x="340" y="389" font-size="15" fill="#2c3e50">what is summarized, and how</text>
+    <text x="340" y="409" font-size="15" fill="#2c3e50">results return to the human</text>
+  </g>
+
+  <!-- fan out -->
+  <g stroke="#5f6a7d" stroke-width="2" fill="none" marker-end="url(#a2)">
+    <path d="M642,260 C700,260 700,105 772,105"/>
+    <path d="M642,260 C700,260 700,190 772,190"/>
+    <path d="M642,260 C700,260 700,275 772,275"/>
+    <path d="M642,260 C700,260 700,415 772,415"/>
+  </g>
+
+  <!-- agents -->
+  <g font-size="17">
+    <rect x="780" y="80" width="250" height="50" rx="6" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="800" y="111" font-weight="600" fill="#0f1923">Agent 1</text><text x="890" y="111" fill="#5f6a7d">writes code</text>
+    <rect x="780" y="165" width="250" height="50" rx="6" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="800" y="196" font-weight="600" fill="#0f1923">Agent 2</text><text x="890" y="196" fill="#5f6a7d">does research</text>
+    <rect x="780" y="250" width="250" height="50" rx="6" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="800" y="281" font-weight="600" fill="#0f1923">Agent 3</text><text x="890" y="281" fill="#5f6a7d">drafts documents</text>
+    <text x="905" y="345" text-anchor="middle" font-size="26" fill="#5f6a7d">⋮</text>
+    <rect x="780" y="390" width="250" height="50" rx="6" fill="#fff" stroke="#2c3e50" stroke-width="1.5"/>
+    <text x="800" y="421" font-weight="600" fill="#0f1923">Agent N</text><text x="890" y="421" fill="#5f6a7d">…</text>
+  </g>
+  <text x="1105" y="262" text-anchor="middle" font-size="17" font-weight="600" fill="#7d6430" transform="rotate(90 1105 262)">running in parallel</text>
+
+  <text x="600" y="495" text-anchor="middle" font-size="17" fill="#5f6a7d">Agents widen the <tspan font-weight="600" fill="#7d6430">bandwidth of action</tspan></text>
+</svg>

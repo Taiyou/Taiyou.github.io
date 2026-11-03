@@ -450,3 +450,9 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
 .note-latest { margin-top: 44px; }
 .note-head { font-family: var(--sans); font-size: .78rem; font-weight: 600; letter-spacing: .12em; color: var(--gold); margin-bottom: 12px; }
 @media (max-width: 640px) { .note-list li { grid-template-columns: 1fr; gap: 0; } }
+
+/* ブログ記事 */
+.prose .post-origin { font-size: .92rem; color: var(--muted); border-left: 2px solid var(--gold-light); padding-left: 12px; margin-bottom: 1.8em; }
+.prose .post-fig { margin: 26px 0 30px; }
+.prose .post-fig img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: 3px; background: var(--surface); }
+.prose .post-fig figcaption { margin-top: 8px; font-size: .88rem; color: var(--muted); text-align: center; }
