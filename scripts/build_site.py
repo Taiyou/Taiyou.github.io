@@ -260,10 +260,24 @@ def load_posts(lang: str) -> list[tuple[str, dict[str, str], str]]:
 def render_blog_list(lang: str, root: str) -> str:
     rows = "".join(
         f'<li><span class="note-date">{html.escape(meta.get("date", "").replace("-", "."))}</span>'
-        f'<a href="{root}{LANGS[lang]["prefix"]}blog/{slug}/">{html.escape(meta["heading"])}</a></li>'
+        f'<a href="{root}{LANGS[lang]["prefix"]}blog/{slug}/">{html.escape(meta["heading"])}'
+        + (f' <span class="post-status">{html.escape(meta["status"])}</span>' if meta.get("status") else "")
+        + "</a></li>"
         for slug, meta, _ in load_posts(lang)
+        if not meta.get("redirect")
     )
     return f'<ul class="note-list">{rows}</ul>'
+
+
+def render_redirect(target: str, root: str) -> str:
+    href, _ = link_attrs(target, root)
+    canonical = "https://taiyou.github.io/" + target.lstrip("/")
+    return (
+        '<!DOCTYPE html><html><head><meta charset="UTF-8">'
+        f'<meta http-equiv="refresh" content="0; url={href}">'
+        f'<link rel="canonical" href="{canonical}"><title>Moved</title></head>'
+        f'<body><p>This page has moved to <a href="{href}">{canonical}</a>.</p></body></html>'
+    )
 
 
 CV_MARKER = "<!--cv-->"
@@ -346,9 +360,13 @@ def build() -> None:
         # ブログ記事（docs/<lang>/blog/<slug>/）。言語切替は原文（note など）があればそちらへ
         root = "../" * (depth + 2)
         for slug, meta, text in load_posts(lang):
-            body = render_subpage(meta, text, root, lang)
             dest = out_dir / "blog" / slug
             dest.mkdir(parents=True, exist_ok=True)
+            if meta.get("redirect"):
+                # 統合した記事などは、古い URL から新しい記事へ転送する
+                (dest / "index.html").write_text(render_redirect(meta["redirect"], root), encoding="utf-8")
+                continue
+            body = render_subpage(meta, text, root, lang)
             page = wrap(template, meta, body, root, lang, "articles", f"blog/{slug}/", meta.get("original"))
             (dest / "index.html").write_text(page, encoding="utf-8")
             posts += 1

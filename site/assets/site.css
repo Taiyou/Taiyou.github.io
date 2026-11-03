@@ -456,3 +456,4 @@ a.card:hover { color: inherit; box-shadow: 0 8px 32px rgba(0, 0, 0, .08); transf
 .prose .post-fig { margin: 26px 0 30px; }
 .prose .post-fig img { width: 100%; height: auto; border: 1px solid var(--border); border-radius: 3px; background: var(--surface); }
 .prose .post-fig figcaption { margin-top: 8px; font-size: .88rem; color: var(--muted); text-align: center; }
+.prose .post-status { display: inline-block; margin-left: 8px; padding: 0 8px; border: 1px solid var(--gold-light); border-radius: 10px; font-size: .75rem; letter-spacing: .04em; text-transform: uppercase; color: var(--gold); vertical-align: 2px; }
