@@ -1,14 +1,15 @@
 ---
 title: The Shadow Clone Problem: Governance for BMIs and AI Agents · Hiro Taiyo Hamada
 description: BMIs widen what we can express and AI agents widen what we can do. The bottleneck that remains is the return — what comes back to one mind — and its two costs, integration bandwidth and provenance, have to be governed.
-label: Blog · 3 November 2026
+label: Blog · Beta · 3 November 2026
+status: beta
 heading: The Shadow Clone Problem: Governance for BMIs and AI Agents
 lead: Brain–machine interfaces widen what we can express. AI agents widen what we can do. What neither widens is the return — how much one mind can take back in, and how much of its lineage it can keep.
 date: 2026-11-03
 original: https://note.com/hirotaiyohamada/n/n003b60d63692
 toc: true
 ---
-<p class="post-origin">This essay expands <a href="https://note.com/hirotaiyohamada/n/n003b60d63692" target="_blank" rel="noopener">a Japanese essay on note</a> (13 September 2026). It draws on an ongoing project, Dividual Clones (kagebunshin), on memory and provenance in multi-agent systems.</p>
+<p class="post-origin">This essay expands <a href="https://note.com/hirotaiyohamada/n/n003b60d63692" target="_blank" rel="noopener">a Japanese essay on note</a> (13 September 2026). It draws on an ongoing project, Dividual Clones (kagebunshin), on memory and provenance in multi-agent systems. <strong>This is a beta version</strong>: the argument is still developing and the text will be revised. Comments are welcome.</p>
 
 ## Introduction: the limit is not making clones
 

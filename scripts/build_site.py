@@ -260,7 +260,9 @@ def load_posts(lang: str) -> list[tuple[str, dict[str, str], str]]:
 def render_blog_list(lang: str, root: str) -> str:
     rows = "".join(
         f'<li><span class="note-date">{html.escape(meta.get("date", "").replace("-", "."))}</span>'
-        f'<a href="{root}{LANGS[lang]["prefix"]}blog/{slug}/">{html.escape(meta["heading"])}</a></li>'
+        f'<a href="{root}{LANGS[lang]["prefix"]}blog/{slug}/">{html.escape(meta["heading"])}'
+        + (f' <span class="post-status">{html.escape(meta["status"])}</span>' if meta.get("status") else "")
+        + "</a></li>"
         for slug, meta, _ in load_posts(lang)
         if not meta.get("redirect")
     )
